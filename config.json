@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "Conectados por Mendoza Futura",
+    "description": "Libro interactivo sobre Inteligencia Artificial y Habilidades Tecnológicas",
+    "year": "2025",
+    "baseUrl": "http://localhost/conectados/"
+  },
+  "navigation": {
+    "home": {
+      "title": "🏠 Inicio",
+      "url": "index.html"
+    },
+    "tecnologicas": {
+      "title": "💻 Habilidades Tecnológicas",
+      "url": "tecnologicas.html"
+    },
+    "blandas": {
+      "title": "🧠 Habilidades Blandas",
+      "url": "blandas.html"
+    }
+  },
+  "colors": {
+    "primary": "blue-600",
+    "secondary": "green-600",
+    "background": "gray-100",
+    "text": "gray-800"
+  },
+  "features": {
+    "search": true,
+    "progressTracking": true,
+    "interactiveContent": true
+  }
+}
