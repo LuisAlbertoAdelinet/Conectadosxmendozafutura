@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "title": "Introducción al curso",
+      "url": "temas/introduccion-al-curso.html",
+      "keywords": ["introducción", "curso", "presentación", "equipos", "objetivos"],
+      "description": "Presentación del programa, formación de equipos y metodología de trabajo colaborativo"
+    },
+    {
+      "title": "¿Qué son las Habilidades Blandas y por qué importan?",
+      "url": "temas/habilidades-blandas-que-son-y-por-que-importan.html",
+      "keywords": ["habilidades blandas", "definición", "importancia", "complementariedad"],
+      "description": "Conceptos básicos sobre habilidades interpersonales y su impacto en el desarrollo personal y profesional"
+    },
+    {
+      "title": "¿Qué es la IA?",
+      "url": "temas/que-es-la-ia.html",
+      "keywords": ["IA", "inteligencia artificial", "definición", "historia", "aplicaciones"],
+      "description": "Introducción a los conceptos básicos de Inteligencia Artificial"
+    },
+    {
+      "title": "Python básico",
+      "url": "temas/python-basico.html",
+      "keywords": ["python", "programación", "fundamentos", "variables", "estructuras de control"],
+      "description": "Introducción a la programación con Python"
+    },
+    {
+      "title": "Machine Learning",
+      "url": "temas/machine-learning.html",
+      "keywords": ["machine learning", "aprendizaje automático", "teachable machine", "modelos"],
+      "description": "Introducción al Machine Learning sin código"
+    },
+    {
+      "title": "Creatividad con IA",
+      "url": "temas/creatividad-con-ia.html",
+      "keywords": ["creatividad", "IA", "DALL·E", "Soundraw", "arte digital"],
+      "description": "Exploración de herramientas de IA para la creatividad"
+    }
+  ]
+}
