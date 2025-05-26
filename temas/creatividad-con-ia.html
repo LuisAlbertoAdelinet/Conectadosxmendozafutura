@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creatividad con IA - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-palette"></i> Creatividad con IA
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicio1" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-image"></i> Arte con IA y Python
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicio2" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-music"></i> Música con IA
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicio3" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-feather-alt"></i> Poesía Colaborativa
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicio4" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-paint-brush"></i> Filtros de Arte
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicio5" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-object-group"></i> Reto de Diseño
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <div class="card mb-lg">
+            <div class="card-body">
+              <h2 class="text-2xl font-bold mb-md">Ejercicios Tecnológicos de IA en Arte y Creatividad</h2>
+              <p class="mb-lg">Una serie de actividades prácticas que combinan la inteligencia artificial con la expresión creativa, permitiendo a los estudiantes explorar las posibilidades artísticas de la IA mientras desarrollan habilidades técnicas y blandas.</p>
+            </div>
+          </div>
+          
+          <!-- Ejercicio 1 -->
+          <div id="ejercicio1" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-image" style="color: var(--primary-tech);"></i> Ejercicio 1: "Generación de Arte con IA y Python"
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg"><strong>Objetivo:</strong> Crear imágenes artísticas usando una herramienta de IA y manipularlas con código Python.</p>
+                
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Plataforma de IA gratuita (DeepDream Generator, DALL·E Mini, o Stable Diffusion via DreamStudio)</li>
+                      <li>Librerías de Python: Pillow (PIL) para edición básica</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividad
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ol class="list-decimal pl-6 space-y-4">
+                      <li>
+                        <strong>Generación:</strong>
+                        <p>Los estudiantes describen un concepto artístico (ej: "un bosque futurista con árboles de cristal") en una herramienta de IA para generar una imagen.</p>
+                      </li>
+                      <li>
+                        <strong>Manipulación con Python:</strong>
+                        <p>Usar Python para modificar la imagen generada (cambiar brillo, añadir filtros, recortar).</p>
+                        <div class="bg-gray-800 text-white p-4 rounded-lg my-4 overflow-x-auto">
+                          <pre><code>from PIL import Image, ImageEnhance
+
+img = Image.open("arte_ia.jpg")
+enhancer = ImageEnhance.Brightness(img)
+img_brighter = enhancer.enhance(1.5)  # Aumenta el brillo
+img_brighter.save("arte_modificado.jpg")</code></pre>
+                        </div>
+                      </li>
+                      <li>
+                        <strong>Reflexión:</strong>
+                        <p>Discutir cómo la IA interpretó su idea y qué cambios aplicaron con código.</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejercicio 2 -->
+          <div id="ejercicio2" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-music" style="color: var(--primary-tech);"></i> Ejercicio 2: "Música con IA y TensorFlow (Magenta)"
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg"><strong>Objetivo:</strong> Componer una melodía simple usando IA y analizar el código subyacente.</p>
+                
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Magenta Studio (biblioteca de TensorFlow para música)</li>
+                      <li>Python Notebook en Google Colab</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividad
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ol class="list-decimal pl-6 space-y-4">
+                      <li>
+                        <strong>Generación de melodía:</strong>
+                        <p>Usar un modelo preentrenado de Magenta (ej: MusicVAE) para generar notas musicales.</p>
+                      </li>
+                      <li>
+                        <strong>Modificación:</strong>
+                        <p>Cambiar tempo o instrumento en el código.</p>
+                        <div class="bg-gray-800 text-white p-4 rounded-lg my-4 overflow-x-auto">
+                          <pre><code># Ejemplo simplificado (usando Magenta en Colab)
+from magenta.models.music_vae import configs
+model = configs.CONFIG_MAP['cat-mel_2bar_big'].model
+# ... (generar muestras y guardar como MIDI)</code></pre>
+                        </div>
+                      </li>
+                      <li>
+                        <strong>Creatividad:</strong>
+                        <p>Los estudiantes escuchan su melodía y proponen mejoras (ej: agregar percusión).</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejercicio 3 -->
+          <div id="ejercicio3" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-feather-alt" style="color: var(--primary-tech);"></i> Ejercicio 3: "Poesía Colaborativa con IA"
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg"><strong>Objetivo:</strong> Escribir un poema colaborativo humano-IA.</p>
+                
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>API de GPT-3 (via OpenAI Playground) o herramienta gratuita como InferKit</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividad
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ol class="list-decimal pl-6 space-y-4">
+                      <li>
+                        <strong>Inicio humano:</strong>
+                        <p>Cada estudiante escribe 2 líneas de un poema.</p>
+                      </li>
+                      <li>
+                        <strong>Contribución de la IA:</strong>
+                        <p>Introducir las líneas en la herramienta de IA para que genere 2 líneas adicionales.</p>
+                      </li>
+                      <li>
+                        <strong>Análisis:</strong>
+                        <p>Comparar las contribuciones humanas vs. las de la IA: ¿Qué diferencias hay en el estilo?</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejercicio 4 -->
+          <div id="ejercicio4" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-paint-brush" style="color: var(--primary-tech);"></i> Ejercicio 4: "Filtros de Arte con Redes Neuronales"
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg"><strong>Objetivo:</strong> Aplicar filtros artísticos (estilo "neural style transfer") a fotos.</p>
+                
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Librería tensorflow_hub en Google Colab</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividad
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ol class="list-decimal pl-6 space-y-4">
+                      <li>
+                        <strong>Transferencia de estilo:</strong>
+                        <p>Usar un modelo preentrenado para combinar una foto común con un estilo artístico (ej: Van Gogh).</p>
+                        <div class="bg-gray-800 text-white p-4 rounded-lg my-4 overflow-x-auto">
+                          <pre><code>import tensorflow_hub as hub
+hub_model = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2')
+# ... (procesar imagen y estilo)</code></pre>
+                        </div>
+                      </li>
+                      <li>
+                        <strong>Creatividad:</strong>
+                        <p>Experimentar con diferentes estilos y discutir cómo la IA "entiende" el arte.</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejercicio 5 -->
+          <div id="ejercicio5" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-object-group" style="color: var(--primary-tech);"></i> Ejercicio 5: "Reto de Diseño con Restricciones de IA"
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg"><strong>Objetivo:</strong> Diseñar un póster bajo restricciones dadas por IA.</p>
+                
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Canva + plugin de IA (ej: Text to Image)</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividad
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ol class="list-decimal pl-6 space-y-4">
+                      <li>La IA genera una consigna aleatoria (ej: "Crea un póster sobre el futuro con colores cálidos y un robot").</li>
+                      <li>Los estudiantes diseñan en Canva y votan el más creativo.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Habilidades Blandas -->
+          <div class="card mb-lg hover-lift">
+            <div class="card-header" style="background: rgba(72, 187, 120, 0.1);">
+              <h2 class="text-2xl font-bold">
+                <i class="fas fa-brain" style="color: #48bb78;"></i> Habilidades Blandas Trabajadas
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Creatividad:</strong> Adaptarse a las sugerencias de la IA.</li>
+                <li><strong>Pensamiento crítico:</strong> Analizar resultados de la IA (¿son lógicos/artísticos?).</li>
+                <li><strong>Trabajo en equipo:</strong> Ejercicios colaborativos (ej: poema o música).</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Nota para el facilitador -->
+          <div class="card hover-lift">
+            <div class="card-header" style="background: rgba(246, 173, 85, 0.1);">
+              <h2 class="text-2xl font-bold">
+                <i class="fas fa-info-circle" style="color: #f6ad55;"></i> Nota para el facilitador
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Priorizar herramientas gratuitas y de bajo requerimiento técnico.</li>
+                <li>Usar ejemplos visuales o auditivos para mantener el engagement.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="que-es-la-ia.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-brain" style="color: var(--primary-tech);"></i> ¿Qué es la IA?
+                  </h4>
+                  <p>Introducción a los conceptos fundamentales de la Inteligencia Artificial y sus aplicaciones.</p>
+                </div>
+              </a>
+              <a href="python-datos-ia.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-code" style="color: var(--primary-tech);"></i> Python, Datos e IA
+                  </h4>
+                  <p>Aprende a utilizar Python para trabajar con datos y modelos de inteligencia artificial.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="../img/favicon.png" alt="Conectados Logo" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">
+            Conectados
+          </div>
+          <p>Programa de formación integral en habilidades tecnológicas y blandas.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Explorar</h4>
+          <div class="footer-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../tecnologicas.html">Habilidades Tecnológicas</a>
+            <a href="../blandas.html">Habilidades Blandas</a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Recursos</h4>
+          <div class="footer-nav">
+            <a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Conectados por Mendoza Futura</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Header scroll effect
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 10) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.mobile-menu-toggle');
+      menuToggle.addEventListener('click', function() {
+        document.body.classList.toggle('mobile-menu-open');
+      });
+      
+      // Add animation classes on scroll
+      const animateElements = document.querySelectorAll('.card, .feature-item');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      
+      animateElements.forEach(el => {
+        observer.observe(el);
+      });
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update active state in navigation
+            document.querySelectorAll('.chapter-nav-link').forEach(link => {
+              link.classList.remove('chapter-nav-link-active');
+            });
+            this.classList.add('chapter-nav-link-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Qué hace un robot inteligente? - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-robot"></i> Jornada "Flipped Classroom": ¿Qué hace un robot inteligente?
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-chalkboard-teacher"></i> Flipped Classroom
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#robots-inteligentes" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-robot"></i> Robots Inteligentes
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#componentes" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-microchip"></i> Componentes y Tecnologías
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#futuro" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-rocket"></i> El Futuro de la Robótica
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción al Flipped Classroom -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-chalkboard-teacher" style="color: var(--primary-tech);"></i> Introducción al Flipped Classroom
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es el Flipped Classroom?</h3>
+                    <div class="space-y-md">
+                      <p>El Flipped Classroom o "aula invertida" es un modelo pedagógico que transfiere el trabajo de determinados procesos de aprendizaje fuera del aula y utiliza el tiempo de clase, junto con la experiencia del docente, para facilitar y potenciar otros procesos de adquisición y práctica de conocimientos dentro del aula.</p>
+                      
+                      <p>En el contexto de la robótica y la inteligencia artificial, este enfoque resulta particularmente valioso, ya que permite a los estudiantes familiarizarse con conceptos teóricos a su propio ritmo, para luego dedicar el tiempo presencial a la experimentación práctica, la resolución de problemas y el trabajo colaborativo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Aplicación en Tecnología</h3>
+                    <div class="space-y-md">
+                      <p>Para nuestra jornada sobre robots inteligentes, el modelo Flipped Classroom se implementa de la siguiente manera:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-home text-blue-600 mr-2"></i>Antes de la clase</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Visualización de videos sobre fundamentos de robótica</li>
+                            <li>Lectura de artículos sobre inteligencia artificial</li>
+                            <li>Cuestionario inicial sobre conocimientos previos</li>
+                            <li>Investigación sobre tipos de robots y sus aplicaciones</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-green-600 mr-2"></i>Durante la clase</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Resolución de dudas sobre el material previo</li>
+                            <li>Actividades prácticas con kits de robótica</li>
+                            <li>Desafíos de programación en equipos</li>
+                            <li>Demostraciones y análisis de robots en funcionamiento</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Beneficios en el aprendizaje tecnológico</h4>
+                        <ul class="list-disc pl-6">
+                          <li>Mayor tiempo para la experimentación práctica</li>
+                          <li>Aprendizaje personalizado según el ritmo de cada estudiante</li>
+                          <li>Desarrollo de habilidades de autoaprendizaje y pensamiento crítico</li>
+                          <li>Oportunidad para profundizar en áreas de interés específico</li>
+                          <li>Mejor preparación para resolver problemas complejos</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Robots Inteligentes -->
+          <div id="robots-inteligentes" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-robot" style="color: var(--primary-tech);"></i> Robots Inteligentes: Fundamentos
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es un robot inteligente?</h3>
+                    <div class="space-y-md">
+                      <p>Un robot inteligente es un sistema mecánico o virtual que combina sensores, actuadores, procesamiento de información y algoritmos de inteligencia artificial para percibir su entorno, tomar decisiones y realizar acciones de manera autónoma o semiautónoma, adaptándose a diferentes situaciones y aprendiendo de la experiencia.</p>
+                      
+                      <div class="p-4 bg-blue-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-cogs text-blue-600 mr-2"></i>Características clave</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+                          <div>
+                            <ul class="list-disc pl-6">
+                              <li><strong>Percepción:</strong> Capacidad de obtener información del entorno</li>
+                              <li><strong>Procesamiento:</strong> Análisis e interpretación de datos</li>
+                              <li><strong>Toma de decisiones:</strong> Selección de acciones basadas en objetivos</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul class="list-disc pl-6">
+                              <li><strong>Actuación:</strong> Ejecución física o virtual de acciones</li>
+                              <li><strong>Adaptabilidad:</strong> Ajuste a cambios en el entorno</li>
+                              <li><strong>Aprendizaje:</strong> Mejora del rendimiento con la experiencia</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Tipos de robots inteligentes</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-industry text-indigo-600 mr-2"></i>Industriales</h4>
+                          <p>Brazos robóticos, sistemas automatizados de fabricación, robots de inspección y control de calidad.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Robots de soldadura con visión artificial que ajustan sus parámetros según la pieza.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-home text-indigo-600 mr-2"></i>De servicio</h4>
+                          <p>Robots domésticos, asistenciales, de entretenimiento y educativos.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Aspiradoras robóticas que mapean espacios y optimizan rutas de limpieza.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-md text-indigo-600 mr-2"></i>Médicos</h4>
+                          <p>Robots quirúrgicos, de rehabilitación, prótesis inteligentes y sistemas de diagnóstico.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Sistemas de cirugía asistida que mejoran la precisión de intervenciones.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-car text-indigo-600 mr-2"></i>Autónomos</h4>
+                          <p>Vehículos autónomos, drones, robots de exploración y sistemas de navegación.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Rovers de exploración planetaria que toman decisiones sin supervisión humana directa.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-indigo-600 mr-2"></i>Sociales</h4>
+                          <p>Robots de interacción humana, asistentes conversacionales físicos y compañeros terapéuticos.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Robots humanoides que reconocen emociones y adaptan su comportamiento.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-microscope text-indigo-600 mr-2"></i>Investigación</h4>
+                          <p>Robots para entornos extremos, nanorobots, sistemas experimentales y plataformas de desarrollo.</p>
+                          <p class="mt-2"><strong>Ejemplo:</strong> Robots submarinos que recopilan datos oceanográficos de forma autónoma.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Componentes y Tecnologías -->
+          <div id="componentes" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-microchip" style="color: var(--primary-tech);"></i> Componentes y Tecnologías
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Arquitectura de un robot inteligente</h3>
+                    <div class="space-y-md">
+                      <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 mt-lg">
+                          <thead>
+                            <tr>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Componente</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Función</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Ejemplos</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Sensores</td>
+                              <td class="py-3 px-4 border-b">Capturan información del entorno y la convierten en datos procesables</td>
+                              <td class="py-3 px-4 border-b">Cámaras, LiDAR, sensores de proximidad, micrófonos, acelerómetros, giroscopios</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Procesadores</td>
+                              <td class="py-3 px-4 border-b">Analizan los datos, ejecutan algoritmos y toman decisiones</td>
+                              <td class="py-3 px-4 border-b">CPUs, GPUs, TPUs, microcontroladores, sistemas embebidos</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Actuadores</td>
+                              <td class="py-3 px-4 border-b">Ejecutan acciones físicas basadas en las decisiones tomadas</td>
+                              <td class="py-3 px-4 border-b">Motores, servos, pistones, pinzas, ruedas, propulsores</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Fuente de energía</td>
+                              <td class="py-3 px-4 border-b">Proporcionan la energía necesaria para el funcionamiento</td>
+                              <td class="py-3 px-4 border-b">Baterías, celdas solares, conexión a red eléctrica, generadores</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Comunicación</td>
+                              <td class="py-3 px-4 border-b">Permiten la interacción con otros sistemas o humanos</td>
+                              <td class="py-3 px-4 border-b">Wi-Fi, Bluetooth, 5G, interfaces de voz, pantallas táctiles</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Software</td>
+                              <td class="py-3 px-4 border-b">Controla el comportamiento y la toma de decisiones</td>
+                              <td class="py-3 px-4 border-b">Sistemas operativos robóticos (ROS), algoritmos de IA, interfaces de programación</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Tecnologías de IA en robótica</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-purple-600 mr-2"></i>Machine Learning</h4>
+                          <p>Permite a los robots aprender de datos y experiencias para mejorar su rendimiento sin programación explícita.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Reconocimiento de objetos, navegación adaptativa, predicción de fallos.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-eye text-purple-600 mr-2"></i>Visión por Computadora</h4>
+                          <p>Capacita a los robots para interpretar y comprender información visual del mundo real.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Detección de obstáculos, reconocimiento facial, inspección de calidad.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-purple-600 mr-2"></i>Procesamiento de Lenguaje Natural</h4>
+                          <p>Permite la comunicación entre humanos y robots mediante lenguaje natural.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Asistentes robóticos, sistemas de atención al cliente, robots educativos.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map-marked-alt text-purple-600 mr-2"></i>SLAM (Localización y Mapeo Simultáneos)</h4>
+                          <p>Permite a los robots construir mapas de entornos desconocidos mientras se localizan dentro de ellos.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Robots de limpieza, vehículos autónomos, drones de exploración.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-hands-helping text-purple-600 mr-2"></i>Aprendizaje por Refuerzo</h4>
+                          <p>Los robots aprenden a tomar decisiones mediante prueba y error, recibiendo recompensas por acciones correctas.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Manipulación de objetos, optimización de movimientos, juegos y competiciones.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-network-wired text-purple-600 mr-2"></i>Redes Neuronales Profundas</h4>
+                          <p>Permiten el procesamiento de grandes cantidades de datos sensoriales para toma de decisiones complejas.</p>
+                          <p class="mt-2"><strong>Aplicación:</strong> Conducción autónoma, reconocimiento de actividades, interacción social.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Punto clave</h4>
+                        <p>La verdadera inteligencia de un robot no reside en un solo componente, sino en la integración efectiva de hardware, software y algoritmos de IA que trabajan en conjunto para percibir, procesar, decidir y actuar de manera coherente y adaptativa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Preparación Previa a la Clase</h3>
+                    <div class="space-y-md">
+                      <p><strong>Materiales para revisar:</strong></p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>Video introductorio sobre robótica e inteligencia artificial</li>
+                        <li>Artículo sobre los componentes básicos de un robot inteligente</li>
+                        <li>Tutorial básico de programación de robots (según plataforma disponible)</li>
+                        <li>Casos de estudio de aplicaciones reales de robots inteligentes</li>
+                      </ul>
+                      
+                      <div class="p-4 bg-blue-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-blue-600 mr-2"></i>Cuestionario previo</h4>
+                        <p>Los estudiantes deberán responder un breve cuestionario que incluye:</p>
+                        <ul class="list-disc pl-6">
+                          <li>¿Qué entiendes por "robot inteligente"?</li>
+                          <li>¿Qué componentes crees que son esenciales para que un robot sea considerado inteligente?</li>
+                          <li>¿Qué aplicaciones de robots inteligentes conoces o te interesan más?</li>
+                          <li>¿Qué preguntas tienes sobre la robótica y la inteligencia artificial?</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividades en Clase</h3>
+                    <div class="space-y-md">
+                      <div class="timeline mt-lg">
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-blue-500">
+                            <i class="fas fa-comments text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">1. Discusión inicial (20 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Revisión de conceptos clave del material previo</li>
+                              <li>Aclaración de dudas y preguntas</li>
+                              <li>Debate sobre las respuestas al cuestionario previo</li>
+                              <li>Establecimiento de objetivos para la sesión</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-green-500">
+                            <i class="fas fa-robot text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">2. Demostración de robots (30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Presentación de diferentes tipos de robots disponibles</li>
+                              <li>Explicación de sus componentes y funcionamiento</li>
+                              <li>Demostración de capacidades y limitaciones</li>
+                              <li>Análisis de los algoritmos de IA implementados</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-purple-500">
+                            <i class="fas fa-code text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">3. Taller práctico (60 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Formación de equipos de trabajo</li>
+                              <li>Asignación de kits de robótica o simuladores</li>
+                              <li>Implementación de un comportamiento inteligente simple</li>
+                              <li>Pruebas y ajustes del comportamiento programado</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Desafío:</strong> Programar un robot para que navegue por un laberinto, evite obstáculos y encuentre un objeto específico utilizando sus sensores.
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-yellow-500">
+                            <i class="fas fa-users text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">4. Presentaciones y competencia (40 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Cada equipo presenta su solución y explica su enfoque</li>
+                              <li>Demostración del funcionamiento de cada robot</li>
+                              <li>Mini-competencia entre los robots programados</li>
+                              <li>Análisis de las diferentes estrategias implementadas</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-red-500">
+                            <i class="fas fa-lightbulb text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">5. Reflexión y cierre (30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Discusión sobre los desafíos encontrados</li>
+                              <li>Análisis de las limitaciones de los robots utilizados</li>
+                              <li>Comparación con robots comerciales avanzados</li>
+                              <li>Reflexión sobre el futuro de la robótica inteligente</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
+          
+          <!-- El Futuro de la Robótica -->
+          <div id="futuro">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-rocket" style="color: var(--primary-tech);"></i> El Futuro de la Robótica Inteligente
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Tendencias emergentes</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-blue-600 mr-2"></i>Robots con aprendizaje continuo</h4>
+                          <p>Sistemas que siguen aprendiendo y mejorando durante toda su vida útil, adaptándose constantemente a nuevas situaciones y requisitos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Inteligencia colectiva</h4>
+                          <p>Enjambres de robots que comparten información y aprenden colectivamente, distribuyendo tareas y tomando decisiones coordinadas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-dna text-blue-600 mr-2"></i>Materiales inteligentes</h4>
+                          <p>Robots con cuerpos adaptativos que pueden cambiar su forma, rigidez o propiedades según las necesidades de la tarea.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-hand-holding-heart text-blue-600 mr-2"></i>Robots empáticos</h4>
+                          <p>Sistemas capaces de reconocer y responder adecuadamente a emociones humanas, mejorando la interacción persona-robot.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-shield-alt text-blue-600 mr-2"></i>IA explicable</h4>
+                          <p>Robots que pueden justificar sus decisiones de manera comprensible para los humanos, aumentando la confianza y transparencia.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-plug text-blue-600 mr-2"></i>Autonomía energética</h4>
+                          <p>Robots capaces de gestionar su propia energía, recargándose autónomamente o utilizando fuentes alternativas según el entorno.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Desafíos y consideraciones éticas</h3>
+                    <div class="space-y-md">
+                      <p>El avance de la robótica inteligente plantea importantes cuestiones que debemos abordar como sociedad:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-briefcase text-red-600 mr-2"></i>Impacto laboral</h4>
+                          <p>¿Cómo gestionaremos la transformación del mercado laboral a medida que los robots asuman más tareas? ¿Qué nuevos roles surgirán para los humanos?</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-red-600 mr-2"></i>Responsabilidad</h4>
+                          <p>¿Quién es responsable cuando un robot autónomo comete un error? ¿El fabricante, el programador, el propietario o el propio robot?</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-shield text-red-600 mr-2"></i>Privacidad y seguridad</h4>
+                          <p>¿Cómo protegemos la información que recopilan los robots en nuestros hogares y espacios públicos? ¿Cómo evitamos su uso malicioso?</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-robot text-red-600 mr-2"></i>Derechos de los robots</h4>
+                          <p>A medida que los robots se vuelven más autónomos y "conscientes", ¿deberíamos considerar algún tipo de estatus legal o protección para ellos?</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-quote-left text-yellow-600 mr-2"></i>Reflexión</h4>
+                        <p>"La pregunta no es si los robots pueden pensar como humanos, sino cómo podemos asegurarnos de que su inteligencia complementa y potencia la nuestra, en lugar de reemplazarla o amenazarla. El verdadero desafío de la robótica inteligente es crear sistemas que amplíen nuestras capacidades mientras respetan nuestros valores y prioridades."</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="machine-learning.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-brain" style="color: var(--primary-tech);"></i> Machine Learning
+                  </h4>
+                  <p>Comprende cómo las máquinas pueden aprender de los datos y mejorar con la experiencia.</p>
+                </div>
+              </a>
+              <a href="python-ia-decisiones.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-sitemap" style="color: var(--primary-tech);"></i> IA y Toma de Decisiones
+                  </h4>
+                  <p>Implementación de algoritmos de IA para la toma de decisiones automatizada.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-gray-800 text-white py-8">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Conectados</h3>
+          <p>Desarrollando habilidades para el futuro digital.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="../index.html" class="hover:text-blue-400 transition">Inicio</a></li>
+            <li><a href="../tecnologicas.html" class="hover:text-blue-400 transition">Habilidades Tecnológicas</a></li>
+            <li><a href="../blandas.html" class="hover:text-blue-400 transition">Habilidades Blandas</a></li>
+            <li><a href="../guia-facilitadores-enfoque-integrado.html" class="hover:text-blue-400 transition">Guía para Facilitadores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Contacto</h3>
+          <p>info@conectados.org</p>
+          <p>+123 456 7890</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p>&copy; 2025 Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/navigation.js"></script>
+</body>
+</html>

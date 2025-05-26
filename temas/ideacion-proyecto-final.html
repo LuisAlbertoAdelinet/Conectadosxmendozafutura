@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ideación del Proyecto Final - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-lightbulb"></i> Ideación del Proyecto Final de Habilidades Blandas
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#metodologias" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tools"></i> Metodologías de Ideación
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#proceso" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-project-diagram"></i> Proceso de Ideación
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción a la Ideación del Proyecto Final -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción a la Ideación del Proyecto Final
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es la ideación del proyecto final?</h3>
+                    <div class="space-y-md">
+                      <p>La ideación del proyecto final es la fase creativa donde los participantes conceptualizan, exploran y definen un proyecto que les permitirá aplicar y demostrar las habilidades blandas desarrolladas durante el programa. Este proceso va más allá de simplemente elegir un tema; implica un análisis profundo de necesidades, oportunidades y recursos para diseñar un proyecto significativo y factible.</p>
+                      <p>A diferencia de los proyectos puramente técnicos, el proyecto final de habilidades blandas debe enfocarse en cómo estas competencias interpersonales pueden aplicarse para resolver problemas reales, mejorar procesos de trabajo o crear valor en entornos profesionales tecnológicos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Objetivos del proyecto final</h3>
+                    <div class="space-y-md">
+                      <p>El proyecto final de habilidades blandas tiene múltiples propósitos:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-check-circle text-blue-600 mr-2"></i>Aplicación práctica</h4>
+                          <p>Demostrar la capacidad de aplicar habilidades blandas en situaciones reales y complejas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync text-blue-600 mr-2"></i>Integración</h4>
+                          <p>Combinar múltiples habilidades blandas de manera sinérgica para abordar desafíos multifacéticos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop-code text-blue-600 mr-2"></i>Conexión con lo técnico</h4>
+                          <p>Establecer puentes entre las habilidades blandas y los conocimientos técnicos adquiridos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Impacto medible</h4>
+                          <p>Generar resultados tangibles que evidencien el valor de las habilidades blandas en contextos profesionales.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Metodologías de Ideación -->
+          <div id="metodologias" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tools" style="color: var(--primary-soft);"></i> Metodologías de Ideación
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Design Thinking para la ideación</h3>
+                    <div class="space-y-md">
+                      <p>El Design Thinking ofrece un marco estructurado para la ideación centrada en el usuario:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-friends text-purple-600 mr-2"></i>Empatizar</h4>
+                          <p>Comprender profundamente las necesidades, desafíos y contextos de los usuarios o beneficiarios del proyecto.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-purple-600 mr-2"></i>Definir</h4>
+                          <p>Articular claramente el problema o la oportunidad que el proyecto abordará, basándose en los insights de la fase de empatía.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-purple-600 mr-2"></i>Idear</h4>
+                          <p>Generar múltiples soluciones potenciales sin juzgar inicialmente su viabilidad, buscando cantidad y diversidad de ideas.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-cube text-purple-600 mr-2"></i>Prototipar</h4>
+                          <p>Crear representaciones tangibles de las ideas seleccionadas para explorar su funcionamiento y recibir feedback temprano.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-vial text-purple-600 mr-2"></i>Evaluar</h4>
+                          <p>Probar los prototipos con usuarios reales para validar supuestos y refinar la solución antes de su implementación completa.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Aplicación</h4>
+                          <p>Para el proyecto final, este proceso puede adaptarse para identificar oportunidades donde las habilidades blandas puedan generar mayor impacto.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Técnicas específicas de ideación</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-yellow-600 mr-2"></i>Brainstorming estructurado</h4>
+                          <p>Sesiones grupales con reglas específicas para maximizar la generación de ideas: no juzgar, buscar cantidad, construir sobre ideas de otros y fomentar ideas poco convencionales.</p>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-random text-yellow-600 mr-2"></i>SCAMPER</h4>
+                          <p>Técnica que utiliza preguntas provocativas basadas en verbos de acción: Sustituir, Combinar, Adaptar, Modificar, Proponer otros usos, Eliminar y Reordenar.</p>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map text-yellow-600 mr-2"></i>Mapas mentales</h4>
+                          <p>Representaciones visuales que conectan ideas relacionadas con un concepto central, permitiendo explorar múltiples ramificaciones y conexiones.</p>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-yellow-600 mr-2"></i>World Café</h4>
+                          <p>Formato de conversación grupal donde los participantes rotan entre mesas temáticas, construyendo sobre las ideas de grupos anteriores.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo</h4>
+                        <p>Combine múltiples técnicas de ideación para obtener resultados más diversos y completos. Por ejemplo, comience con un brainstorming para generar muchas ideas iniciales, luego utilice SCAMPER para desarrollar las más prometedoras, y finalmente organice las ideas refinadas en un mapa mental para visualizar conexiones.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Proceso de Ideación -->
+          <div id="proceso" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-project-diagram" style="color: var(--primary-soft);"></i> Proceso de Ideación
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Fases del proceso de ideación</h3>
+                    <div class="space-y-md">
+                      <ol class="list-decimal pl-6 space-y-2">
+                        <li>
+                          <strong>Exploración y descubrimiento</strong>
+                          <p>Investigar contextos, necesidades y oportunidades donde las habilidades blandas puedan generar valor. Esto puede incluir entrevistas con profesionales, análisis de casos de éxito o identificación de problemas recurrentes en entornos tecnológicos.</p>
+                        </li>
+                        <li>
+                          <strong>Generación de ideas</strong>
+                          <p>Aplicar técnicas de ideación para generar múltiples conceptos de proyecto, sin filtrar inicialmente por viabilidad o alcance. El objetivo es crear un amplio abanico de posibilidades.</p>
+                        </li>
+                        <li>
+                          <strong>Evaluación y selección</strong>
+                          <p>Analizar las ideas generadas según criterios como impacto potencial, alineación con habilidades desarrolladas, factibilidad, originalidad y valor para los destinatarios.</p>
+                        </li>
+                        <li>
+                          <strong>Refinamiento del concepto</strong>
+                          <p>Desarrollar en profundidad la idea seleccionada, definiendo sus componentes, alcance, objetivos específicos y resultados esperados.</p>
+                        </li>
+                        <li>
+                          <strong>Validación preliminar</strong>
+                          <p>Contrastar el concepto con potenciales usuarios o beneficiarios para obtener retroalimentación temprana y realizar ajustes antes de la planificación detallada.</p>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Criterios para evaluar ideas de proyecto</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-blue-600 mr-2"></i>Relevancia</h4>
+                          <p>¿Aborda un problema o necesidad significativa en el contexto tecnológico? ¿Es importante para los destinatarios?</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-blue-600 mr-2"></i>Aplicación de habilidades</h4>
+                          <p>¿Permite aplicar múltiples habilidades blandas desarrolladas durante el programa? ¿Demuestra su integración?</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-calendar-alt text-blue-600 mr-2"></i>Factibilidad</h4>
+                          <p>¿Es realizable con los recursos y tiempo disponibles? ¿Tiene un alcance adecuado?</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Impacto medible</h4>
+                          <p>¿Genera resultados que pueden ser evaluados objetivamente? ¿Produce evidencias tangibles del valor de las habilidades blandas?</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop-code text-blue-600 mr-2"></i>Integración técnica</h4>
+                          <p>¿Establece conexiones significativas entre habilidades blandas y aspectos técnicos? ¿Demuestra cómo ambas dimensiones se complementan?</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Originalidad</h4>
+                          <p>¿Aporta un enfoque innovador o una perspectiva fresca? ¿Se diferencia de soluciones convencionales?</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-green-600 mr-2"></i>Matriz de decisión</h4>
+                        <p>Para evaluar sistemáticamente múltiples ideas, considere crear una matriz de decisión donde cada criterio tenga un peso específico según su importancia relativa. Califique cada idea en una escala de 1-5 para cada criterio, multiplique por el peso correspondiente y sume los resultados para obtener una puntuación total que facilite la comparación objetiva.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 1: Mapa de Oportunidades</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Identificar contextos y situaciones donde las habilidades blandas pueden generar valor en entornos tecnológicos.</p>
+                      <p><strong>Duración:</strong> 45-60 minutos</p>
+                      <p><strong>Materiales:</strong> Pizarra o papel grande, notas adhesivas, marcadores</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Dividir a los participantes en grupos de 3-4 personas.</li>
+                          <li>Cada grupo crea un mapa visual que identifica:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Contextos profesionales tecnológicos (desarrollo de software, gestión de proyectos, soporte técnico, etc.)</li>
+                              <li>Desafíos o problemas comunes en esos contextos relacionados con habilidades blandas</li>
+                              <li>Oportunidades para aplicar habilidades blandas específicas para abordar esos desafíos</li>
+                            </ul>
+                          </li>
+                          <li>Los grupos presentan sus mapas, destacando las oportunidades más prometedoras.</li>
+                          <li>Discusión colectiva para identificar patrones y áreas de mayor potencial para proyectos finales.</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 2: Ideación Rotativa</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Generar múltiples conceptos de proyecto aprovechando la diversidad de perspectivas.</p>
+                      <p><strong>Duración:</strong> 60 minutos</p>
+                      <p><strong>Materiales:</strong> Hojas de papel, marcadores, temporizador</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Cada participante recibe una hoja donde escribe un desafío o problema relacionado con habilidades blandas en entornos tecnológicos.</li>
+                          <li>Después de 5 minutos, todos pasan su hoja a la persona de la derecha.</li>
+                          <li>Cada participante lee el desafío recibido y escribe una posible solución o concepto de proyecto (10 minutos).</li>
+                          <li>Las hojas rotan nuevamente, y cada persona recibe una hoja con un desafío y una solución propuesta.</li>
+                          <li>Ahora deben mejorar, expandir o combinar la solución existente con nuevas ideas (10 minutos).</li>
+                          <li>Después de 3-4 rotaciones, las hojas vuelven a sus autores originales.</li>
+                          <li>Cada participante revisa las soluciones desarrolladas para su desafío inicial y selecciona elementos para crear un concepto de proyecto integrado.</li>
+                          <li>Presentación voluntaria de los conceptos más prometedores y discusión grupal.</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 3: Pitch de Concepto y Retroalimentación</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Refinar conceptos de proyecto mediante presentación y retroalimentación estructurada.</p>
+                      <p><strong>Duración:</strong> 90 minutos</p>
+                      <p><strong>Materiales:</strong> Plantilla de pitch, tarjetas de retroalimentación, cronómetro</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Los participantes preparan un pitch de 2 minutos sobre su concepto de proyecto, siguiendo una plantilla estructurada:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Problema o necesidad que aborda</li>
+                              <li>Solución propuesta</li>
+                              <li>Habilidades blandas aplicadas</li>
+                              <li>Impacto esperado</li>
+                              <li>Próximos pasos</li>
+                            </ul>
+                          </li>
+                          <li>Cada participante presenta su pitch al grupo.</li>
+                          <li>Después de cada presentación, los oyentes completan tarjetas de retroalimentación con:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Fortalezas del concepto</li>
+                              <li>Preguntas o dudas</li>
+                              <li>Sugerencias para mejorar</li>
+                              <li>Posibles conexiones o recursos</li>
+                            </ul>
+                          </li>
+                          <li>Las tarjetas se entregan al presentador para su revisión.</li>
+                          <li>Tiempo de reflexión individual para incorporar la retroalimentación y refinar el concepto.</li>
+                          <li>Discusión grupal sobre patrones comunes y aprendizajes del proceso.</li>
+                        </ol>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo para facilitadores</h4>
+                        <p>Enfatice que la ideación es un proceso iterativo y que los conceptos iniciales probablemente evolucionarán significativamente. Anime a los participantes a mantener una mentalidad abierta y a ver la retroalimentación como una oportunidad para fortalecer sus ideas, no como una crítica. Recuerde que el objetivo no es tener un proyecto perfecto desde el inicio, sino un concepto sólido con potencial para desarrollarse.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">
+              <i class="fas fa-link" style="color: var(--primary-soft);"></i> Contenido Relacionado
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="pensamiento-critico.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-brain"></i> Pensamiento Crítico</h4>
+                  <p class="text-sm">Herramientas para analizar problemas y evaluar soluciones de manera objetiva.</p>
+                </div>
+              </a>
+              <a href="trabajo-equipo-efectivo.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-users"></i> Trabajo en Equipo Efectivo</h4>
+                  <p class="text-sm">Estrategias para colaborar eficazmente en proyectos grupales.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Conectados</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Navegación</h3>
+            <ul class="footer-links-list">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../tecnologicas.html">Habilidades Tecnológicas</a></li>
+              <li><a href="../blandas.html">Habilidades Blandas</a></li>
+              <li><a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Recursos</h3>
+            <ul class="footer-links-list">
+              <li><a href="#">Materiales Complementarios</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+              <li><a href="#">Preguntas Frecuentes</a></li>
+              <li><a href="#">Soporte Técnico</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Programa Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('div[id]');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.chapter-nav-link').forEach(link => {
+        link.classList.remove('chapter-nav-link-active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('chapter-nav-link-active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

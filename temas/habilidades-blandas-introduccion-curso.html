@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introducción al curso y formación de equipos - Habilidades Blandas</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-users"></i> Clase 1: Introducción al curso y formación de equipos
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#objetivos" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-bullseye"></i> Objetivos Clave
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#teoria" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-book-open"></i> Teoría y Conceptos
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Detalladas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Objetivos Clave -->
+          <div id="objetivos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-bullseye" style="color: var(--primary-soft);"></i> Objetivos Clave de esta Sesión
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li><strong>Claridad:</strong> Que los participantes entiendan qué es el programa, qué aprenderán y cómo funcionará.</li>
+                      <li><strong>Conexión:</strong> Que comiencen a conocerse entre sí y a sentirse cómodos.</li>
+                      <li><strong>Compromiso:</strong> Que se sientan motivados y entiendan la importancia del trabajo colaborativo y el desarrollo personal/social.</li>
+                      <li><strong>Estructura:</strong> Que se formen los equipos base y se establezcan pautas iniciales.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Teoría y Conceptos -->
+          <div id="teoria" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-book-open" style="color: var(--primary-soft);"></i> Teoría y Conceptos de Fondo
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <div class="space-y-md">
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Psicología de Grupos (Tuckman's Stages):</strong> Aunque no lo expliques en detalle, ten en mente que los equipos pasarán por etapas (Forming, Storming, Norming, Performing). Esta sesión es el "Forming".</li>
+                        <li><strong>Aprendizaje Social (Bandura):</strong> Los participantes aprenderán observando e interactuando con otros. Fomentar un ambiente positivo es clave.</li>
+                        <li><strong>Inteligencia Emocional (Goleman):</strong> El desarrollo personal y social está intrínsecamente ligado a la IE. El curso tocará aspectos de autoconciencia, autogestión, conciencia social y gestión de relaciones.</li>
+                        <li><strong>Mentalidad de Crecimiento (Dweck):</strong> Fomentar la idea de que las habilidades (incluidas las blandas) se pueden desarrollar con esfuerzo y práctica.</li>
+                        <li><strong>Seguridad Psicológica (Edmondson):</strong> Crear un ambiente donde los participantes se sientan seguros para expresarse, cometer errores y ser vulnerables es vital para el aprendizaje y la colaboración.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Detalladas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Propuestas y Actividades Detalladas
+                </h2>
+              </div>
+              <div class="card-body">
+                <p class="mb-lg">Aquí te presento un posible flujo para la sesión, integrando explicaciones y actividades:</p>
+                
+                <!-- Parte 1 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-handshake" style="color: var(--primary-soft);"></i> Parte 1: Bienvenida y Rompehielos (30-45 minutos)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md"><strong>Explicación (Facilitador):</strong></p>
+                    <ul class="list-disc pl-6 space-y-2 mb-lg">
+                      <li>Bienvenida cálida y entusiasta.</li>
+                      <li>Presentación personal breve (nombre, rol, algo que te apasione del programa).</li>
+                      <li>Objetivo: Crear un ambiente relajado y de confianza desde el inicio.</li>
+                    </ul>
+                    
+                    <p class="mb-md"><strong>Actividad 1: "Conexiones Rápidas" o "Dos Verdades y una Mentira"</strong></p>
+                    <div class="p-4 bg-blue-50 rounded-lg mb-lg">
+                      <p class="mb-sm"><strong>Opción A: Conexiones Rápidas</strong> (Dinámica y en movimiento si es presencial):</p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>Pide a los participantes que se pongan de pie y caminen por el aula.</li>
+                        <li>Indica que a tu señal (aplauso, campana) deben detenerse y hablar por 1-2 minutos con la persona más cercana sobre un tema específico que anuncies (ej: "Tu lugar favorito y por qué", "Un hobby que disfrutes", "Qué esperas de este curso").</li>
+                        <li>Repetir 3-4 veces con diferentes preguntas.</li>
+                        <li>Al final, pide a algunos voluntarios que compartan algo interesante que aprendieron de alguien.</li>
+                      </ul>
+                    </div>
+                    
+                    <div class="p-4 bg-purple-50 rounded-lg mb-lg">
+                      <p class="mb-sm"><strong>Opción B: Dos Verdades y una Mentira</strong> (Más introspectiva, buena para grupos más pequeños o virtuales):</p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>Cada persona piensa en tres "hechos" sobre sí misma: dos verdaderos y uno falso.</li>
+                        <li>Por turnos, cada uno comparte sus tres hechos. El resto del grupo intenta adivinar cuál es la mentira.</li>
+                        <li>Esto ayuda a conocerse de forma lúdica y revela aspectos interesantes de cada uno.</li>
+                      </ul>
+                    </div>
+                    
+                    <p class="mb-md"><strong>Actividad 2: "Muro de Expectativas y Preocupaciones"</strong> (Opcional, pero útil)</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Materiales: Post-its (dos colores), pizarra o pared.</li>
+                      <li>Pide a los participantes que escriban anónimamente en un color de post-it: "¿Qué esperas aprender o lograr en este curso?" y en el otro color: "¿Qué te preocupa o qué dudas tienes sobre el curso?".</li>
+                      <li>Pegan los post-its en la pizarra/pared, agrupados por color.</li>
+                      <li>El facilitador lee algunas expectativas en voz alta (para mostrar que se han escuchado) y algunas preocupaciones (para abordarlas brevemente ahora o indicar que se tratarán más adelante).</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <!-- Parte 2 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-chalkboard-teacher" style="color: var(--primary-soft);"></i> Parte 2: Presentación del Programa (30-40 minutos)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md"><strong>Explicación (Facilitador - Apoyarse en una presentación visual sencilla):</strong></p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Nombre del Programa: "Conectados por Mendoza Futura".</li>
+                      <li>Visión General: ¿Qué es? (Libro digital, guía de facilitación sobre IA, desarrollo de habilidades).</li>
+                      <li class="mb-md">Objetivos Clave:
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Desarrollo Personal: Autoconocimiento, gestión emocional, comunicación, etc.</li>
+                          <li>Desarrollo Social: Trabajo en equipo, empatía, resolución de conflictos, etc.</li>
+                          <li>Desarrollo Tecnológico: Introducción a la IA, herramientas prácticas, programación básica, etc.</li>
+                          <li>Impacto: Cómo estas habilidades combinadas pueden beneficiarles en sus estudios, futuro laboral y vida personal.</li>
+                        </ul>
+                      </li>
+                      <li class="mb-md">Metodología:
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Aprendizaje Activo y Práctico: "Aprender haciendo".</li>
+                          <li>Trabajo Colaborativo: Énfasis en que gran parte del aprendizaje y las actividades serán en equipo.</li>
+                          <li>Rol del Facilitador: Guía, apoyo, no un "profesor" tradicional que solo da cátedra.</li>
+                          <li>Estructura del Curso: Breve vistazo a los módulos/capítulos principales.</li>
+                          <li>Herramientas y Recursos: (Ej: plataforma Moodle si la usan, este libro digital, etc.).</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <div class="p-4 bg-green-50 rounded-lg">
+                      <p class="mb-sm"><strong>Actividad: Preguntas y Respuestas Abiertas</strong></p>
+                      <p>Dedicar tiempo para que los participantes hagan preguntas sobre el programa. Fomentar un ambiente donde todas las preguntas son bienvenidas.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Parte 3 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-users" style="color: var(--primary-soft);"></i> Parte 3: Formación de Equipos (30-45 minutos)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md"><strong>Explicación (Facilitador):</strong></p>
+                    <ul class="list-disc pl-6 space-y-2 mb-lg">
+                      <li>Reiterar la importancia del trabajo en equipo para el curso.</li>
+                      <li>Explicar el criterio para la formación de equipos (ej: aleatorio para fomentar conocer gente nueva, por intereses si hay un proyecto temático, por nivel de experiencia si es relevante para algún módulo).</li>
+                      <li>Tamaño ideal del equipo: 3-5 personas.</li>
+                    </ul>
+                    
+                    <p class="mb-md"><strong>Actividad 1: Formación de Equipos</strong></p>
+                    <div class="p-4 bg-blue-50 rounded-lg mb-lg">
+                      <p class="mb-sm"><strong>Métodos Sugeridos:</strong></p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>Conteo: "Cuenten del 1 al X (número de equipos deseados). Todos los 1 son un equipo, todos los 2 otro, etc."</li>
+                        <li>Tarjetas/Objetos de Colores: Repartir tarjetas u objetos de diferentes colores. Los que tengan el mismo color forman un equipo.</li>
+                        <li>Rompecabezas: Preparar rompecabezas sencillos (tantos como equipos). Cada pieza a un participante.</li>
+                        <li>Herramientas online: Si es virtual, muchas plataformas tienen funciones de "breakout rooms" aleatorias.</li>
+                      </ul>
+                    </div>
+                    
+                    <p class="mb-md"><strong>Actividad 2: "Conociendo a mi Equipo"</strong></p>
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Una vez formados los equipos, darles 15-20 minutos para una primera interacción.</li>
+                      <li>Tareas para el equipo:
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Presentación Individual Profunda: Que cada miembro comparta:
+                            <ul class="list-disc pl-6 space-y-2">
+                              <li>Nombre.</li>
+                              <li>Una habilidad o fortaleza que cree que puede aportar al equipo.</li>
+                              <li>Algo que le gustaría aprender o mejorar durante el trabajo en equipo.</li>
+                              <li>(Opcional) Una expectativa para el trabajo en equipo.</li>
+                            </ul>
+                          </li>
+                          <li>Nombre del Equipo y Grito/Lema (Opcional, pero divertido).</li>
+                          <li>Intercambiar Información de Contacto (si es necesario).</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <!-- Parte 4 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-handshake" style="color: var(--primary-soft);"></i> Parte 4: Establecimiento de Normas de Convivencia (20-30 minutos)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md"><strong>Explicación (Facilitador):</strong></p>
+                    <ul class="list-disc pl-6 space-y-2 mb-lg">
+                      <li>"Ahora que tienen sus equipos, es importante establecer cómo van a trabajar juntos de manera efectiva y respetuosa."</li>
+                      <li>La idea es que ellos mismos propongan las normas para que haya mayor compromiso (co-creación).</li>
+                    </ul>
+                    
+                    <p class="mb-md"><strong>Actividad: "Nuestro Acuerdo de Equipo"</strong></p>
+                    <div class="p-4 bg-yellow-50 rounded-lg mb-lg">
+                      <p class="mb-sm">Cada equipo discute y anota sus respuestas a preguntas como:</p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>¿Cómo nos comunicaremos eficazmente dentro del equipo? (Canales, frecuencia).</li>
+                        <li>¿Cómo tomaremos decisiones? (Consenso, votación, etc.).</li>
+                        <li>¿Cómo manejaremos los desacuerdos o conflictos?</li>
+                        <li>¿Qué esperamos de cada miembro en términos de participación y compromiso?</li>
+                        <li>¿Cómo nos apoyaremos mutuamente?</li>
+                        <li>¿Cuál será nuestra actitud ante los errores o desafíos?</li>
+                      </ul>
+                    </div>
+                    
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li>Pedir a cada equipo que comparta 2-3 de sus normas más importantes con el resto del grupo.</li>
+                      <li>El facilitador puede recoger estas normas y crear un "Acuerdo General del Curso" visible.</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <!-- Parte 5 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-flag-checkered" style="color: var(--primary-soft);"></i> Parte 5: Cierre y Próximos Pasos (10-15 minutos)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md"><strong>Explicación (Facilitador):</strong></p>
+                    <ul class="list-disc pl-6 space-y-2 mb-lg">
+                      <li>Resumir brevemente lo logrado en la sesión.</li>
+                      <li>Agradecer la participación activa.</li>
+                      <li>Adelantar brevemente qué verán en la próxima sesión.</li>
+                      <li>Resolver dudas finales.</li>
+                    </ul>
+                    
+                    <div class="p-4 bg-purple-50 rounded-lg">
+                      <p class="mb-sm"><strong>Actividad (Opcional): "Una Palabra al Cierre"</strong></p>
+                      <p>Pedir a cada participante que diga una palabra que describa cómo se siente al finalizar esta primera sesión.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Consejos Adicionales -->
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(247, 37, 133, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-lightbulb" style="color: var(--primary-soft);"></i> Consejos Adicionales para el Facilitador
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc pl-6 space-y-2">
+                      <li><strong>Energía y Entusiasmo:</strong> Tu actitud es contagiosa.</li>
+                      <li><strong>Flexibilidad:</strong> Ten un plan, pero prepárate para adaptarte según las necesidades y la dinámica del grupo.</li>
+                      <li><strong>Manejo del Tiempo:</strong> Lleva un control del tiempo para cada actividad, pero no seas excesivamente rígido si una discusión es productiva.</li>
+                      <li><strong>Participación Equitativa:</strong> Anima a los más callados a participar y gestiona a los que puedan dominar la conversación.</li>
+                      <li><strong>Refuerzo Positivo:</strong> Reconoce y valore las contribuciones de los participantes.</li>
+                      <li><strong>Material Visual:</strong> Utiliza diapositivas claras y concisas. No satures de texto.</li>
+                      <li><strong>Para Entornos Virtuales:</strong> Utiliza herramientas colaborativas (Miro, Jamboard, Google Docs/Slides, funciones de chat y encuestas de la plataforma de videconferencia) para mantener la interacción.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="que-son-habilidades-blandas.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-brain" style="color: var(--primary-soft);"></i> ¿Qué son las habilidades blandas?
+                  </h4>
+                  <p>Conceptos básicos sobre habilidades interpersonales y su impacto en el desarrollo personal y profesional.</p>
+                </div>
+              </a>
+              <a href="autoconocimiento.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-user" style="color: var(--primary-soft);"></i> Autoconocimiento
+                  </h4>
+                  <p>Herramientas y técnicas para la introspección, identificación de talentos y áreas de mejora.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="../img/favicon.png" alt="Conectados Logo" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">
+            Conectados
+          </div>
+          <p>Programa de formación integral en habilidades tecnológicas y blandas.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Explorar</h4>
+          <div class="footer-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../tecnologicas.html">Habilidades Tecnológicas</a>
+            <a href="../blandas.html">Habilidades Blandas</a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Recursos</h4>
+          <div class="footer-nav">
+            <a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Conectados por Mendoza Futura</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Header scroll effect
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 10) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.mobile-menu-toggle');
+      menuToggle.addEventListener('click', function() {
+        document.body.classList.toggle('mobile-menu-open');
+      });
+      
+      // Add animation classes on scroll
+      const animateElements = document.querySelectorAll('.card, .feature-item');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      
+      animateElements.forEach(el => {
+        observer.observe(el);
+      });
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update active state in navigation
+            document.querySelectorAll('.chapter-nav-link').forEach(link => {
+              link.classList.remove('chapter-nav-link-active');
+            });
+            this.classList.add('chapter-nav-link-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

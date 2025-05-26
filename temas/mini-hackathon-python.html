@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Hackathon II: "Mi asistente inteligente en Python" - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-code"></i> Mini Hackathon II: "Mi asistente inteligente en Python"
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#objetivo" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-bullseye"></i> Objetivo general
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#por-que" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-question-circle"></i> ¿Por qué un asistente?
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#componentes" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-puzzle-piece"></i> Componentes
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#etapas" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-tasks"></i> Etapas del desarrollo
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#sugerencias" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-lightbulb"></i> Sugerencias
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#habilidades" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-brain"></i> Habilidades desarrolladas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#evaluacion" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-clipboard-check"></i> Evaluación
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Objetivo -->
+          <div id="objetivo" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-bullseye" style="color: var(--primary-tech);"></i> Objetivo general
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <p>Que los estudiantes diseñen y programen un asistente digital sencillo en Python, que simule una IA capaz de interactuar, responder preguntas básicas y ejecutar funciones útiles según criterios definidos por el grupo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- ¿Por qué un asistente? -->
+          <div id="por-que" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-question-circle" style="color: var(--primary-tech);"></i> ¿Por qué un asistente?
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <ul class="list-disc ml-6 space-y-md">
+                      <li>Representa un uso cercano de la IA, similar a asistentes como Alexa, Siri o ChatGPT.</li>
+                      <li>Permite integrar conocimientos técnicos (funciones, condicionales, entrada/salida de datos) con habilidades blandas (empatía, diseño de experiencias, resolución de problemas).</li>
+                      <li>Estimula la creatividad y la resolución colaborativa en torno a un producto con valor.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Componentes -->
+          <div id="componentes" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-puzzle-piece" style="color: var(--primary-tech);"></i> Componentes del proyecto
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <p class="mb-md">El asistente debe:</p>
+                    <ul class="list-disc ml-6 space-y-sm">
+                      <li>Leer una entrada del usuario (texto simple por consola).</li>
+                      <li>Procesar el mensaje y decidir una respuesta según las palabras clave.</li>
+                      <li>Realizar una acción útil o responder adecuadamente.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Etapas -->
+          <div id="etapas" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Etapas del desarrollo
+                </h2>
+              </div>
+              <div class="card-body">
+                <!-- Etapa 1 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-lightbulb" style="color: var(--primary-tech);"></i> 1. Ideación del asistente (Design Thinking inicial)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md">¿Qué problemas resuelve? ¿Qué personalidad tiene? ¿Cómo ayuda?</p>
+                    
+                    <div class="bg-gray-50 p-4 rounded-md">
+                      <h4 class="font-bold mb-sm">Ejemplos:</h4>
+                      <ul class="list-disc ml-6 space-y-sm">
+                        <li>Un asistente para estudiantes que recuerda tareas y explica temas.</li>
+                        <li>Uno que da consejos de estudio o frases motivadoras.</li>
+                        <li>Uno que simula responder preguntas sobre tecnología, clima, salud, etc.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Etapa 2 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-sitemap" style="color: var(--primary-tech);"></i> 2. Diseño de funcionalidades mínimas (MVP)
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="overflow-x-auto">
+                      <table class="min-w-full bg-white">
+                        <thead class="bg-gray-100">
+                          <tr>
+                            <th class="p-3 text-left">Entrada esperada</th>
+                            <th class="p-3 text-left">Respuesta o acción del asistente</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="border-t">
+                            <td class="p-3">"¿Qué día es hoy?"</td>
+                            <td class="p-3">Devuelve la fecha actual</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">"¿Qué me recomendás para estudiar?"</td>
+                            <td class="p-3">Devuelve una sugerencia de contenido</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">"Estoy triste"</td>
+                            <td class="p-3">Responde con una frase de ánimo</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">"Contame un chiste"</td>
+                            <td class="p-3">Devuelve una frase graciosa</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <p class="mt-md text-gray-600">👉 Esto se puede codificar con estructuras if, listas de frases, funciones como datetime, etc.</p>
+                  </div>
+                </div>
+                
+                <!-- Etapa 3 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-code" style="color: var(--primary-tech);"></i> 3. Programación por módulos
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc ml-6 mb-md space-y-sm">
+                      <li>procesar_entrada() → interpreta qué quiere el usuario.</li>
+                      <li>responder() → selecciona la respuesta adecuada.</li>
+                      <li>Funciones auxiliares para tareas como mostrar la hora, dar consejos, saludar.</li>
+                    </ul>
+                    
+                    <div class="bg-gray-800 text-white p-4 rounded-md overflow-x-auto">
+                      <pre class="text-sm"><code>def procesar_entrada(entrada):
+    entrada = entrada.lower()
+    if "hora" in entrada:
+        return mostrar_hora()
+    elif "triste" in entrada:
+        return "¡Ánimo! Todo mejora con práctica 😊"
+    elif "tarea" in entrada:
+        return "Recordá que mañana hay que repasar Python."
+    else:
+        return "No entendí bien. ¿Podés repetirlo?"</code></pre>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Etapa 4 -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-robot" style="color: var(--primary-tech);"></i> 4. Interacción con la IA local
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md">Los estudiantes pueden consultar a la IA para:</p>
+                    <ul class="list-disc ml-6 mb-md space-y-sm">
+                      <li>Generar ejemplos de respuestas.</li>
+                      <li>Obtener ayuda para escribir funciones.</li>
+                      <li>Pedir ideas de nuevas funcionalidades.</li>
+                    </ul>
+                    
+                    <div class="bg-gray-50 p-4 rounded-md">
+                      <h4 class="font-bold mb-sm">Ejemplo de prompt útil para IA:</h4>
+                      <p class="italic">"Quiero que mi asistente en Python responda a frases de ánimo. ¿Podés darme una función que elija una frase al azar de una lista?"</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Etapa 5 -->
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-check-circle" style="color: var(--primary-tech);"></i> 5. Testeo y presentación
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-disc ml-6 mb-md space-y-sm">
+                      <li>Simular conversaciones.</li>
+                      <li>Recibir feedback de otros equipos.</li>
+                      <li>Mejorar el asistente (iteración).</li>
+                      <li>Presentar el producto en una breve demo.</li>
+                    </ul>
+                    
+                    <div class="bg-gray-50 p-4 rounded-md">
+                      <h4 class="font-bold mb-sm">🎤 Pitch final:</h4>
+                      <p class="italic">"Nuestro asistente se llama X. Ayuda a los estudiantes a Y. Lo hicimos con Python usando funciones, listas y condicionales. Lo que más nos costó fue Z, pero lo resolvimos así..."</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Sugerencias -->
+          <div id="sugerencias" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-lightbulb" style="color: var(--primary-tech);"></i> Sugerencias de asistentes por grupo
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <div class="overflow-x-auto">
+                      <table class="min-w-full bg-white">
+                        <thead class="bg-gray-100">
+                          <tr>
+                            <th class="p-3 text-left">Grupo temático</th>
+                            <th class="p-3 text-left">Idea de asistente</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="border-t">
+                            <td class="p-3">Educación</td>
+                            <td class="p-3">"EduBot": recomienda recursos, repasa contenidos</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Salud y bienestar</td>
+                            <td class="p-3">"Saludín": da tips de autocuidado y ánimo</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Creatividad</td>
+                            <td class="p-3">"InspiroBot": frases motivacionales y retos</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Tiempo y organización</td>
+                            <td class="p-3">"Planito": ayuda a organizar tareas</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Curiosidades</td>
+                            <td class="p-3">"Curio": responde preguntas triviales</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Habilidades -->
+          <div id="habilidades" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-brain" style="color: var(--primary-tech);"></i> Habilidades desarrolladas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <div class="overflow-x-auto">
+                      <table class="min-w-full bg-white">
+                        <thead class="bg-gray-100">
+                          <tr>
+                            <th class="p-3 text-left">Técnica</th>
+                            <th class="p-3 text-left">Habilidad blanda</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="border-t">
+                            <td class="p-3">Modularización del código</td>
+                            <td class="p-3">Planificación</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Entrada/salida con input()</td>
+                            <td class="p-3">Comunicación clara</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Uso de condicionales</td>
+                            <td class="p-3">Toma de decisiones</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Consulta a IA local</td>
+                            <td class="p-3">Pensamiento crítico sobre la ayuda externa</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Presentación del producto</td>
+                            <td class="p-3">Trabajo en equipo y oratoria</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Evaluación -->
+          <div id="evaluacion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-clipboard-check" style="color: var(--primary-tech);"></i> Evaluación sugerida (por rúbrica)
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <div class="overflow-x-auto">
+                      <table class="min-w-full bg-white">
+                        <thead class="bg-gray-100">
+                          <tr>
+                            <th class="p-3 text-left">Criterio</th>
+                            <th class="p-3 text-left">Peso</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="border-t">
+                            <td class="p-3">Funcionalidad del asistente</td>
+                            <td class="p-3">30%</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Claridad del código</td>
+                            <td class="p-3">20%</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Creatividad y originalidad</td>
+                            <td class="p-3">20%</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Trabajo colaborativo</td>
+                            <td class="p-3">20%</td>
+                          </tr>
+                          <tr class="border-t">
+                            <td class="p-3">Presentación final</td>
+                            <td class="p-3">10%</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="python-basico.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-code" style="color: var(--primary-tech);"></i> Python Básico
+                  </h4>
+                  <p>Fundamentos de programación en Python para principiantes.</p>
+                </div>
+              </a>
+              <a href="que-es-la-ia.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-brain" style="color: var(--primary-tech);"></i> ¿Qué es la IA?
+                  </h4>
+                  <p>Introducción a los conceptos fundamentales de la Inteligencia Artificial.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="../img/favicon.png" alt="Conectados Logo" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">
+            Conectados
+          </div>
+          <p>Programa de formación integral en habilidades tecnológicas y blandas.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Explorar</h4>
+          <div class="footer-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../tecnologicas.html">Habilidades Tecnológicas</a>
+            <a href="../blandas.html">Habilidades Blandas</a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Recursos</h4>
+          <div class="footer-nav">
+            <a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Conectados por Mendoza Futura</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Header scroll effect
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 10) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.mobile-menu-toggle');
+      menuToggle.addEventListener('click', function() {
+        document.body.classList.toggle('mobile-menu-open');
+      });
+      
+      // Add animation classes on scroll
+      const animateElements = document.querySelectorAll('.card, .feature-item');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      
+      animateElements.forEach(el => {
+        observer.observe(el);
+      });
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update active state in navigation
+            document.querySelectorAll('.chapter-nav-link').forEach(link => {
+              link.classList.remove('chapter-nav-link-active');
+            });
+            this.classList.add('chapter-nav-link-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

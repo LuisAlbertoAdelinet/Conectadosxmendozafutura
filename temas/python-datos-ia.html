@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python aplicado a datos e IA: listas y funciones - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fab fa-python"></i> Python aplicado a datos e IA: listas y funciones
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#objetivo" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-bullseye"></i> Objetivo
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#contenidos" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-key"></i> Contenidos clave
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejercicios" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-flask"></i> Ejercicios prácticos
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#integracion" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-robot"></i> Integración con IA
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#proyectos" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-project-diagram"></i> Ideas de proyecto
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Objetivo -->
+          <div id="objetivo" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-bullseye" style="color: var(--primary-tech);"></i> Objetivo de la clase
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <p>Que los estudiantes aprendan a almacenar y procesar datos en estructuras de listas, y a modular el código mediante funciones reutilizables, aplicando estas herramientas a contextos simples de análisis de datos e inteligencia artificial.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contenidos clave -->
+          <div id="contenidos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-key" style="color: var(--primary-tech);"></i> Contenidos clave
+                </h2>
+              </div>
+              <div class="card-body">
+                <!-- 1. Listas -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-list" style="color: var(--primary-tech);"></i> 1. Listas en Python
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                      <pre class="font-mono text-sm">
+# Creación
+mi_lista = [1, 2, 3]
+
+# Acceso por índice
+primer_elemento = mi_lista[0]
+
+# Métodos principales
+mi_lista.append(4)    # Agregar
+mi_lista.remove(2)    # Eliminar valor
+mi_lista.pop()       # Eliminar último
+mi_lista.sort()      # Ordenar
+len(mi_lista)        # Longitud</pre>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- 2. Bucles -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-sync" style="color: var(--primary-tech);"></i> 2. Bucles sobre listas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                      <pre class="font-mono text-sm">
+# Recorrer elementos
+for elemento in lista:
+    print(elemento)
+
+# Recorrer con índices
+for i in range(len(lista)):
+    print(f"Posición {i}: {lista[i]}")</pre>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- 3. Funciones -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-code" style="color: var(--primary-tech);"></i> 3. Funciones
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                      <pre class="font-mono text-sm">
+def calcular_promedio(numeros):
+    return sum(numeros) / len(numeros)
+
+def filtrar_mayores(lista, umbral):
+    return [x for x in lista if x > umbral]</pre>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- 4. Estructuras anidadas -->
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-layer-group" style="color: var(--primary-tech);"></i> 4. Datos y estructuras anidadas
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                      <pre class="font-mono text-sm">
+# Listas de listas
+matriz = [[1, 2], [3, 4]]
+
+# Diccionario simple
+alumno = {
+    "nombre": "Ana",
+    "notas": [8, 9, 7]
+}</pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejercicios prácticos -->
+          <div id="ejercicios" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-flask" style="color: var(--primary-tech);"></i> Ejercicios prácticos
+                </h2>
+              </div>
+              <div class="card-body">
+                <!-- Nivel básico -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(72, 187, 120, 0.1);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-circle" style="color: #48bb78;"></i> Nivel básico
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="space-y-md">
+                      <div>
+                        <h4 class="font-bold mb-sm"><i class="fas fa-file-alt"></i> Notas de un estudiante</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Crear una lista con 5 notas</li>
+                          <li>Calcular promedio usando sum() y len()</li>
+                          <li>Mostrar la nota más alta y más baja</li>
+                        </ul>
+                      </div>
+                      
+                      <div>
+                        <h4 class="font-bold mb-sm"><i class="fas fa-shopping-cart"></i> Lista de compras</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Agregar productos con input() y .append()</li>
+                          <li>Mostrar la lista completa</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Nivel intermedio -->
+                <div class="card mb-lg hover-lift">
+                  <div class="card-header" style="background: rgba(246, 173, 85, 0.1);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-circle" style="color: #f6ad55;"></i> Nivel intermedio
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="space-y-md">
+                      <div>
+                        <h4 class="font-bold mb-sm"><i class="fas fa-temperature-high"></i> Análisis de temperaturas</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Ingresar 7 temperaturas y mostrar las 3 más altas</li>
+                          <li>Calcular temperatura promedio por día</li>
+                        </ul>
+                      </div>
+                      
+                      <div>
+                        <h4 class="font-bold mb-sm"><i class="fas fa-chart-bar"></i> Visualización simple</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li>Crear gráfico de barras con asteriscos</li>
+                          <li>Ejemplo: print("*" * temperatura)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Nivel avanzado -->
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.1);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-circle" style="color: var(--primary-tech);"></i> Nivel avanzado
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div>
+                      <h4 class="font-bold mb-sm"><i class="fas fa-chart-line"></i> Análisis de datos</h4>
+                      <ul class="list-disc pl-6 space-y-2 mb-md">
+                        <li>Crear funciones de análisis estadístico</li>
+                        <li>Generar insights con ayuda de la IA</li>
+                      </ul>
+                      <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                        <pre class="font-mono text-sm">
+def analizar_datos(datos):
+    return {
+        "promedio": sum(datos) / len(datos),
+        "maximo": max(datos),
+        "minimo": min(datos)
+    }</pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Integración con IA -->
+          <div id="integracion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-robot" style="color: var(--primary-tech);"></i> Integración con IA
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card hover-lift">
+                  <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                    <h3 class="text-xl font-bold">
+                      <i class="fas fa-robot" style="color: var(--primary-tech);"></i> El asistente de análisis
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <p class="mb-md">Usando el sistema local de IA, podemos analizar nuestros datos y obtener insights valiosos:</p>
+                    
+                    <div class="bg-gray-100 p-4 rounded-lg overflow-x-auto">
+                      <h4 class="font-bold mb-sm">Ejemplo de interacción:</h4>
+                      <pre class="font-mono text-sm">
+# Datos para analizar
+datos = [23, 45, 67, 12, 34]
+
+# Preguntas para el modelo
+prompt1 = f"¿Qué patrones ves en estos datos: {datos}?"
+prompt2 = "¿Qué otros análisis sugerís hacer?"</pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ideas de proyecto -->
+          <div id="proyectos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(9, 103, 210, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-project-diagram" style="color: var(--primary-tech);"></i> Ideas de proyecto
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div class="card hover-lift">
+                    <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                      <h3 class="text-lg font-bold">
+                        <i class="fas fa-poll" style="color: var(--primary-tech);"></i> "Encuesta en el aula"
+                      </h3>
+                    </div>
+                    <div class="card-body">
+                      <p>Recolectar datos reales (edad, opinión, gustos), almacenarlos en listas, y analizar con funciones propias y comentarios del modelo local.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card hover-lift">
+                    <div class="card-header" style="background: rgba(58, 134, 255, 0.05);">
+                      <h3 class="text-lg font-bold">
+                        <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> "Gestor de tareas"
+                      </h3>
+                    </div>
+                    <div class="card-body">
+                      <p>Lista de tareas con opciones para agregar, eliminar, marcar como hecha (ideal para aplicar funciones + lógica).</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="que-es-la-ia.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-brain" style="color: var(--primary-tech);"></i> ¿Qué es la IA?
+                  </h4>
+                  <p>Introducción a los conceptos fundamentales de la Inteligencia Artificial y sus aplicaciones.</p>
+                </div>
+              </a>
+              <a href="creatividad-con-ia.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-palette" style="color: var(--primary-tech);"></i> Creatividad con IA
+                  </h4>
+                  <p>Explora cómo la inteligencia artificial puede potenciar la creatividad y el arte.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="../img/favicon.png" alt="Conectados Logo" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">
+            Conectados
+          </div>
+          <p>Programa de formación integral en habilidades tecnológicas y blandas.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Explorar</h4>
+          <div class="footer-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../tecnologicas.html">Habilidades Tecnológicas</a>
+            <a href="../blandas.html">Habilidades Blandas</a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Recursos</h4>
+          <div class="footer-nav">
+            <a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Conectados por Mendoza Futura</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Header scroll effect
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 10) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.mobile-menu-toggle');
+      menuToggle.addEventListener('click', function() {
+        document.body.classList.toggle('mobile-menu-open');
+      });
+      
+      // Add animation classes on scroll
+      const animateElements = document.querySelectorAll('.card, .feature-item');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      
+      animateElements.forEach(el => {
+        observer.observe(el);
+      });
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update active state in navigation
+            document.querySelectorAll('.chapter-nav-link').forEach(link => {
+              link.classList.remove('chapter-nav-link-active');
+            });
+            this.classList.add('chapter-nav-link-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

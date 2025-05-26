@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desarrollo: Integración de IA - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-robot"></i> Desarrollo: Integración de IA
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#estrategias" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-sitemap"></i> Estrategias de Integración
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#herramientas" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-tools"></i> Herramientas y APIs
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#implementacion" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-code"></i> Implementación Práctica
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#consideraciones" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-balance-scale"></i> Consideraciones Éticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-tech);"></i> Introducción a la Integración de IA
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué significa integrar IA en un proyecto?</h3>
+                    <div class="space-y-md">
+                      <p>La integración de Inteligencia Artificial (IA) en un proyecto implica incorporar capacidades de aprendizaje automático, procesamiento de lenguaje natural, visión por computadora u otras tecnologías de IA para mejorar la funcionalidad, eficiencia o experiencia del usuario de una aplicación o sistema. Esta integración puede variar desde la implementación de algoritmos simples hasta la incorporación de modelos complejos pre-entrenados o servicios de IA en la nube.</p>
+                      
+                      <p>A diferencia del desarrollo de software tradicional, la integración de IA requiere considerar aspectos como la calidad y preparación de los datos, la selección de modelos apropiados, la interpretabilidad de los resultados y las implicaciones éticas de las decisiones automatizadas.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Beneficios de la integración de IA</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-magic text-blue-600 mr-2"></i>Automatización inteligente</h4>
+                          <p>Permite automatizar tareas complejas que requieren juicio o adaptación, superando las limitaciones de la automatización tradicional basada en reglas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Insights y predicciones</h4>
+                          <p>Facilita el descubrimiento de patrones ocultos en los datos y la generación de predicciones que pueden informar decisiones estratégicas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-friends text-blue-600 mr-2"></i>Personalización</h4>
+                          <p>Permite crear experiencias adaptadas a las necesidades, preferencias y comportamientos específicos de cada usuario.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search-plus text-blue-600 mr-2"></i>Escalabilidad</h4>
+                          <p>Posibilita el procesamiento y análisis de grandes volúmenes de datos que serían inmanejables mediante métodos manuales o tradicionales.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-quote-left text-yellow-600 mr-2"></i>Perspectiva</h4>
+                        <p>"La integración de IA no consiste simplemente en añadir una capa de tecnología a un producto existente, sino en repensar fundamentalmente cómo la inteligencia artificial puede transformar la experiencia del usuario y crear valor de formas que antes no eran posibles." — Andrew Ng, cofundador de Google Brain</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Desafíos comunes en la integración de IA</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-database text-red-600 mr-2"></i>Calidad de datos</h4>
+                          <p>Obtener datos suficientes, relevantes y de alta calidad para entrenar o alimentar los modelos de IA.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-cogs text-red-600 mr-2"></i>Complejidad técnica</h4>
+                          <p>Manejar la complejidad de implementar y mantener sistemas de IA, especialmente con recursos limitados.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-question-circle text-red-600 mr-2"></i>Interpretabilidad</h4>
+                          <p>Comprender y explicar cómo los modelos de IA llegan a determinadas conclusiones o recomendaciones.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-red-600 mr-2"></i>Consideraciones éticas</h4>
+                          <p>Abordar cuestiones de privacidad, sesgo, equidad y transparencia en los sistemas basados en IA.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-shield text-red-600 mr-2"></i>Expectativas realistas</h4>
+                          <p>Gestionar las expectativas sobre lo que la IA puede y no puede hacer en el contexto del proyecto.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-red-600 mr-2"></i>Mantenimiento continuo</h4>
+                          <p>Asegurar que los modelos de IA se actualicen y adapten a medida que cambian los datos y requisitos.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Estrategias de Integración -->
+          <div id="estrategias" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-sitemap" style="color: var(--primary-tech);"></i> Estrategias de Integración
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Enfoques para integrar IA en proyectos</h3>
+                    <div class="space-y-md">
+                      <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 mt-lg">
+                          <thead>
+                            <tr>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Enfoque</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Descripción</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Ideal para</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Consideraciones</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">APIs de IA como servicio</td>
+                              <td class="py-3 px-4 border-b">Utilizar servicios de IA en la nube de proveedores como Google, Microsoft, Amazon o OpenAI</td>
+                              <td class="py-3 px-4 border-b">Proyectos con recursos limitados, necesidades estándar o plazos ajustados</td>
+                              <td class="py-3 px-4 border-b">Dependencia de terceros, costos recurrentes, limitaciones en personalización</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Modelos pre-entrenados</td>
+                              <td class="py-3 px-4 border-b">Adaptar modelos existentes (como BERT, GPT, ResNet) a necesidades específicas mediante fine-tuning</td>
+                              <td class="py-3 px-4 border-b">Proyectos que requieren capacidades avanzadas pero con datos limitados para entrenamiento</td>
+                              <td class="py-3 px-4 border-b">Requiere conocimientos técnicos, recursos computacionales y datos para ajuste</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Desarrollo de modelos propios</td>
+                              <td class="py-3 px-4 border-b">Crear y entrenar modelos de IA específicos para el proyecto desde cero</td>
+                              <td class="py-3 px-4 border-b">Problemas únicos, datos propietarios o necesidades muy específicas</td>
+                              <td class="py-3 px-4 border-b">Alta inversión en tiempo, expertise y recursos computacionales</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Enfoque híbrido</td>
+                              <td class="py-3 px-4 border-b">Combinar servicios en la nube, modelos pre-entrenados y componentes personalizados</td>
+                              <td class="py-3 px-4 border-b">Proyectos complejos con múltiples necesidades de IA y diferentes restricciones</td>
+                              <td class="py-3 px-4 border-b">Complejidad en la integración y mantenimiento de múltiples componentes</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Selección del enfoque adecuado</h3>
+                    <div class="space-y-md">
+                      <p>La elección del enfoque de integración debe basarse en una evaluación cuidadosa de varios factores:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-indigo-600 mr-2"></i>Objetivos del proyecto</h4>
+                          <ul class="list-disc pl-6">
+                            <li>¿Qué problema específico debe resolver la IA?</li>
+                            <li>¿Qué nivel de precisión o personalización se requiere?</li>
+                            <li>¿Es la IA un componente central o complementario?</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-database text-indigo-600 mr-2"></i>Disponibilidad de datos</h4>
+                          <ul class="list-disc pl-6">
+                            <li>¿Se dispone de datos suficientes y de calidad?</li>
+                            <li>¿Existen restricciones de privacidad o seguridad?</li>
+                            <li>¿Se necesita procesamiento en tiempo real?</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users-cog text-indigo-600 mr-2"></i>Capacidades del equipo</h4>
+                          <ul class="list-disc pl-6">
+                            <li>¿Qué nivel de experiencia en IA tiene el equipo?</li>
+                            <li>¿Se dispone de científicos de datos o ingenieros de ML?</li>
+                            <li>¿Existe capacidad para mantener modelos complejos?</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-coins text-indigo-600 mr-2"></i>Recursos disponibles</h4>
+                          <ul class="list-disc pl-6">
+                            <li>¿Cuál es el presupuesto para desarrollo y operación?</li>
+                            <li>¿Qué infraestructura computacional está disponible?</li>
+                            <li>¿Cuál es el plazo para la implementación?</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Recomendación para proyectos estudiantiles</h4>
+                        <p>Para proyectos finales en contextos educativos, generalmente recomendamos comenzar con un enfoque basado en APIs de IA como servicio o modelos pre-entrenados. Esto permite a los estudiantes concentrarse en la aplicación creativa de la IA para resolver problemas reales, sin quedar atrapados en los desafíos técnicos del desarrollo de modelos desde cero. A medida que adquieran experiencia, pueden incorporar componentes más personalizados según sea necesario.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Proceso de integración recomendado</h3>
+                    <div class="space-y-md">
+                      <div class="timeline mt-lg">
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-blue-500">
+                            <i class="fas fa-search text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">1. Definición del problema y objetivos</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Identificar claramente qué problema debe resolver la IA</li>
+                              <li>Establecer métricas de éxito medibles</li>
+                              <li>Determinar los requisitos funcionales y no funcionales</li>
+                              <li>Evaluar si la IA es realmente necesaria o si existen alternativas más simples</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-purple-500">
+                            <i class="fas fa-database text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">2. Evaluación y preparación de datos</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Identificar fuentes de datos relevantes</li>
+                              <li>Evaluar la calidad, cantidad y representatividad de los datos</li>
+                              <li>Implementar procesos de limpieza y preprocesamiento</li>
+                              <li>Considerar aspectos legales y éticos relacionados con los datos</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-indigo-500">
+                            <i class="fas fa-sitemap text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">3. Selección de enfoque y tecnologías</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Evaluar las opciones disponibles (APIs, modelos pre-entrenados, desarrollo propio)</li>
+                              <li>Realizar pruebas de concepto con diferentes enfoques</li>
+                              <li>Seleccionar las tecnologías y herramientas específicas</li>
+                              <li>Definir la arquitectura de integración</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-green-500">
+                            <i class="fas fa-code text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">4. Implementación y desarrollo</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Desarrollar los componentes de IA (o integrar servicios existentes)</li>
+                              <li>Crear interfaces entre los sistemas de IA y el resto de la aplicación</li>
+                              <li>Implementar mecanismos de monitoreo y logging</li>
+                              <li>Desarrollar la interfaz de usuario para interactuar con la IA</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-yellow-500">
+                            <i class="fas fa-vial text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">5. Pruebas y evaluación</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Realizar pruebas técnicas (precisión, rendimiento, robustez)</li>
+                              <li>Evaluar la experiencia del usuario</li>
+                              <li>Identificar y mitigar sesgos o comportamientos no deseados</li>
+                              <li>Validar el cumplimiento de requisitos éticos y legales</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-red-500">
+                            <i class="fas fa-rocket text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">6. Despliegue e iteración</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Implementar la solución en el entorno de producción</li>
+                              <li>Establecer procesos de monitoreo continuo</li>
+                              <li>Recopilar feedback de usuarios reales</li>
+                              <li>Iterar y mejorar basándose en datos de uso y rendimiento</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Herramientas y APIs -->
+          <div id="herramientas" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas y APIs
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">APIs de IA populares para proyectos</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comment-dots text-blue-600 mr-2"></i>Procesamiento de Lenguaje Natural</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>OpenAI API:</strong> Acceso a modelos como GPT-4 para generación de texto, traducción, resumen, etc.</li>
+                            <li><strong>Google Cloud Natural Language:</strong> Análisis de sentimiento, extracción de entidades, clasificación de contenido</li>
+                            <li><strong>Azure Cognitive Services:</strong> Comprensión del lenguaje, traducción, análisis de texto</li>
+                            <li><strong>Hugging Face Inference API:</strong> Acceso a miles de modelos de NLP de código abierto</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-image text-blue-600 mr-2"></i>Visión por Computadora</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>Google Cloud Vision:</strong> Detección de objetos, OCR, reconocimiento facial, etiquetado de imágenes</li>
+                            <li><strong>Azure Computer Vision:</strong> Análisis de imágenes, reconocimiento de contenido, generación de descripciones</li>
+                            <li><strong>Amazon Rekognition:</strong> Análisis de imágenes y videos, detección de objetos y escenas</li>
+                            <li><strong>Clarifai:</strong> Reconocimiento de conceptos visuales, detección de contenido inapropiado</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-microphone text-blue-600 mr-2"></i>Voz y Audio</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>Google Cloud Speech-to-Text:</strong> Transcripción de audio a texto en múltiples idiomas</li>
+                            <li><strong>Amazon Transcribe:</strong> Reconocimiento automático de voz para audio y video</li>
+                            <li><strong>Azure Speech Service:</strong> Conversión de voz a texto y texto a voz</li>
+                            <li><strong>AssemblyAI:</strong> Transcripción, resumen y análisis de audio</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Análisis Predictivo</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>Google Cloud AutoML:</strong> Creación de modelos personalizados sin código</li>
+                            <li><strong>Azure Machine Learning:</strong> Desarrollo y despliegue de modelos predictivos</li>
+                            <li><strong>Amazon SageMaker:</strong> Construcción, entrenamiento y despliegue de modelos de ML</li>
+                            <li><strong>BigML:</strong> Plataforma de aprendizaje automático como servicio</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>Consideraciones importantes</h4>
+                        <ul class="list-disc pl-6">
+                          <li>La mayoría de estas APIs tienen niveles gratuitos o de prueba, pero pueden generar costos significativos en uso intensivo</li>
+                          <li>Verifique las limitaciones de cada servicio (número de solicitudes, tamaño de datos, etc.)</li>
+                          <li>Considere aspectos de privacidad y cumplimiento normativo al enviar datos a servicios en la nube</li>
+                          <li>Evalúe la latencia y disponibilidad del servicio para aplicaciones en tiempo real</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Bibliotecas y frameworks para desarrollo de IA</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-code text-purple-600 mr-2"></i>Frameworks generales</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>TensorFlow:</strong> Framework completo para ML desarrollado por Google</li>
+                            <li><strong>PyTorch:</strong> Framework flexible y dinámico popular en investigación</li>
+                            <li><strong>Scikit-learn:</strong> Biblioteca simple y eficiente para ML en Python</li>
+                            <li><strong>Keras:</strong> API de alto nivel que funciona sobre TensorFlow</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comment text-purple-600 mr-2"></i>NLP específico</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>Transformers (Hugging Face):</strong> Modelos pre-entrenados para NLP</li>
+                            <li><strong>spaCy:</strong> Biblioteca para procesamiento avanzado de lenguaje natural</li>
+                            <li><strong>NLTK:</strong> Kit de herramientas para procesamiento de lenguaje natural</li>
+                            <li><strong>Gensim:</strong> Biblioteca para modelado de temas y similitud de documentos</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-eye text-purple-600 mr-2"></i>Visión por computadora</h4>
+                          <ul class="list-disc pl-6">
+                            <li><strong>OpenCV:</strong> Biblioteca de visión por computadora de código abierto</li>
+                            <li><strong>TensorFlow Object Detection API:</strong> Para detección de objetos</li>
+                            <li><strong>PyTorch Vision:</strong> Modelos, datasets y utilidades para visión</li>
+                            <li><strong>Detectron2:</strong> Biblioteca de Facebook para detección y segmentación</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-graduation-cap text-green-600 mr-2"></i>Recomendación para estudiantes</h4>
+                        <p>Para proyectos finales en contextos educativos, recomendamos comenzar con bibliotecas de alto nivel como Hugging Face Transformers, Keras o Scikit-learn, que permiten implementar soluciones sofisticadas con relativamente poco código. Estas bibliotecas ofrecen una buena combinación de potencia y facilidad de uso, permitiendo a los estudiantes concentrarse en la aplicación de la IA más que en los detalles de implementación de bajo nivel.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Implementación Práctica -->
+          <div id="implementacion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-code" style="color: var(--primary-tech);"></i> Implementación Práctica
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Ejemplos de integración de IA en proyectos</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-robot text-gray-600 mr-2"></i>Chatbot Asistente</h4>
+                          <p class="mb-3">Un chatbot que responde preguntas sobre un tema específico utilizando procesamiento de lenguaje natural.</p>
+                          <div class="p-3 bg-blue-50 rounded-lg">
+                            <h5 class="font-bold mb-1">Implementación:</h5>
+                            <ul class="list-disc pl-6">
+                              <li>Utilizar OpenAI API o Hugging Face para el motor de conversación</li>
+                              <li>Crear una interfaz web simple con HTML, CSS y JavaScript</li>
+                              <li>Implementar un backend en Python (Flask o FastAPI) para manejar las solicitudes</li>
+                              <li>Añadir contexto específico para personalizar las respuestas al dominio del proyecto</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-image text-gray-600 mr-2"></i>Analizador de Imágenes</h4>
+                          <p class="mb-3">Una aplicación que analiza imágenes para identificar objetos, escenas o características específicas.</p>
+                          <div class="p-3 bg-blue-50 rounded-lg">
+                            <h5 class="font-bold mb-1">Implementación:</h5>
+                            <ul class="list-disc pl-6">
+                              <li>Utilizar Google Cloud Vision API o un modelo pre-entrenado de TensorFlow</li>
+                              <li>Crear una interfaz para cargar imágenes (web o móvil)</li>
+                              <li>Procesar los resultados del análisis para presentarlos de manera comprensible</li>
+                              <li>Implementar funcionalidades adicionales como filtrado o búsqueda basada en contenido</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-pie text-gray-600 mr-2"></i>Sistema de Recomendación</h4>
+                          <p class="mb-3">Un sistema que recomienda productos, contenidos o acciones basándose en preferencias y comportamientos del usuario.</p>
+                          <div class="p-3 bg-blue-50 rounded-lg">
+                            <h5 class="font-bold mb-1">Implementación:</h5>
+                            <ul class="list-disc pl-6">
+                              <li>Utilizar bibliotecas como Surprise o LightFM para filtrado colaborativo</li>
+                              <li>Implementar un sistema de recopilación y almacenamiento de datos de usuario</li>
+                              <li>Crear algoritmos de recomendación basados en contenido o híbridos</li>
+                              <li>Desarrollar una interfaz para mostrar recomendaciones y recopilar feedback</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-language text-gray-600 mr-2"></i>Traductor Especializado</h4>
+                          <p class="mb-3">Una herramienta de traducción adaptada a un dominio específico (técnico, médico, legal, etc.).</p>
+                          <div class="p-3 bg-blue-50 rounded-lg">
+                            <h5 class="font-bold mb-1">Implementación:</h5>
+                            <ul class="list-disc pl-6">
+                              <li>Utilizar APIs de traducción como Google Translate o DeepL</li>
+                              <li>Fine-tuning de modelos pre-entrenados con textos específicos del dominio</li>
+                              <li>Crear un diccionario especializado para términos técnicos</li>
+                              <li>Desarrollar una interfaz web o móvil para la traducción</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Ejemplo de código: Integración de OpenAI API</h3>
+                    <div class="space-y-md">
+                      <p>A continuación se muestra un ejemplo básico de cómo integrar la API de OpenAI en una aplicación web simple utilizando Python y Flask:</p>
+                      
+                      <div class="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto">
+                        <pre><code># app.py
+from flask import Flask, request, jsonify, render_template
+import openai
+import os
+
+app = Flask(__name__)
+
+# Configurar la API key (en producción, usar variables de entorno)
+openai.api_key = os.getenv("OPENAI_API_KEY", "tu-api-key-aqui")
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/generate', methods=['POST'])
+def generate_response():
+    user_input = request.json.get('prompt', '')
+    
+    try:
+        # Llamada a la API de OpenAI
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Eres un asistente especializado en tecnología e IA."},
+                {"role": "user", "content": user_input}
+            ],
+            max_tokens=150,
+            temperature=0.7
+        )
+        
+        # Extraer la respuesta
+        ai_response = response.choices[0].message.content
+        
+        return jsonify({"response": ai_response})
+    
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+if __name__ == '__main__':
+    app.run(debug=True)
+</code></pre>
+                      </div>
+                      
+                      <p>HTML correspondiente:</p>
+                      
+                      <div class="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto">
+                        <pre><code>&lt;!-- templates/index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Asistente IA&lt;/title&gt;
+    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container mt-5"&gt;
+        &lt;h1 class="mb-4"&gt;Asistente IA&lt;/h1&gt;
+        
+        &lt;div class="mb-3"&gt;
+            &lt;label for="prompt" class="form-label"&gt;Haz una pregunta:&lt;/label&gt;
+            &lt;textarea class="form-control" id="prompt" rows="3"&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+        
+        &lt;button id="generate" class="btn btn-primary mb-4"&gt;Obtener Respuesta&lt;/button&gt;
+        
+        &lt;div id="response-container" class="card p-3 d-none"&gt;
+            &lt;h5&gt;Respuesta:&lt;/h5&gt;
+            &lt;p id="response-text"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div id="loading" class="d-none"&gt;
+            &lt;div class="spinner-border text-primary" role="status"&gt;
+                &lt;span class="visually-hidden"&gt;Cargando...&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;span class="ms-2"&gt;Generando respuesta...&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;script&gt;
+        document.getElementById('generate').addEventListener('click', async () => {
+            const promptText = document.getElementById('prompt').value;
+            if (!promptText) return;
+            
+            // Mostrar indicador de carga
+            document.getElementById('loading').classList.remove('d-none');
+            document.getElementById('response-container').classList.add('d-none');
+            
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ prompt: promptText })
+                });
+                
+                const data = await response.json();
+                
+                // Mostrar respuesta
+                document.getElementById('response-text').textContent = data.response;
+                document.getElementById('response-container').classList.remove('d-none');
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Ocurrió un error al generar la respuesta.');
+            } finally {
+                // Ocultar indicador de carga
+                document.getElementById('loading').classList.add('d-none');
+            }
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-info-circle text-yellow-600 mr-2"></i>Instrucciones de implementación</h4>
+                        <ol class="list-decimal pl-6">
+                          <li>Instalar las dependencias: <code>pip install flask openai</code></li>
+                          <li>Crear una cuenta en OpenAI y obtener una API key</li>
+                          <li>Configurar la API key como variable de entorno o directamente en el código (solo para desarrollo)</li>
+                          <li>Crear la estructura de carpetas con el archivo app.py y la carpeta templates con index.html</li>
+                          <li>Ejecutar la aplicación: <code>python app.py</code></li>
+                          <li>Acceder a la aplicación en http://localhost:5000</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Consideraciones Éticas -->
+          <div id="consideraciones" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-balance-scale" style="color: var(--primary-tech);"></i> Consideraciones Éticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Aspectos éticos en la integración de IA</h3>
+                    <div class="space-y-md">
+                      <p>La integración de IA en proyectos conlleva responsabilidades éticas importantes que deben considerarse desde las primeras etapas del desarrollo:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale-left text-red-600 mr-2"></i>Sesgo y equidad</h4>
+                          <p>Los sistemas de IA pueden perpetuar o amplificar sesgos existentes en los datos de entrenamiento, llevando a resultados discriminatorios.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Recomendación:</strong> Evaluar críticamente los datos de entrenamiento, implementar pruebas de equidad y monitorear continuamente los resultados para detectar sesgos.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-shield text-red-600 mr-2"></i>Privacidad y datos personales</h4>
+                          <p>Los sistemas de IA a menudo requieren grandes cantidades de datos, que pueden incluir información personal sensible.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Recomendación:</strong> Minimizar la recolección de datos personales, implementar técnicas de anonimización y obtener consentimiento informado de los usuarios.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-question-circle text-red-600 mr-2"></i>Transparencia y explicabilidad</h4>
+                          <p>Muchos modelos de IA funcionan como "cajas negras", dificultando la comprensión de cómo llegan a determinadas conclusiones.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Recomendación:</strong> Priorizar modelos interpretables cuando sea posible, documentar el funcionamiento del sistema y proporcionar explicaciones sobre las decisiones importantes.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Seguridad y robustez</h4>
+                          <p>Los sistemas de IA pueden ser vulnerables a ataques adversarios o comportarse de manera inesperada en situaciones no contempladas durante el desarrollo.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Recomendación:</strong> Implementar pruebas de robustez, establecer límites claros de operación y desarrollar mecanismos de supervisión humana para casos críticos.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Lista de verificación ética para proyectos de IA</h3>
+                    <div class="space-y-md">
+                      <p>Utilice esta lista de verificación para evaluar los aspectos éticos de su proyecto de integración de IA:</p>
+                      
+                      <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 mt-lg">
+                          <thead>
+                            <tr>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Categoría</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Preguntas clave</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Datos</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>¿Los datos de entrenamiento son representativos de la población objetivo?</li>
+                                  <li>¿Se han identificado y mitigado posibles sesgos en los datos?</li>
+                                  <li>¿Se respeta la privacidad y el consentimiento de las personas cuyos datos se utilizan?</li>
+                                  <li>¿Existe un plan para actualizar los datos y mantener su relevancia?</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Modelo</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>¿Se comprende cómo el modelo llega a sus conclusiones o recomendaciones?</li>
+                                  <li>¿Se han evaluado los posibles impactos negativos del modelo?</li>
+                                  <li>¿El modelo ha sido probado en diversos escenarios y con diferentes grupos de usuarios?</li>
+                                  <li>¿Existe un mecanismo para detectar y corregir errores o comportamientos no deseados?</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Implementación</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>¿Los usuarios comprenden que están interactuando con un sistema de IA?</li>
+                                  <li>¿Se proporciona información clara sobre las capacidades y limitaciones del sistema?</li>
+                                  <li>¿Existe un mecanismo para que los usuarios apelen o cuestionen las decisiones del sistema?</li>
+                                  <li>¿Se ha considerado el impacto ambiental y social de la implementación?</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Gobernanza</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>¿Existe una clara asignación de responsabilidades sobre el sistema de IA?</li>
+                                  <li>¿Se han establecido procesos para monitorear y evaluar continuamente el desempeño ético?</li>
+                                  <li>¿El proyecto cumple con las regulaciones y estándares aplicables?</li>
+                                  <li>¿Existe un plan para responder a problemas éticos que puedan surgir después del despliegue?</li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Recomendación para proyectos estudiantiles</h4>
+                        <p>Incluso en proyectos académicos o de pequeña escala, es importante considerar los aspectos éticos de la IA. Esto no solo contribuye a desarrollar soluciones más responsables, sino que también prepara a los estudiantes para abordar estos temas en su futura carrera profesional. Recomendamos incluir una sección de "Consideraciones Éticas" en la documentación del proyecto, donde se analicen los posibles impactos y las medidas tomadas para mitigar riesgos.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Conclusión -->
+          <div class="card">
+            <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+              <h2 class="text-2xl font-bold">
+                <i class="fas fa-star" style="color: var(--primary-tech);"></i> Conclusión
+              </h2>
+            </div>
+            <div class="card-body">
+              <p class="mb-md">La integración de IA en proyectos tecnológicos representa una oportunidad para crear soluciones innovadoras que aborden problemas complejos de manera más eficiente y efectiva. Sin embargo, este proceso requiere un enfoque cuidadoso que equilibre los aspectos técnicos con consideraciones éticas y centradas en el usuario.</p>
+              
+              <p class="mb-md">Al seguir las estrategias, utilizar las herramientas y aplicar las consideraciones éticas presentadas en este documento, los estudiantes estarán mejor preparados para desarrollar proyectos finales que no solo demuestren sus habilidades técnicas, sino que también reflejen una comprensión madura de las implicaciones más amplias de la tecnología de IA.</p>
+              
+              <p>Recordemos que la verdadera innovación en IA no se trata solo de implementar los algoritmos más avanzados, sino de crear soluciones que generen un impacto positivo y responsable en la sociedad. Este enfoque integral será cada vez más valorado en un mundo donde la IA continúa expandiendo su influencia en todos los aspectos de nuestra vida.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-gray-800 text-white py-8">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Conectados</h3>
+          <p>Desarrollando habilidades para el futuro digital.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="../index.html" class="hover:text-blue-400 transition">Inicio</a></li>
+            <li><a href="../tecnologicas.html" class="hover:text-blue-400 transition">Habilidades Tecnológicas</a></li>
+            <li><a href="../blandas.html" class="hover:text-blue-400 transition">Habilidades Blandas</a></li>
+            <li><a href="../guia-facilitadores-enfoque-integrado.html" class="hover:text-blue-400 transition">Guía para Facilitadores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Contacto</h3>
+          <p>info@conectados.org</p>
+          <p>+123 456 7890</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p>&copy; 2025 Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/navigation.js"></script>
+</body>
+</html>

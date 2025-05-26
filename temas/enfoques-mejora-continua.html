@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicación de Enfoques de Mejora Continua - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-sync-alt"></i> Aplicación de Enfoques de Mejora Continua
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#metodologias" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tools"></i> Metodologías
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#implementacion" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-cogs"></i> Implementación
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción a la Mejora Continua -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción a la Mejora Continua
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es la mejora continua?</h3>
+                    <div class="space-y-md">
+                      <p>La mejora continua es una filosofía y metodología que busca optimizar procesos, productos y servicios de manera constante y progresiva. A diferencia de los enfoques de cambio radical, la mejora continua se basa en pequeños ajustes incrementales que, acumulados en el tiempo, generan transformaciones significativas y sostenibles.</p>
+                      <p>Este enfoque reconoce que la perfección es un horizonte al que siempre se puede acercar más, pero nunca se alcanza completamente. Por ello, promueve una mentalidad de aprendizaje permanente, adaptación y evolución constante.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Principios fundamentales</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-friends text-blue-600 mr-2"></i>Enfoque en las personas</h4>
+                          <p>Las personas son el motor de la mejora. Su participación, compromiso y desarrollo son esenciales para el éxito.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-blue-600 mr-2"></i>Basado en datos</h4>
+                          <p>Las decisiones se toman con base en hechos y análisis objetivos, no en suposiciones o intuiciones.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-blue-600 mr-2"></i>Iteración constante</h4>
+                          <p>Ciclos repetitivos de planificación, ejecución, evaluación y ajuste que permiten avanzar progresivamente.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-blue-600 mr-2"></i>Orientación a resultados</h4>
+                          <p>Enfoque en generar valor tangible y medible para usuarios, clientes y organizaciones.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Metodologías de Mejora Continua -->
+          <div id="metodologias" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tools" style="color: var(--primary-soft);"></i> Metodologías de Mejora Continua
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Ciclo PDCA (Plan-Do-Check-Act)</h3>
+                    <div class="space-y-md">
+                      <p>También conocido como Ciclo de Deming o Ciclo de Mejora Continua, es un modelo iterativo de cuatro pasos utilizado para el control y mejora continua de procesos y productos:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-purple-600 mr-2"></i>Plan (Planificar)</h4>
+                          <p>Identificar oportunidades de mejora, analizar el proceso actual, establecer objetivos medibles y desarrollar un plan de acción.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-play text-green-600 mr-2"></i>Do (Hacer)</h4>
+                          <p>Implementar el plan a pequeña escala o como prueba piloto, documentando los problemas y observaciones durante la ejecución.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-blue-600 mr-2"></i>Check (Verificar)</h4>
+                          <p>Analizar los resultados, comparándolos con los objetivos planteados. Identificar desviaciones y lecciones aprendidas.</p>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-yellow-600 mr-2"></i>Act (Actuar)</h4>
+                          <p>Implementar mejoras basadas en los resultados. Estandarizar los cambios exitosos y comenzar un nuevo ciclo para continuar mejorando.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Kaizen</h3>
+                    <div class="space-y-md">
+                      <p>Filosofía japonesa que significa "cambio para mejor" o "mejora continua". Se enfoca en pequeñas mejoras incrementales realizadas por todos los miembros de una organización:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Participación total</h4>
+                          <p>Involucra a todas las personas, desde la dirección hasta los niveles operativos, en la identificación y solución de problemas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Mejoras incrementales</h4>
+                          <p>Prioriza pequeños cambios continuos sobre grandes transformaciones esporádicas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-trash-alt text-blue-600 mr-2"></i>Eliminación de desperdicios</h4>
+                          <p>Identifica y elimina actividades que no agregan valor (muda) en procesos y sistemas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Innovación desde la base</h4>
+                          <p>Fomenta la generación de ideas y soluciones desde quienes están más cerca de los procesos.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Lean y Six Sigma</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tachometer-alt text-yellow-600 mr-2"></i>Lean</h4>
+                          <p>Metodología enfocada en maximizar el valor para el cliente mediante la eliminación sistemática de desperdicios. Principios clave:</p>
+                          <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>Identificar valor desde la perspectiva del cliente</li>
+                            <li>Mapear el flujo de valor</li>
+                            <li>Crear flujo continuo</li>
+                            <li>Establecer sistemas pull (tirar)</li>
+                            <li>Buscar la perfección</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-bar text-green-600 mr-2"></i>Six Sigma</h4>
+                          <p>Enfoque basado en datos para eliminar defectos y reducir la variabilidad en los procesos. Utiliza la metodología DMAIC:</p>
+                          <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>D</strong>efine: Definir el problema y objetivos</li>
+                            <li><strong>M</strong>easure: Medir el desempeño actual</li>
+                            <li><strong>A</strong>nalyze: Analizar causas raíz</li>
+                            <li><strong>I</strong>mprove: Mejorar el proceso</li>
+                            <li><strong>C</strong>ontrol: Controlar el nuevo proceso</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-blue-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-sync text-blue-600 mr-2"></i>Lean Six Sigma</h4>
+                        <p>Integración de ambas metodologías, combinando la reducción de desperdicios de Lean con el enfoque en la calidad y reducción de variabilidad de Six Sigma. Especialmente útil en entornos donde se requiere tanto eficiencia como precisión.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Implementación de la Mejora Continua -->
+          <div id="implementacion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-cogs" style="color: var(--primary-soft);"></i> Implementación de la Mejora Continua
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Pasos para implementar la mejora continua</h3>
+                    <div class="space-y-md">
+                      <ol class="list-decimal pl-6 space-y-2">
+                        <li>
+                          <strong>Establecer una cultura de mejora</strong>
+                          <p>Crear un entorno donde se valore el aprendizaje, la experimentación y la búsqueda constante de oportunidades de mejora. Esto implica fomentar la comunicación abierta, la colaboración y la tolerancia al error como parte del proceso de aprendizaje.</p>
+                        </li>
+                        <li>
+                          <strong>Identificar áreas de oportunidad</strong>
+                          <p>Utilizar herramientas como análisis FODA, mapeo de procesos, encuestas de satisfacción o análisis de datos para identificar áreas que requieren mejora. Priorizar según impacto potencial y factibilidad.</p>
+                        </li>
+                        <li>
+                          <strong>Formar equipos multidisciplinarios</strong>
+                          <p>Integrar personas con diferentes perspectivas, habilidades y conocimientos para abordar los problemas de manera holística y generar soluciones más completas.</p>
+                        </li>
+                        <li>
+                          <strong>Seleccionar metodologías y herramientas</strong>
+                          <p>Elegir los enfoques más adecuados según la naturaleza del problema, el contexto organizacional y los recursos disponibles (PDCA, Kaizen, Lean, Six Sigma, etc.).</p>
+                        </li>
+                        <li>
+                          <strong>Implementar ciclos de mejora</strong>
+                          <p>Aplicar las metodologías seleccionadas en ciclos iterativos, documentando cada fase y aprendizaje para construir conocimiento organizacional.</p>
+                        </li>
+                        <li>
+                          <strong>Medir y evaluar resultados</strong>
+                          <p>Establecer métricas claras para evaluar el impacto de las mejoras implementadas, comparando el estado actual con la línea base inicial.</p>
+                        </li>
+                        <li>
+                          <strong>Estandarizar y escalar</strong>
+                          <p>Documentar y estandarizar las mejoras exitosas para asegurar su sostenibilidad, y considerar su aplicación en otras áreas o procesos similares.</p>
+                        </li>
+                        <li>
+                          <strong>Reconocer y celebrar logros</strong>
+                          <p>Valorar y reconocer los esfuerzos y resultados de mejora para mantener la motivación y reforzar la cultura de mejora continua.</p>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Herramientas para la mejora continua</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-pie text-blue-600 mr-2"></i>Herramientas de análisis</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Diagrama de Pareto (80/20)</li>
+                            <li>Diagrama de causa-efecto (Ishikawa)</li>
+                            <li>Análisis de los 5 Por qué</li>
+                            <li>Mapeo de procesos</li>
+                            <li>Análisis FODA</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-check text-blue-600 mr-2"></i>Herramientas de control</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Gráficos de control</li>
+                            <li>Listas de verificación</li>
+                            <li>Indicadores clave de desempeño (KPIs)</li>
+                            <li>Tableros de control visual</li>
+                            <li>Auditorías de proceso</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Herramientas de ideación</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Lluvia de ideas estructurada</li>
+                            <li>Método 6-3-5 (brainwriting)</li>
+                            <li>Análisis de campos de fuerza</li>
+                            <li>Técnica nominal de grupo</li>
+                            <li>Mapas mentales</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Herramientas de colaboración</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Círculos de calidad</li>
+                            <li>Sistemas de sugerencias</li>
+                            <li>Reuniones de retrospectiva</li>
+                            <li>Comunidades de práctica</li>
+                            <li>Plataformas de gestión del conocimiento</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo</h4>
+                        <p>La selección de herramientas debe adaptarse al contexto específico, la madurez del equipo y la naturaleza del problema. Es preferible dominar pocas herramientas y aplicarlas efectivamente que intentar utilizar muchas sin el conocimiento adecuado. Comience con herramientas simples y vaya incorporando otras más complejas a medida que el equipo gana experiencia.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 1: Análisis de Proceso con PDCA</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Aplicar el ciclo PDCA para mejorar un proceso relacionado con el proyecto final.</p>
+                      <p><strong>Duración:</strong> 90 minutos</p>
+                      <p><strong>Materiales:</strong> Plantillas de PDCA, notas adhesivas, marcadores, pizarra o papel grande</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Formar equipos de 3-4 personas.</li>
+                          <li>Cada equipo selecciona un proceso relacionado con su proyecto final (por ejemplo, la comunicación interna, la gestión de tareas, la toma de decisiones, etc.).</li>
+                          <li>Aplicar el ciclo PDCA:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li><strong>Plan:</strong> Mapear el proceso actual, identificar problemas o ineficiencias, establecer objetivos de mejora y desarrollar un plan de acción (30 min).</li>
+                              <li><strong>Do:</strong> Simular la implementación del plan mediante un juego de roles o prototipo rápido (20 min).</li>
+                              <li><strong>Check:</strong> Evaluar los resultados de la simulación, identificando lo que funcionó y lo que no (15 min).</li>
+                              <li><strong>Act:</strong> Ajustar el plan basándose en los aprendizajes y preparar el siguiente ciclo de mejora (15 min).</li>
+                            </ul>
+                          </li>
+                          <li>Cada equipo presenta brevemente su proceso, los problemas identificados y las mejoras propuestas (5 min por equipo).</li>
+                          <li>Discusión grupal sobre patrones comunes y aprendizajes (10 min).</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 2: Kaizen en Acción</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Aplicar principios Kaizen para identificar y eliminar desperdicios en un proceso de trabajo.</p>
+                      <p><strong>Duración:</strong> 60 minutos</p>
+                      <p><strong>Materiales:</strong> Cronómetros, materiales para simulación de proceso, plantillas de análisis</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Dividir a los participantes en equipos de 4-5 personas.</li>
+                          <li>Presentar un proceso simulado (por ejemplo, la creación de un documento colaborativo, la organización de una reunión, o el desarrollo de un prototipo simple).</li>
+                          <li>Primera ronda: Los equipos ejecutan el proceso tal como está diseñado, midiendo el tiempo y documentando cada paso (15 min).</li>
+                          <li>Análisis Kaizen: Cada equipo identifica los 7 tipos de desperdicios (muda) en el proceso:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Sobreproducción</li>
+                              <li>Tiempo de espera</li>
+                              <li>Transporte innecesario</li>
+                              <li>Sobreprocesamiento</li>
+                              <li>Exceso de inventario</li>
+                              <li>Movimientos innecesarios</li>
+                              <li>Defectos</li>
+                            </ul>
+                          </li>
+                          <li>Mejora: Los equipos rediseñan el proceso eliminando desperdicios (15 min).</li>
+                          <li>Segunda ronda: Ejecutan el proceso mejorado y miden los resultados (15 min).</li>
+                          <li>Reflexión: Comparación de resultados y discusión sobre las mejoras implementadas (15 min).</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 3: Plan de Mejora Continua para el Proyecto Final</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Desarrollar un plan de mejora continua integrado al proyecto final de habilidades blandas.</p>
+                      <p><strong>Duración:</strong> 75 minutos</p>
+                      <p><strong>Materiales:</strong> Plantilla de plan de mejora, ejemplos de indicadores, materiales de referencia</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Trabajo individual (15 min): Cada participante reflexiona sobre su proyecto final e identifica:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Procesos clave que podrían beneficiarse de la mejora continua</li>
+                              <li>Indicadores para medir el desempeño actual</li>
+                              <li>Objetivos de mejora específicos</li>
+                            </ul>
+                          </li>
+                          <li>Trabajo en parejas (20 min): Los participantes se emparejan para revisar mutuamente sus ideas y enriquecerlas con retroalimentación constructiva.</li>
+                          <li>Desarrollo del plan (30 min): Cada participante elabora un plan de mejora continua para su proyecto que incluya:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Metodología seleccionada (PDCA, Kaizen, Lean, etc.)</li>
+                              <li>Ciclos de mejora planificados</li>
+                              <li>Herramientas a utilizar</li>
+                              <li>Sistema de medición y evaluación</li>
+                              <li>Mecanismos para documentar aprendizajes</li>
+                            </ul>
+                          </li>
+                          <li>Presentaciones voluntarias (10 min): Algunos participantes comparten sus planes y reciben retroalimentación del grupo.</li>
+                        </ol>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo para facilitadores</h4>
+                        <p>Enfatice que el plan de mejora continua no es un componente adicional del proyecto, sino una metodología integrada que debe permear todo el proceso. Anime a los participantes a comenzar con objetivos modestos pero medibles, y a diseñar ciclos de mejora cortos que permitan aprender y ajustar rápidamente. Recuerde que la mejora continua es tanto una mentalidad como un conjunto de herramientas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">
+              <i class="fas fa-link" style="color: var(--primary-soft);"></i> Contenido Relacionado
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="feedback-constructivo.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-exchange-alt"></i> Feedback Constructivo</h4>
+                  <p class="text-sm">Herramientas para dar y recibir retroalimentación efectiva, esencial para la mejora continua.</p>
+                </div>
+              </a>
+              <a href="pensamiento-critico.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-brain"></i> Pensamiento Crítico</h4>
+                  <p class="text-sm">Habilidades analíticas para identificar problemas y evaluar soluciones.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Conectados</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Navegación</h3>
+            <ul class="footer-links-list">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../tecnologicas.html">Habilidades Tecnológicas</a></li>
+              <li><a href="../blandas.html">Habilidades Blandas</a></li>
+              <li><a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Recursos</h3>
+            <ul class="footer-links-list">
+              <li><a href="#">Materiales Complementarios</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+              <li><a href="#">Preguntas Frecuentes</a></li>
+              <li><a href="#">Soporte Técnico</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Programa Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('div[id]');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.chapter-nav-link').forEach(link => {
+        link.classList.remove('chapter-nav-link-active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('chapter-nav-link-active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

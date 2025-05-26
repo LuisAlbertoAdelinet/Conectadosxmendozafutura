@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planificación y Ejecución - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-tasks"></i> Planificación y Ejecución
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#planificacion" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-calendar-alt"></i> Planificación Efectiva
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#ejecucion" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-play-circle"></i> Ejecución Estratégica
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción a la Planificación y Ejecución -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción a la Planificación y Ejecución
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">La importancia de la planificación y ejecución</h3>
+                    <div class="space-y-md">
+                      <p>La planificación y ejecución son habilidades fundamentales que determinan el éxito de cualquier proyecto, tanto en entornos profesionales como personales. Estas competencias permiten transformar ideas y objetivos en resultados concretos mediante un proceso estructurado y estratégico.</p>
+                      <p>En el contexto tecnológico actual, caracterizado por la complejidad, la incertidumbre y el cambio constante, la capacidad de planificar con visión estratégica y ejecutar con disciplina y adaptabilidad se ha convertido en una ventaja competitiva esencial para profesionales y organizaciones.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">El ciclo de planificación y ejecución</h3>
+                    <div class="space-y-md">
+                      <p>La planificación y ejecución forman parte de un ciclo continuo que incluye:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-blue-600 mr-2"></i>Definición de objetivos</h4>
+                          <p>Establecer metas claras, específicas, medibles, alcanzables, relevantes y con plazos definidos (SMART).</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map text-blue-600 mr-2"></i>Planificación estratégica</h4>
+                          <p>Diseñar la hoja de ruta, identificar recursos necesarios, anticipar obstáculos y establecer indicadores de éxito.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-play text-blue-600 mr-2"></i>Ejecución disciplinada</h4>
+                          <p>Implementar el plan con enfoque, gestionar recursos eficientemente y mantener el impulso hacia los objetivos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Seguimiento y control</h4>
+                          <p>Monitorear el progreso, evaluar resultados intermedios y realizar ajustes necesarios para mantener el rumbo.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Planificación Efectiva -->
+          <div id="planificacion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-calendar-alt" style="color: var(--primary-soft);"></i> Planificación Efectiva
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Principios de la planificación efectiva</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-purple-600 mr-2"></i>Claridad de propósito</h4>
+                          <p>Definir con precisión qué se quiere lograr y por qué es importante, alineando los objetivos con valores y visión de largo plazo.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sitemap text-purple-600 mr-2"></i>Estructura jerárquica</h4>
+                          <p>Organizar objetivos en niveles (estratégicos, tácticos, operativos) y descomponerlos en metas más pequeñas y manejables.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-purple-600 mr-2"></i>Realismo y ambición</h4>
+                          <p>Equilibrar el desafío con la factibilidad, estableciendo metas que impulsen el crecimiento sin generar frustración por ser inalcanzables.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-random text-purple-600 mr-2"></i>Flexibilidad</h4>
+                          <p>Diseñar planes que puedan adaptarse a circunstancias cambiantes, incorporando puntos de revisión y alternativas para diferentes escenarios.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Metodologías de planificación</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-project-diagram text-green-600 mr-2"></i>Planificación en cascada</h4>
+                          <p>Enfoque secuencial donde cada fase debe completarse antes de iniciar la siguiente. Ideal para proyectos con requisitos estables y bien definidos.</p>
+                          <p class="mt-2 text-sm italic">Ejemplo: Desarrollo de un sistema con especificaciones claras y poco cambiantes.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-green-600 mr-2"></i>Planificación ágil</h4>
+                          <p>Enfoque iterativo e incremental que prioriza la adaptabilidad y la entrega continua de valor. Ideal para entornos dinámicos con requisitos cambiantes.</p>
+                          <p class="mt-2 text-sm italic">Ejemplo: Desarrollo de productos innovadores en mercados emergentes.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tasks text-green-600 mr-2"></i>Planificación basada en OKR</h4>
+                          <p>Objetivos y Resultados Clave (OKR) que conectan metas ambiciosas con métricas específicas de éxito. Enfatiza la alineación organizacional y la transparencia.</p>
+                          <p class="mt-2 text-sm italic">Ejemplo: Alineación de equipos en organizaciones de rápido crecimiento.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-green-600 mr-2"></i>Planificación por escenarios</h4>
+                          <p>Desarrollo de múltiples escenarios futuros plausibles para prepararse ante diferentes condiciones. Útil en entornos de alta incertidumbre.</p>
+                          <p class="mt-2 text-sm italic">Ejemplo: Planificación estratégica en industrias emergentes o volátiles.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Herramientas de planificación</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-th-list text-blue-600 mr-2"></i>Desglose de trabajo (WBS)</h4>
+                          <p>Descomposición jerárquica del trabajo total en componentes más pequeños y manejables, facilitando la estimación y asignación de recursos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-network-wired text-blue-600 mr-2"></i>Diagramas de Gantt</h4>
+                          <p>Representación visual de la programación del proyecto, mostrando actividades, duraciones, secuencias y dependencias en una línea de tiempo.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-project-diagram text-blue-600 mr-2"></i>Método del camino crítico (CPM)</h4>
+                          <p>Identificación de la secuencia de actividades que determina la duración mínima del proyecto y las tareas que no pueden retrasarse sin afectar el plazo total.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-calendar-check text-blue-600 mr-2"></i>Tableros Kanban</h4>
+                          <p>Sistema visual para gestionar el flujo de trabajo, limitando el trabajo en progreso y optimizando la eficiencia del proceso.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Consejo</h4>
+                        <p>La elección de metodologías y herramientas debe adaptarse a la naturaleza del proyecto, la cultura organizacional y el contexto específico. No existe un enfoque único que funcione para todas las situaciones. Lo más efectivo suele ser combinar elementos de diferentes metodologías según las necesidades particulares.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ejecución Estratégica -->
+          <div id="ejecucion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-play-circle" style="color: var(--primary-soft);"></i> Ejecución Estratégica
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">De la planificación a la acción</h3>
+                    <div class="space-y-md">
+                      <p>La ejecución es el puente entre la planificación y los resultados. Incluso los planes mejor diseñados fracasan sin una ejecución disciplinada y estratégica. La transición efectiva de la planificación a la acción requiere:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-flag-checkered text-blue-600 mr-2"></i>Priorización clara</h4>
+                          <p>Identificar las actividades de mayor impacto y enfocarse en ellas primero, utilizando matrices como Urgente/Importante o técnicas como MoSCoW (Must, Should, Could, Won't).</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users-cog text-blue-600 mr-2"></i>Asignación efectiva</h4>
+                          <p>Distribuir responsabilidades según capacidades, intereses y disponibilidad, asegurando claridad en roles y expectativas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tachometer-alt text-blue-600 mr-2"></i>Ritmo sostenible</h4>
+                          <p>Establecer cadencia de trabajo que mantenga el impulso sin provocar agotamiento, alternando períodos de alta intensidad con recuperación.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-bar text-blue-600 mr-2"></i>Métricas de progreso</h4>
+                          <p>Definir indicadores claros para medir avances, preferiblemente visibles para todo el equipo para fomentar responsabilidad compartida.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Barreras comunes en la ejecución</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Parálisis por análisis</h4>
+                          <p>Quedarse atrapado en la planificación excesiva, buscando perfección en lugar de avanzar con información suficiente.</p>
+                          <p class="mt-2 text-sm"><strong>Solución:</strong> Adoptar enfoque de "producto mínimo viable" y ciclos de retroalimentación rápidos.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Multitarea ineficiente</h4>
+                          <p>Dividir atención entre demasiadas actividades simultáneas, reduciendo productividad y calidad en todas ellas.</p>
+                          <p class="mt-2 text-sm"><strong>Solución:</strong> Limitar trabajo en progreso y practicar enfoque en bloques de tiempo dedicados.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Desalineación de equipos</h4>
+                          <p>Falta de comprensión compartida sobre prioridades, objetivos o métodos de trabajo entre miembros del equipo.</p>
+                          <p class="mt-2 text-sm"><strong>Solución:</strong> Implementar reuniones regulares de alineación y visualizar objetivos compartidos.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Resistencia al cambio</h4>
+                          <p>Dificultad para adaptar planes cuando las circunstancias cambian, aferrándose a enfoques que ya no son efectivos.</p>
+                          <p class="mt-2 text-sm"><strong>Solución:</strong> Incorporar puntos de revisión regulares y fomentar cultura de experimentación.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Disciplina de ejecución</h3>
+                    <div class="space-y-md">
+                      <p>La disciplina de ejecución se basa en cuatro principios fundamentales:</p>
+                      <ol class="list-decimal pl-6 space-y-2">
+                        <li>
+                          <strong>Enfocarse en lo wildly important (crucialmente importante)</strong>
+                          <p>Identificar y priorizar un número muy limitado de metas críticas (1-3) que tendrán el mayor impacto, en lugar de dispersar esfuerzos en múltiples iniciativas.</p>
+                        </li>
+                        <li>
+                          <strong>Actuar sobre medidas de predicción</strong>
+                          <p>Identificar y monitorear indicadores adelantados (leading indicators) que predicen el éxito futuro, no solo resultados pasados. Estos indicadores deben ser influenciables por el equipo.</p>
+                        </li>
+                        <li>
+                          <strong>Mantener un tablero de puntuación convincente</strong>
+                          <p>Crear visualizaciones simples y accesibles que muestren claramente si se está "ganando o perdiendo" en tiempo real, fomentando la responsabilidad y el compromiso.</p>
+                        </li>
+                        <li>
+                          <strong>Crear un ritmo de rendición de cuentas</strong>
+                          <p>Establecer un sistema regular y frecuente de revisión donde los miembros del equipo rindan cuentas de sus compromisos y planifiquen acciones para la siguiente semana.</p>
+                        </li>
+                      </ol>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo</h4>
+                        <p>La clave de la ejecución efectiva no es la perfección, sino la consistencia. Es preferible avanzar con imperfecciones y ajustar sobre la marcha que buscar la solución perfecta antes de actuar. Como dice el proverbio: "El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora."</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 1: Planificación Inversa</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Desarrollar habilidades de planificación estratégica trabajando desde el resultado deseado hacia atrás.</p>
+                      <p><strong>Duración:</strong> 45 minutos</p>
+                      <p><strong>Materiales:</strong> Papel grande o pizarra, notas adhesivas, marcadores</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Formar equipos de 3-4 personas.</li>
+                          <li>Cada equipo selecciona un objetivo ambicioso relacionado con su proyecto final (por ejemplo, "Implementar un sistema de comunicación que mejore la colaboración en equipos remotos en un 50%").</li>
+                          <li>En el extremo derecho del papel, escribir el resultado final deseado con el máximo detalle posible.</li>
+                          <li>Trabajando hacia atrás:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Identificar el último paso necesario antes de alcanzar el resultado final</li>
+                              <li>Continuar retrocediendo, identificando cada paso previo necesario</li>
+                              <li>Para cada paso, determinar recursos necesarios, posibles obstáculos y estrategias para superarlos</li>
+                            </ul>
+                          </li>
+                          <li>Revisar el plan completo para identificar:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Dependencias críticas</li>
+                              <li>Cuellos de botella potenciales</li>
+                              <li>Oportunidades para paralelizar actividades</li>
+                            </ul>
+                          </li>
+                          <li>Cada equipo presenta su plan inverso, recibiendo retroalimentación del grupo.</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 2: Simulación de Ejecución bajo Presión</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Practicar habilidades de ejecución en entornos con limitaciones y cambios inesperados.</p>
+                      <p><strong>Duración:</strong> 60 minutos</p>
+                      <p><strong>Materiales:</strong> Materiales diversos para construcción (papel, cartulina, cinta adhesiva, clips, etc.), cronómetro, tarjetas con "eventos inesperados"</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Dividir a los participantes en equipos de 4-5 personas.</li>
+                          <li>Presentar un desafío de construcción (por ejemplo, "Construir la estructura más alta que pueda sostener un libro en su parte superior").</li>
+                          <li>Fase de planificación (15 minutos):
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Equipos planifican su enfoque, asignan roles y diseñan su estructura</li>
+                              <li>Deben crear un plan detallado con cronograma</li>
+                            </ul>
+                          </li>
+                          <li>Fase de ejecución (30 minutos):
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Equipos construyen según su plan</li>
+                              <li>Cada 5 minutos, se introduce un "evento inesperado" (por ejemplo, "Perdieron acceso a la cinta adhesiva", "Deben incorporar un nuevo requisito", "Uno de los miembros no puede usar las manos")</li>
+                              <li>Los equipos deben adaptar su plan y continuar la ejecución</li>
+                            </ul>
+                          </li>
+                          <li>Evaluación (15 minutos):
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Medir resultados según criterios predefinidos</li>
+                              <li>Cada equipo reflexiona sobre su proceso: ¿Qué funcionó bien? ¿Qué no? ¿Cómo manejaron los cambios?</li>
+                              <li>Discusión grupal sobre estrategias efectivas de ejecución bajo presión</li>
+                            </ul>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 3: Plan de Acción Personal</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Desarrollar un plan de acción personal para aplicar principios de planificación y ejecución al proyecto final.</p>
+                      <p><strong>Duración:</strong> 45 minutos</p>
+                      <p><strong>Materiales:</strong> Plantilla de plan de acción, ejemplos de planes efectivos</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Trabajo individual (30 minutos): Cada participante crea un plan de acción personal que incluye:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Objetivo SMART para su contribución al proyecto final</li>
+                              <li>Desglose de tareas con fechas límite</li>
+                              <li>Recursos necesarios y cómo obtenerlos</li>
+                              <li>Potenciales obstáculos y estrategias para superarlos</li>
+                              <li>Indicadores de progreso (medidas de predicción)</li>
+                              <li>Sistema personal de rendición de cuentas</li>
+                            </ul>
+                          </li>
+                          <li>Revisión en parejas (15 minutos): Los participantes intercambian planes y proporcionan retroalimentación constructiva:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>¿Es el plan específico y accionable?</li>
+                              <li>¿Identifica adecuadamente recursos y obstáculos?</li>
+                              <li>¿Son realistas los plazos?</li>
+                              <li>¿Cómo podría mejorarse?</li>
+                            </ul>
+                          </li>
+                        </ol>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo para facilitadores</h4>
+                        <p>Enfatice que un plan de acción efectivo debe ser un documento vivo que se revisa y ajusta regularmente. Anime a los participantes a programar revisiones semanales de su plan y a celebrar los hitos alcanzados. Recuerde que la planificación y ejecución son habilidades que mejoran con la práctica deliberada y la reflexión constante sobre lo que funciona y lo que no.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">
+              <i class="fas fa-link" style="color: var(--primary-soft);"></i> Contenido Relacionado
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="trabajo-equipo-efectivo.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-users"></i> Trabajo en Equipo Efectivo</h4>
+                  <p class="text-sm">Estrategias para colaborar eficazmente en la planificación y ejecución de proyectos grupales.</p>
+                </div>
+              </a>
+              <a href="enfoques-mejora-continua.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-sync-alt"></i> Enfoques de Mejora Continua</h4>
+                  <p class="text-sm">Metodologías para optimizar procesos y resultados de manera sistemática.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Conectados</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Navegación</h3>
+            <ul class="footer-links-list">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../tecnologicas.html">Habilidades Tecnológicas</a></li>
+              <li><a href="../blandas.html">Habilidades Blandas</a></li>
+              <li><a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Recursos</h3>
+            <ul class="footer-links-list">
+              <li><a href="#">Materiales Complementarios</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+              <li><a href="#">Preguntas Frecuentes</a></li>
+              <li><a href="#">Soporte Técnico</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Programa Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('div[id]');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.chapter-nav-link').forEach(link => {
+        link.classList.remove('chapter-nav-link-active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('chapter-nav-link-active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajo en Equipo Efectivo - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-users"></i> Trabajo en Equipo Efectivo: Roles y Sinergia
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#roles" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-user-tag"></i> Roles en Equipos
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#sinergia" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-puzzle-piece"></i> Creando Sinergia
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción al Trabajo en Equipo -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción al Trabajo en Equipo Efectivo
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es el trabajo en equipo efectivo?</h3>
+                    <div class="space-y-md">
+                      <p>El trabajo en equipo efectivo es la capacidad de un grupo de personas para colaborar de manera coordinada, aprovechando las fortalezas individuales para lograr objetivos comunes. Va más allá de simplemente trabajar juntos; implica crear un ambiente donde la suma de los esfuerzos produce resultados superiores a los que se obtendrían individualmente.</p>
+                      <p>Un equipo efectivo no solo cumple con sus objetivos, sino que también fomenta el crecimiento personal y profesional de sus miembros, mantiene un clima positivo y se adapta a los cambios y desafíos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Características de los equipos efectivos</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-blue-600 mr-2"></i>Propósito claro</h4>
+                          <p>Todos los miembros comprenden y están comprometidos con los objetivos del equipo.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-blue-600 mr-2"></i>Comunicación abierta</h4>
+                          <p>Intercambio de ideas, opiniones y feedback de manera honesta y respetuosa.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-handshake text-blue-600 mr-2"></i>Confianza mutua</h4>
+                          <p>Los miembros confían en las capacidades y el compromiso de sus compañeros.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-blue-600 mr-2"></i>Responsabilidad compartida</h4>
+                          <p>Cada miembro asume su parte y se siente responsable del resultado colectivo.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-cogs text-blue-600 mr-2"></i>Procesos eficientes</h4>
+                          <p>Métodos de trabajo claros y efectivos para la toma de decisiones y resolución de problemas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Mejora continua</h4>
+                          <p>Reflexión regular sobre el desempeño y adaptación para mejorar constantemente.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Roles en Equipos -->
+          <div id="roles" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-user-tag" style="color: var(--primary-soft);"></i> Roles en Equipos
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">El modelo de roles de equipo de Belbin</h3>
+                    <div class="space-y-md">
+                      <p>El Dr. Meredith Belbin identificó nueve roles que las personas tienden a adoptar en equipos. Cada rol tiene fortalezas y debilidades características, y los equipos más efectivos suelen tener un buen equilibrio de estos roles.</p>
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Roles de pensamiento</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Cerebro:</strong> Creativo, imaginativo, genera ideas innovadoras</li>
+                            <li><strong>Monitor Evaluador:</strong> Analítico, estratégico, evalúa opciones objetivamente</li>
+                            <li><strong>Especialista:</strong> Aporta conocimiento técnico específico y profundo</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-green-600 mr-2"></i>Roles sociales</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Coordinador:</strong> Clarifica metas, promueve la toma de decisiones</li>
+                            <li><strong>Cohesionador:</strong> Fomenta el espíritu de equipo, resuelve conflictos</li>
+                            <li><strong>Investigador de Recursos:</strong> Explora oportunidades, desarrolla contactos</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tasks text-blue-600 mr-2"></i>Roles de acción</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Impulsor:</strong> Desafía al equipo, busca superar obstáculos</li>
+                            <li><strong>Implementador:</strong> Convierte ideas en acciones prácticas</li>
+                            <li><strong>Finalizador:</strong> Asegura que se cumplan los plazos y estándares</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Identificación y aprovechamiento de roles</h3>
+                    <div class="space-y-md">
+                      <p>Comprender los roles naturales de cada miembro del equipo permite:</p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li>Asignar tareas que aprovechen las fortalezas individuales</li>
+                        <li>Identificar y abordar posibles brechas en la composición del equipo</li>
+                        <li>Anticipar y mitigar conflictos basados en diferencias de estilo</li>
+                        <li>Fomentar la complementariedad entre los miembros</li>
+                      </ul>
+                      
+                      <div class="p-4 bg-purple-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-purple-600 mr-2"></i>Consejo</h4>
+                        <p>La mayoría de las personas pueden desempeñar varios roles, aunque suelen tener preferencias naturales. En equipos pequeños, es común que los miembros asuman múltiples roles para cubrir todas las necesidades del equipo.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Creando Sinergia -->
+          <div id="sinergia" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-puzzle-piece" style="color: var(--primary-soft);"></i> Creando Sinergia
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es la sinergia?</h3>
+                    <div class="space-y-md">
+                      <p>La sinergia es el fenómeno por el cual el resultado del trabajo conjunto es mayor que la suma de los esfuerzos individuales. En términos matemáticos: 1+1=3 o más. Ocurre cuando las fortalezas de cada miembro se complementan y potencian mutuamente.</p>
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-quote-left text-green-600 mr-2"></i>Ejemplo de sinergia</h4>
+                        <p>Un equipo de desarrollo de software donde una persona destaca en diseño de interfaz, otra en arquitectura de sistemas y otra en pruebas de calidad. Trabajando juntos, pueden crear un producto mucho mejor que si cada uno intentara hacer todo por su cuenta.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Estrategias para crear sinergia</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map text-blue-600 mr-2"></i>Establecer objetivos claros</h4>
+                          <p>Definir metas compartidas que sean específicas, medibles, alcanzables, relevantes y con plazos definidos (SMART).</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sitemap text-blue-600 mr-2"></i>Definir roles y responsabilidades</h4>
+                          <p>Asignar tareas según las fortalezas de cada miembro, asegurando que todos entiendan su contribución.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-blue-600 mr-2"></i>Fomentar la comunicación abierta</h4>
+                          <p>Crear espacios seguros para compartir ideas, preocupaciones y feedback constructivo.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-handshake text-blue-600 mr-2"></i>Construir confianza</h4>
+                          <p>Promover actividades que fortalezcan las relaciones interpersonales y la confianza mutua.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-award text-blue-600 mr-2"></i>Celebrar los logros</h4>
+                          <p>Reconocer tanto los éxitos individuales como los colectivos para reforzar el compromiso.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-blue-600 mr-2"></i>Reflexionar y adaptar</h4>
+                          <p>Realizar revisiones periódicas para evaluar el funcionamiento del equipo y ajustar lo necesario.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 1: Identificación de roles</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Reconocer los roles naturales de cada miembro del equipo.</p>
+                      <p><strong>Instrucciones:</strong></p>
+                      <ol class="list-decimal pl-6 space-y-2">
+                        <li>Cada participante completa un cuestionario de roles de equipo (basado en el modelo de Belbin).</li>
+                        <li>Se comparten y discuten los resultados en grupo.</li>
+                        <li>Cada persona identifica:
+                          <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>Sus roles predominantes</li>
+                            <li>Cómo estos roles se manifiestan en su comportamiento habitual</li>
+                            <li>Cómo pueden aprovechar sus fortalezas para contribuir al equipo</li>
+                          </ul>
+                        </li>
+                        <li>El grupo analiza la composición general, identificando fortalezas colectivas y posibles brechas.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 2: Desafío de construcción en equipo</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Experimentar la sinergia y la importancia de los diferentes roles.</p>
+                      <p><strong>Instrucciones:</strong></p>
+                      <ol class="list-decimal pl-6 space-y-2">
+                        <li>Se divide a los participantes en equipos de 4-6 personas.</li>
+                        <li>Cada equipo recibe materiales básicos (papel, cinta adhesiva, clips, etc.).</li>
+                        <li>Se asigna un desafío de construcción (ej. la estructura más alta que pueda sostener un libro).</li>
+                        <li>Los equipos tienen 20 minutos para planificar y construir.</li>
+                        <li>Después de la actividad, cada equipo reflexiona sobre:
+                          <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>¿Qué roles emergieron naturalmente durante la actividad?</li>
+                            <li>¿Cómo se tomaron las decisiones?</li>
+                            <li>¿Qué funcionó bien y qué podría mejorarse?</li>
+                            <li>¿Cómo se manifestó (o no) la sinergia?</li>
+                          </ul>
+                        </li>
+                      </ol>
+                      <div class="p-4 bg-blue-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-comments text-blue-600 mr-2"></i>Reflexión grupal</h4>
+                        <p>¿Qué aprendizajes de esta actividad pueden aplicarse a los proyectos reales del equipo? ¿Cómo pueden aprovechar mejor la diversidad de roles y crear mayor sinergia?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">Contenido Relacionado</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="comunicacion-asertiva.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-comments" style="color: var(--primary-soft);"></i> Comunicación Asertiva
+                  </h4>
+                  <p>Técnicas para expresar opiniones y sentimientos de manera respetuosa y efectiva.</p>
+                </div>
+              </a>
+              <a href="negociacion-manejo-conflictos.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold mb-sm">
+                    <i class="fas fa-handshake" style="color: var(--primary-soft);"></i> Negociación y Manejo de Conflictos
+                  </h4>
+                  <p>Estrategias para resolver diferencias y llegar a acuerdos beneficiosos para todas las partes.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="../img/favicon.png" alt="Conectados Logo" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">
+            Conectados
+          </div>
+          <p>Programa de formación integral en habilidades tecnológicas y blandas.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Explorar</h4>
+          <div class="footer-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../tecnologicas.html">Habilidades Tecnológicas</a>
+            <a href="../blandas.html">Habilidades Blandas</a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-nav-title">Recursos</h4>
+          <div class="footer-nav">
+            <a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Conectados por Mendoza Futura</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mobile menu toggle
+      const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      
+      if (mobileMenuToggle && navLinks) {
+        mobileMenuToggle.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+        });
+      }
+      
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update active nav link
+            document.querySelectorAll('.chapter-nav-link').forEach(link => {
+              link.classList.remove('chapter-nav-link-active');
+            });
+            this.classList.add('chapter-nav-link-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

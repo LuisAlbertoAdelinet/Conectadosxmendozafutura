@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Taller: Mi Presentación Efectiva - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-chalkboard-teacher"></i> Mini Taller II: "Mi Presentación Efectiva"
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#elementos" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-puzzle-piece"></i> Elementos Clave
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#estructura" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-sitemap"></i> Estructura del Taller
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#implementacion" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-cogs"></i> Implementación
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción al Mini Taller -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción al Mini Taller
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es "Mi Presentación Efectiva"?</h3>
+                    <div class="space-y-md">
+                      <p>"Mi Presentación Efectiva" es un mini taller práctico diseñado para desarrollar habilidades de comunicación oral y presentación en entornos profesionales tecnológicos. Este taller brinda a los participantes la oportunidad de crear, practicar y perfeccionar una presentación breve sobre un tema técnico o proyecto, aplicando principios de comunicación efectiva y diseño visual.</p>
+                      <p>A diferencia de un curso teórico sobre presentaciones, este mini taller se centra en la práctica inmediata y la retroalimentación constructiva, permitiendo a los participantes mejorar sus habilidades en un entorno seguro y colaborativo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Importancia de las presentaciones efectivas en tecnología</h3>
+                    <div class="space-y-md">
+                      <p>En el ámbito tecnológico, la capacidad de comunicar ideas complejas de manera clara y persuasiva es tan importante como el dominio técnico. Las presentaciones efectivas son fundamentales para:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-project-diagram text-blue-600 mr-2"></i>Presentación de proyectos</h4>
+                          <p>Comunicar avances, resultados y propuestas a equipos y stakeholders.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Pitch de ideas</h4>
+                          <p>Convencer a otros sobre el valor de nuevas ideas o soluciones tecnológicas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Capacitación de usuarios</h4>
+                          <p>Explicar el funcionamiento de sistemas o aplicaciones a usuarios finales.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Presentación de datos</h4>
+                          <p>Transformar datos complejos en narrativas comprensibles y accionables.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Elementos Clave de una Presentación Efectiva -->
+          <div id="elementos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-puzzle-piece" style="color: var(--primary-soft);"></i> Elementos Clave de una Presentación Efectiva
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">El modelo AIDA para estructurar presentaciones</h3>
+                    <div class="space-y-md">
+                      <p>El modelo AIDA proporciona un marco efectivo para estructurar presentaciones persuasivas:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-eye text-purple-600 mr-2"></i>Atención</h4>
+                          <p>Captar el interés de la audiencia desde el primer momento con un gancho efectivo: una estadística sorprendente, una pregunta provocativa, una anécdota relevante o una demostración impactante.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-heart text-purple-600 mr-2"></i>Interés</h4>
+                          <p>Mantener el interés explicando por qué el tema es relevante para la audiencia específica, conectando con sus necesidades, desafíos o aspiraciones.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-hand-pointer text-purple-600 mr-2"></i>Deseo</h4>
+                          <p>Generar deseo presentando beneficios claros, evidencias convincentes y ejemplos concretos que demuestren el valor de la idea o solución propuesta.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-running text-purple-600 mr-2"></i>Acción</h4>
+                          <p>Concluir con un llamado a la acción claro, indicando los pasos específicos que la audiencia debe seguir después de la presentación.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Principios de diseño visual</h3>
+                    <div class="space-y-md">
+                      <p>El diseño visual de las diapositivas o materiales de apoyo debe seguir estos principios:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-minus-circle text-green-600 mr-2"></i>Minimalismo</h4>
+                          <p>Menos es más. Cada diapositiva debe comunicar una sola idea principal, evitando la sobrecarga de información.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-align-left text-green-600 mr-2"></i>Jerarquía visual</h4>
+                          <p>Usar tamaños, colores y posicionamiento para guiar la atención de la audiencia hacia los elementos más importantes.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-image text-green-600 mr-2"></i>Visualización de datos</h4>
+                          <p>Transformar números y estadísticas en gráficos claros y significativos que comuniquen patrones y tendencias.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-palette text-green-600 mr-2"></i>Consistencia</h4>
+                          <p>Mantener un estilo visual coherente en toda la presentación: fuentes, colores, iconos y disposición de elementos.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Habilidades de comunicación verbal y no verbal</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-volume-up text-blue-600 mr-2"></i>Voz</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Volumen:</strong> Adecuado al espacio y audiencia</li>
+                            <li><strong>Ritmo:</strong> Variado para mantener el interés</li>
+                            <li><strong>Tono:</strong> Expresivo, evitando la monotonía</li>
+                            <li><strong>Pausas:</strong> Estratégicas para enfatizar puntos clave</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-walking text-blue-600 mr-2"></i>Lenguaje corporal</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Postura:</strong> Erguida y abierta</li>
+                            <li><strong>Gestos:</strong> Naturales y enfáticos</li>
+                            <li><strong>Contacto visual:</strong> Distribuido entre toda la audiencia</li>
+                            <li><strong>Movimiento:</strong> Intencional y con propósito</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comment text-blue-600 mr-2"></i>Lenguaje</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Claridad:</strong> Términos precisos y definiciones cuando sea necesario</li>
+                            <li><strong>Accesibilidad:</strong> Adaptado al nivel de conocimiento de la audiencia</li>
+                            <li><strong>Concisión:</strong> Directo y sin divagaciones</li>
+                            <li><strong>Narrativa:</strong> Uso de historias para ilustrar conceptos complejos</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Conexión con la audiencia</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Empatía:</strong> Comprender sus necesidades e intereses</li>
+                            <li><strong>Interacción:</strong> Preguntas, encuestas o actividades breves</li>
+                            <li><strong>Adaptabilidad:</strong> Ajustar el enfoque según las reacciones</li>
+                            <li><strong>Autenticidad:</strong> Mostrar pasión genuina por el tema</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Estructura del Taller -->
+          <div id="estructura" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-sitemap" style="color: var(--primary-soft);"></i> Estructura del Taller
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Cronograma del mini taller (3 horas)</h3>
+                    <div class="space-y-md">
+                      <div class="overflow-x-auto">
+                        <table class="w-full border-collapse">
+                          <thead>
+                            <tr class="bg-gray-100">
+                              <th class="border p-2 text-left">Tiempo</th>
+                              <th class="border p-2 text-left">Actividad</th>
+                              <th class="border p-2 text-left">Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="border p-2">20 min</td>
+                              <td class="border p-2"><strong>Introducción y ejemplos</strong></td>
+                              <td class="border p-2">Presentación de conceptos clave y análisis de ejemplos de presentaciones efectivas e inefectivas.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">30 min</td>
+                              <td class="border p-2"><strong>Selección de temas y planificación</strong></td>
+                              <td class="border p-2">Los participantes eligen un tema técnico y crean un esquema utilizando el modelo AIDA.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">45 min</td>
+                              <td class="border p-2"><strong>Creación de contenido</strong></td>
+                              <td class="border p-2">Desarrollo de diapositivas o materiales de apoyo aplicando principios de diseño visual.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">30 min</td>
+                              <td class="border p-2"><strong>Práctica en parejas</strong></td>
+                              <td class="border p-2">Ensayo de presentaciones en parejas con retroalimentación mutua.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">45 min</td>
+                              <td class="border p-2"><strong>Presentaciones</strong></td>
+                              <td class="border p-2">Cada participante realiza su presentación de 3-5 minutos ante el grupo.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">10 min</td>
+                              <td class="border p-2"><strong>Retroalimentación grupal</strong></td>
+                              <td class="border p-2">Feedback constructivo del grupo y facilitadores para cada presentación.</td>
+                            </tr>
+                            <tr>
+                              <td class="border p-2">10 min</td>
+                              <td class="border p-2"><strong>Reflexión y cierre</strong></td>
+                              <td class="border p-2">Discusión sobre aprendizajes clave y plan de mejora continua.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Requisitos para los participantes</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop text-yellow-600 mr-2"></i>Materiales</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Computadora con software de presentaciones (PowerPoint, Google Slides, etc.)</li>
+                            <li>Notas o documentación sobre un proyecto o tema técnico para presentar</li>
+                            <li>Opcional: dispositivo para grabar su presentación para autoevaluación</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-check text-yellow-600 mr-2"></i>Preparación previa</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Identificar 2-3 posibles temas técnicos para su presentación</li>
+                            <li>Reflexionar sobre sus fortalezas y áreas de mejora en presentaciones</li>
+                            <li>Revisar ejemplos de presentaciones en su campo de interés</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo</h4>
+                        <p>Anime a los participantes a elegir un tema que realmente les apasione o en el que tengan experiencia directa. La autenticidad y el entusiasmo genuino son elementos clave para una presentación efectiva.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Implementación del Taller -->
+          <div id="implementacion">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-cogs" style="color: var(--primary-soft);"></i> Implementación del Taller
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Rol del facilitador</h3>
+                    <div class="space-y-md">
+                      <p>El facilitador del mini taller debe:</p>
+                      <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Modelar:</strong> Comenzar con una presentación ejemplar que demuestre los principios que se enseñarán.</li>
+                        <li><strong>Guiar:</strong> Proporcionar instrucciones claras y apoyo durante cada fase del taller.</li>
+                        <li><strong>Observar:</strong> Identificar patrones y desafíos comunes entre los participantes.</li>
+                        <li><strong>Retroalimentar:</strong> Ofrecer feedback específico, constructivo y orientado al crecimiento.</li>
+                        <li><strong>Adaptar:</strong> Ajustar el ritmo y enfoque según las necesidades del grupo.</li>
+                      </ul>
+                      
+                      <div class="p-4 bg-blue-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-circle text-blue-600 mr-2"></i>Importante</h4>
+                        <p>El facilitador debe crear un ambiente seguro donde los participantes se sientan cómodos para practicar y recibir retroalimentación. Enfatice que el objetivo es el aprendizaje y la mejora, no la perfección.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Guía para la retroalimentación constructiva</h3>
+                    <div class="space-y-md">
+                      <p>Para que la retroalimentación sea efectiva, tanto facilitadores como participantes deben seguir estas pautas:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-check text-green-600 mr-2"></i>Prácticas recomendadas</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Ser específico y descriptivo</li>
+                            <li>Equilibrar aspectos positivos y áreas de mejora</li>
+                            <li>Enfocarse en comportamientos observables</li>
+                            <li>Ofrecer sugerencias accionables</li>
+                            <li>Usar un tono constructivo y respetuoso</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-times text-red-600 mr-2"></i>Prácticas a evitar</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Generalizar ("siempre", "nunca")</li>
+                            <li>Enfocarse solo en aspectos negativos</li>
+                            <li>Hacer comentarios sobre la persona en lugar de su presentación</li>
+                            <li>Comparar con otros participantes</li>
+                            <li>Usar un tono crítico o condescendiente</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-purple-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-purple-600 mr-2"></i>Estructura sugerida para el feedback</h4>
+                        <ol class="list-decimal pl-6 space-y-1">
+                          <li>Comenzar con aspectos positivos específicos</li>
+                          <li>Identificar 1-2 áreas de mejora prioritarias</li>
+                          <li>Ofrecer sugerencias concretas para abordar esas áreas</li>
+                          <li>Concluir con un comentario alentador</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Integración con habilidades tecnológicas</h3>
+                    <div class="space-y-md">
+                      <p>Este mini taller ofrece excelentes oportunidades para integrar habilidades tecnológicas y blandas:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop-code text-blue-600 mr-2"></i>Herramientas tecnológicas</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Software de presentaciones avanzado</li>
+                            <li>Herramientas de visualización de datos</li>
+                            <li>Plataformas de colaboración en tiempo real</li>
+                            <li>Aplicaciones para grabación y análisis de presentaciones</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-purple-600 mr-2"></i>Conexiones con otras habilidades blandas</h4>
+                          <ul class="list-disc pl-6 space-y-1">
+                            <li>Comunicación asertiva</li>
+                            <li>Pensamiento crítico para estructurar argumentos</li>
+                            <li>Inteligencia emocional para conectar con la audiencia</li>
+                            <li>Gestión del tiempo durante la presentación</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Sugerencia para facilitadores</h4>
+                        <p>Destaque cómo las habilidades desarrolladas en este taller son transferibles a múltiples contextos profesionales, desde presentaciones formales hasta reuniones de equipo, entrevistas de trabajo o explicaciones técnicas a clientes. Enfatice que la capacidad de comunicar ideas técnicas de manera efectiva es un diferenciador clave en la carrera profesional.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">
+              <i class="fas fa-link" style="color: var(--primary-soft);"></i> Contenido Relacionado
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="comunicacion-asertiva.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-comments"></i> Comunicación Asertiva</h4>
+                  <p class="text-sm">Técnicas para una comunicación clara y respetuosa en diversos contextos.</p>
+                </div>
+              </a>
+              <a href="feedback-constructivo.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-exchange-alt"></i> Feedback Constructivo</h4>
+                  <p class="text-sm">Aprende a dar y recibir retroalimentación de manera efectiva.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Conectados</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Navegación</h3>
+            <ul class="footer-links-list">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../tecnologicas.html">Habilidades Tecnológicas</a></li>
+              <li><a href="../blandas.html">Habilidades Blandas</a></li>
+              <li><a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Recursos</h3>
+            <ul class="footer-links-list">
+              <li><a href="#">Materiales Complementarios</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+              <li><a href="#">Preguntas Frecuentes</a></li>
+              <li><a href="#">Soporte Técnico</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Programa Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('div[id]');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.chapter-nav-link').forEach(link => {
+        link.classList.remove('chapter-nav-link-active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('chapter-nav-link-active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

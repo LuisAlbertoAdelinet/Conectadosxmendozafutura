@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inteligencia Cultural - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-globe"></i> Inteligencia Cultural: Adaptación a Diferentes Contextos
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#dimensiones" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-cubes"></i> Dimensiones
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#desarrollo" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-chart-line"></i> Desarrollo
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción a la Inteligencia Cultural -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción a la Inteligencia Cultural
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es la Inteligencia Cultural?</h3>
+                    <div class="space-y-md">
+                      <p>La inteligencia cultural (IC) es la capacidad de funcionar eficazmente en entornos culturalmente diversos. Va más allá del simple conocimiento de diferencias culturales; implica la habilidad de adaptarse, comunicarse y trabajar productivamente con personas de diferentes orígenes culturales, nacionalidades, etnias o incluso diferentes entornos organizacionales.</p>
+                      <p>En un mundo cada vez más globalizado y conectado, la inteligencia cultural se ha convertido en una habilidad esencial tanto para el desarrollo personal como profesional, permitiendo navegar con éxito en la diversidad cultural que caracteriza los entornos laborales, educativos y sociales contemporáneos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Importancia en el entorno tecnológico actual</h3>
+                    <div class="space-y-md">
+                      <p>En el sector tecnológico, la inteligencia cultural cobra especial relevancia por varias razones:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Equipos globales</h4>
+                          <p>Los proyectos tecnológicos frecuentemente involucran equipos distribuidos en diferentes países y zonas horarias.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop-code text-blue-600 mr-2"></i>Desarrollo de productos</h4>
+                          <p>Crear soluciones tecnológicas para mercados globales requiere entender las necesidades y preferencias culturales de los usuarios.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-handshake text-blue-600 mr-2"></i>Colaboración remota</h4>
+                          <p>El trabajo remoto exige habilidades de comunicación intercultural efectivas para evitar malentendidos.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-blue-600 mr-2"></i>Innovación</h4>
+                          <p>La diversidad cultural fomenta la innovación al aportar diferentes perspectivas y enfoques para resolver problemas.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Dimensiones de la Inteligencia Cultural -->
+          <div id="dimensiones" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-cubes" style="color: var(--primary-soft);"></i> Dimensiones de la Inteligencia Cultural
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Las cuatro dimensiones de la IC</h3>
+                    <div class="space-y-md">
+                      <p>Según el modelo desarrollado por los investigadores Soon Ang y Linn Van Dyne, la inteligencia cultural se compone de cuatro dimensiones interrelacionadas:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-purple-600 mr-2"></i>IC Metacognitiva</h4>
+                          <p>La conciencia cultural durante las interacciones interculturales. Implica planificar, monitorear y revisar nuestros procesos mentales relacionados con las diferencias culturales.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-book text-green-600 mr-2"></i>IC Cognitiva</h4>
+                          <p>El conocimiento de normas, prácticas y convenciones en diferentes culturas, adquirido a través de la educación y experiencias personales.</p>
+                        </div>
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-heart text-yellow-600 mr-2"></i>IC Motivacional</h4>
+                          <p>El interés, confianza y deseo de adaptarse a entornos multiculturales. Representa la energía dirigida hacia el aprendizaje y funcionamiento en situaciones culturalmente diversas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-hands text-blue-600 mr-2"></i>IC Conductual</h4>
+                          <p>La capacidad de exhibir acciones verbales y no verbales apropiadas al interactuar con personas de diferentes culturas.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Interrelación entre dimensiones</h3>
+                    <div class="space-y-md">
+                      <p>Estas cuatro dimensiones funcionan de manera integrada:</p>
+                      <div class="p-4 bg-blue-50 rounded-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-sync text-blue-600 mr-2"></i>Ciclo de aprendizaje cultural</h4>
+                        <p>La IC metacognitiva nos ayuda a reflexionar sobre nuestras experiencias interculturales, lo que nos lleva a adquirir más conocimiento (IC cognitiva). Este conocimiento aumenta nuestra confianza para interactuar con otras culturas (IC motivacional), lo que nos permite adaptar nuestro comportamiento de manera apropiada (IC conductual). Estas experiencias conductuales, a su vez, alimentan nuestra reflexión metacognitiva, creando un ciclo continuo de aprendizaje y desarrollo.</p>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Ejemplo práctico</h4>
+                        <p>Un desarrollador de software que trabaja con un equipo internacional podría usar su IC metacognitiva para cuestionar sus suposiciones sobre cómo se comunican los miembros del equipo. Utilizaría su IC cognitiva para entender las normas culturales específicas de sus colegas, su IC motivacional para mantener una actitud positiva ante los desafíos de comunicación, y su IC conductual para adaptar su estilo de comunicación según sea necesario (por ejemplo, siendo más directo o indirecto, dependiendo del contexto cultural).</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Desarrollo de la Inteligencia Cultural -->
+          <div id="desarrollo" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-chart-line" style="color: var(--primary-soft);"></i> Desarrollo de la Inteligencia Cultural
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Estrategias para desarrollar la IC</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-blue-600 mr-2"></i>Autoconciencia cultural</h4>
+                          <p>Examinar nuestros propios valores, creencias y sesgos culturales para entender cómo influyen en nuestra percepción de otras culturas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-book-open text-blue-600 mr-2"></i>Educación continua</h4>
+                          <p>Aprender activamente sobre diferentes culturas a través de libros, documentales, cursos y conversaciones con personas de diversos orígenes.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-plane text-blue-600 mr-2"></i>Exposición cultural</h4>
+                          <p>Buscar oportunidades para interactuar con personas de diferentes culturas, ya sea viajando, participando en intercambios culturales o asistiendo a eventos multiculturales.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-language text-blue-600 mr-2"></i>Aprendizaje de idiomas</h4>
+                          <p>Estudiar otros idiomas no solo para comunicarse, sino también para comprender las estructuras de pensamiento y valores culturales incorporados en el lenguaje.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-friends text-blue-600 mr-2"></i>Mentoría intercultural</h4>
+                          <p>Buscar mentores que tengan experiencia en entornos multiculturales y puedan ofrecer orientación y retroalimentación.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-journal-whills text-blue-600 mr-2"></i>Reflexión estructurada</h4>
+                          <p>Mantener un diario de experiencias interculturales para reflexionar sobre lo aprendido y cómo aplicarlo en futuras interacciones.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Superando barreras culturales</h3>
+                    <div class="space-y-md">
+                      <p>Al desarrollar la inteligencia cultural, es importante reconocer y abordar las barreras comunes:</p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-eye-slash text-red-600 mr-2"></i>Etnocentrismo</h4>
+                          <p>La tendencia a juzgar otras culturas según los estándares y valores de la propia. Superarlo requiere adoptar una perspectiva relativista cultural.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tags text-red-600 mr-2"></i>Estereotipos</h4>
+                          <p>Generalizaciones simplificadas sobre grupos culturales. Es importante reconocer la diversidad dentro de cada cultura y tratar a cada persona como individuo.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>Ansiedad intercultural</h4>
+                          <p>El estrés asociado con interacciones interculturales. Puede reducirse mediante la preparación, exposición gradual y técnicas de manejo del estrés.</p>
+                        </div>
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comment-slash text-red-600 mr-2"></i>Barreras de comunicación</h4>
+                          <p>Diferencias en estilos de comunicación, idioma y comunicación no verbal. Superarlas requiere paciencia, clarificación y adaptabilidad.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 1: Mapa de Identidad Cultural</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Aumentar la autoconciencia cultural y reconocer la complejidad de las identidades culturales.</p>
+                      <p><strong>Duración:</strong> 30-40 minutos</p>
+                      <p><strong>Materiales:</strong> Papel, lápices de colores o marcadores</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Los participantes dibujan un círculo grande en el centro de su papel, que representa su identidad cultural.</li>
+                          <li>Dividen el círculo en secciones que representan los diferentes aspectos de su identidad cultural (nacionalidad, etnia, religión, género, profesión, afiliaciones, etc.).</li>
+                          <li>El tamaño de cada sección debe reflejar la importancia relativa de ese aspecto en su identidad.</li>
+                          <li>En grupos pequeños, comparten sus mapas y discuten:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>¿Qué aspectos de tu identidad cultural son más importantes para ti y por qué?</li>
+                              <li>¿Cómo han influido estos aspectos en tu forma de pensar y comportarte?</li>
+                              <li>¿Qué aspectos de tu identidad cultural podrían entrar en conflicto con otras culturas?</li>
+                            </ul>
+                          </li>
+                          <li>Reflexión grupal sobre cómo la conciencia de nuestra propia identidad cultural nos ayuda a comprender y adaptarnos a otras culturas.</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 2: Simulación de Equipo Global</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Experimentar y resolver desafíos de comunicación intercultural en un entorno de trabajo tecnológico.</p>
+                      <p><strong>Duración:</strong> 60 minutos</p>
+                      <p><strong>Materiales:</strong> Tarjetas con perfiles culturales, descripción del proyecto tecnológico, herramientas de comunicación virtual</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Dividir a los participantes en equipos de 4-5 personas.</li>
+                          <li>Cada participante recibe una tarjeta con un perfil cultural específico que debe representar (por ejemplo, un desarrollador de India que valora la jerarquía, una gerente de proyecto alemana orientada a procesos, un diseñador brasileño que prioriza las relaciones, etc.).</li>
+                          <li>Se presenta un proyecto tecnológico que el equipo debe planificar (por ejemplo, desarrollar una aplicación móvil para un mercado global).</li>
+                          <li>Los equipos tienen 30 minutos para crear un plan de proyecto, actuando según sus perfiles culturales asignados.</li>
+                          <li>Después, cada equipo presenta su plan y los desafíos interculturales que enfrentaron.</li>
+                          <li>Discusión grupal sobre:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>¿Qué malentendidos culturales surgieron?</li>
+                              <li>¿Qué estrategias utilizaron para superarlos?</li>
+                              <li>¿Cómo podrían aplicar lo aprendido en situaciones reales?</li>
+                            </ul>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividad 3: Plan de Desarrollo de IC Personal</h3>
+                    <div class="space-y-md">
+                      <p><strong>Objetivo:</strong> Crear un plan personalizado para desarrollar la inteligencia cultural a largo plazo.</p>
+                      <p><strong>Duración:</strong> 45 minutos</p>
+                      <p><strong>Materiales:</strong> Plantilla de plan de desarrollo, recursos de aprendizaje cultural</p>
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-list text-yellow-600 mr-2"></i>Instrucciones</h4>
+                        <ol class="list-decimal pl-6 space-y-2">
+                          <li>Los participantes completan una autoevaluación de sus fortalezas y áreas de mejora en las cuatro dimensiones de la IC.</li>
+                          <li>Basándose en los resultados, identifican 2-3 áreas prioritarias para desarrollo.</li>
+                          <li>Para cada área, establecen:
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Un objetivo específico y medible</li>
+                              <li>Acciones concretas para alcanzarlo</li>
+                              <li>Recursos necesarios</li>
+                              <li>Plazos realistas</li>
+                              <li>Método para evaluar el progreso</li>
+                            </ul>
+                          </li>
+                          <li>En parejas, comparten sus planes y ofrecen retroalimentación constructiva.</li>
+                          <li>Establecen un sistema de seguimiento para revisar el progreso periódicamente.</li>
+                        </ol>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-green-600 mr-2"></i>Consejo para facilitadores</h4>
+                        <p>Enfatice que el desarrollo de la inteligencia cultural es un proceso continuo, no un destino final. Anime a los participantes a ver los desafíos interculturales como oportunidades de aprendizaje y crecimiento, no como obstáculos. Considere establecer un sistema de compañeros de IC donde los participantes puedan apoyarse mutuamente en su desarrollo a largo plazo.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Related Content -->
+          <div class="mt-xl">
+            <h3 class="text-xl font-bold mb-lg">
+              <i class="fas fa-link" style="color: var(--primary-soft);"></i> Contenido Relacionado
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="comunicacion-asertiva.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-comments"></i> Comunicación Asertiva</h4>
+                  <p class="text-sm">Técnicas para una comunicación clara y respetuosa en diversos contextos.</p>
+                </div>
+              </a>
+              <a href="trabajo-equipo-efectivo.html" class="card hover-lift">
+                <div class="card-body">
+                  <h4 class="font-bold"><i class="fas fa-users"></i> Trabajo en Equipo Efectivo</h4>
+                  <p class="text-sm">Estrategias para colaborar eficazmente en equipos diversos.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="footer-logo-img">
+          <span class="footer-logo-text">Conectados</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Navegación</h3>
+            <ul class="footer-links-list">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../tecnologicas.html">Habilidades Tecnológicas</a></li>
+              <li><a href="../blandas.html">Habilidades Blandas</a></li>
+              <li><a href="../guia-facilitadores-enfoque-integrado.html">Guía para Facilitadores</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3 class="footer-links-title">Recursos</h3>
+            <ul class="footer-links-list">
+              <li><a href="#">Materiales Complementarios</a></li>
+              <li><a href="#">Biblioteca Digital</a></li>
+              <li><a href="#">Preguntas Frecuentes</a></li>
+              <li><a href="#">Soporte Técnico</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Programa Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('div[id]');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.chapter-nav-link').forEach(link => {
+        link.classList.remove('chapter-nav-link-active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('chapter-nav-link-active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

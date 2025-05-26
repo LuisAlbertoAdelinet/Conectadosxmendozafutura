@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentación en plataforma Moodle - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech nav-link-active">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-tech">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-tech); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-book"></i> Documentación en plataforma Moodle
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../tecnologicas.html" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Tecnológicas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-tech chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#estructura" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-sitemap"></i> Estructura de Documentación
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#herramientas" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-tools"></i> Herramientas de Moodle
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#mejores-practicas" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-check-circle"></i> Mejores Prácticas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-tech">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-tech);"></i> Introducción a la Documentación en Moodle
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Por qué documentar proyectos en Moodle?</h3>
+                    <div class="space-y-md">
+                      <p>La documentación de proyectos tecnológicos en plataformas de aprendizaje como Moodle representa una práctica fundamental que va más allá del simple registro de información. En el contexto de proyectos de IA y desarrollo tecnológico, una documentación efectiva en Moodle ofrece múltiples beneficios tanto para los creadores como para los usuarios y evaluadores del proyecto.</p>
+                      
+                      <p>Moodle, como sistema de gestión de aprendizaje (LMS), proporciona un entorno estructurado y colaborativo ideal para documentar el proceso de desarrollo, los resultados y las lecciones aprendidas durante la implementación de proyectos tecnológicos. Esta plataforma combina herramientas de organización de contenido, colaboración y evaluación que facilitan la creación de una documentación completa y accesible.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Beneficios de la documentación en Moodle</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-blue-600 mr-2"></i>Colaboración efectiva</h4>
+                          <p>Facilita el trabajo en equipo permitiendo que múltiples miembros contribuyan, comenten y revisen la documentación de manera simultánea y organizada.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-history text-blue-600 mr-2"></i>Registro del proceso</h4>
+                          <p>Permite documentar no solo el resultado final, sino todo el proceso de desarrollo, incluyendo decisiones, cambios y evolución del proyecto.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-graduation-cap text-blue-600 mr-2"></i>Valor educativo</h4>
+                          <p>Transforma el proyecto en un recurso de aprendizaje para futuros estudiantes, facilitando la transferencia de conocimiento y mejores prácticas.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-blue-600 mr-2"></i>Evaluación y feedback</h4>
+                          <p>Integra herramientas de evaluación que permiten recibir retroalimentación estructurada sobre diferentes aspectos del proyecto.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-lock text-blue-600 mr-2"></i>Gestión de accesos</h4>
+                          <p>Ofrece control sobre quién puede ver, editar o comentar diferentes secciones de la documentación, protegiendo información sensible.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-blue-600 mr-2"></i>Accesibilidad y búsqueda</h4>
+                          <p>Facilita la localización de información específica mediante herramientas de búsqueda y una estructura organizada de contenidos.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-quote-left text-yellow-600 mr-2"></i>Perspectiva</h4>
+                        <p>"La documentación no es un producto secundario del desarrollo, sino una parte integral del proceso de creación tecnológica. En proyectos educativos, una documentación bien estructurada en plataformas como Moodle no solo evidencia el trabajo realizado, sino que transforma el proyecto en un recurso de aprendizaje perdurable y reutilizable." — Dr. Martin Dougiamas, fundador de Moodle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Tipos de documentación en proyectos tecnológicos</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map text-green-600 mr-2"></i>Documentación de planificación</h4>
+                          <p>Incluye propuestas iniciales, análisis de requisitos, cronogramas, asignación de recursos y planes de gestión de riesgos.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-code text-green-600 mr-2"></i>Documentación técnica</h4>
+                          <p>Abarca arquitectura del sistema, especificaciones técnicas, código comentado, APIs y manuales de instalación/configuración.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user text-green-600 mr-2"></i>Documentación de usuario</h4>
+                          <p>Comprende manuales de usuario, tutoriales, preguntas frecuentes y guías de resolución de problemas.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-vial text-green-600 mr-2"></i>Documentación de pruebas</h4>
+                          <p>Incluye planes de prueba, casos de prueba, resultados y reportes de errores/soluciones.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-project-diagram text-green-600 mr-2"></i>Documentación de proceso</h4>
+                          <p>Registra la evolución del proyecto, decisiones clave, cambios de dirección y lecciones aprendidas.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-bar text-green-600 mr-2"></i>Documentación de resultados</h4>
+                          <p>Presenta los logros, métricas de éxito, limitaciones y recomendaciones para futuras mejoras.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Estructura de Documentación -->
+          <div id="estructura" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-sitemap" style="color: var(--primary-tech);"></i> Estructura de Documentación en Moodle
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Organización del curso en Moodle</h3>
+                    <div class="space-y-md">
+                      <p>Una documentación efectiva en Moodle comienza con una estructura clara y lógica que facilite la navegación y comprensión del proyecto. A continuación, se presenta una estructura recomendada para documentar proyectos tecnológicos:</p>
+                      
+                      <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 mt-lg">
+                          <thead>
+                            <tr>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Sección</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Contenido recomendado</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Recursos de Moodle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">1. Información general</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Título y descripción del proyecto</li>
+                                  <li>Equipo y roles</li>
+                                  <li>Objetivos y alcance</li>
+                                  <li>Resumen ejecutivo</li>
+                                  <li>Cronograma general</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Página</li>
+                                  <li>Etiqueta</li>
+                                  <li>URL (enlaces externos)</li>
+                                  <li>Foro de anuncios</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">2. Planificación y diseño</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Análisis de requisitos</li>
+                                  <li>Diseño conceptual</li>
+                                  <li>Arquitectura del sistema</li>
+                                  <li>Mockups y prototipos</li>
+                                  <li>Plan de trabajo detallado</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Carpeta (para múltiples archivos)</li>
+                                  <li>Página</li>
+                                  <li>Archivo (diagramas, documentos)</li>
+                                  <li>Tarea (para entregas parciales)</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">3. Desarrollo</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Código fuente (o enlaces a repositorios)</li>
+                                  <li>Documentación técnica</li>
+                                  <li>Registro de cambios</li>
+                                  <li>Problemas encontrados y soluciones</li>
+                                  <li>Dependencias y bibliotecas utilizadas</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Archivo</li>
+                                  <li>URL (enlaces a GitHub/GitLab)</li>
+                                  <li>Base de datos</li>
+                                  <li>Wiki</li>
+                                  <li>Foro técnico</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">4. Pruebas y validación</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Plan de pruebas</li>
+                                  <li>Casos de prueba</li>
+                                  <li>Resultados de pruebas</li>
+                                  <li>Feedback de usuarios</li>
+                                  <li>Iteraciones y mejoras</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Cuestionario</li>
+                                  <li>Encuesta</li>
+                                  <li>Taller (para evaluación por pares)</li>
+                                  <li>Archivo (informes de pruebas)</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">5. Resultados y demostración</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Producto final o prototipo funcional</li>
+                                  <li>Guía de instalación/uso</li>
+                                  <li>Videos demostrativos</li>
+                                  <li>Presentación del proyecto</li>
+                                  <li>Métricas y logros</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>URL (enlace a la aplicación)</li>
+                                  <li>Archivo (ejecutables, manuales)</li>
+                                  <li>Página (instrucciones)</li>
+                                  <li>H5P (contenido interactivo)</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">6. Reflexión y aprendizaje</td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Lecciones aprendidas</li>
+                                  <li>Desafíos y cómo se superaron</li>
+                                  <li>Autoevaluación del equipo</li>
+                                  <li>Recomendaciones para futuras mejoras</li>
+                                  <li>Reflexión sobre el proceso</li>
+                                </ul>
+                              </td>
+                              <td class="py-3 px-4 border-b">
+                                <ul class="list-disc pl-6">
+                                  <li>Foro de discusión</li>
+                                  <li>Diario</li>
+                                  <li>Tarea reflexiva</li>
+                                  <li>Wiki colaborativa</li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Formatos de contenido efectivos</h3>
+                    <div class="space-y-md">
+                      <p>La variedad de formatos de contenido en Moodle permite crear una documentación rica y completa. Estos son algunos formatos recomendados para diferentes tipos de información:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-file-alt text-indigo-600 mr-2"></i>Documentos estructurados</h4>
+                          <p><strong>Ideal para:</strong> Especificaciones técnicas, manuales, informes detallados</p>
+                          <p><strong>Formatos:</strong> PDF, DOCX, HTML</p>
+                          <p><strong>Recurso Moodle:</strong> Archivo, Página, Libro</p>
+                          <p><strong>Consejo:</strong> Utiliza índices, encabezados y pies de página para facilitar la navegación en documentos extensos.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-images text-indigo-600 mr-2"></i>Contenido visual</h4>
+                          <p><strong>Ideal para:</strong> Diagramas, mockups, infografías, flujos de trabajo</p>
+                          <p><strong>Formatos:</strong> PNG, JPG, SVG, PDF</p>
+                          <p><strong>Recurso Moodle:</strong> Archivo, Página con imágenes incrustadas</p>
+                          <p><strong>Consejo:</strong> Incluye descripciones textuales junto a las imágenes para mejorar la accesibilidad.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-video text-indigo-600 mr-2"></i>Contenido multimedia</h4>
+                          <p><strong>Ideal para:</strong> Demostraciones, tutoriales, presentaciones</p>
+                          <p><strong>Formatos:</strong> MP4, WebM, enlaces a YouTube/Vimeo</p>
+                          <p><strong>Recurso Moodle:</strong> URL, Página con videos incrustados</p>
+                          <p><strong>Consejo:</strong> Proporciona transcripciones o subtítulos para mejorar la accesibilidad.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-code text-indigo-600 mr-2"></i>Código y datos</h4>
+                          <p><strong>Ideal para:</strong> Código fuente, configuraciones, conjuntos de datos</p>
+                          <p><strong>Formatos:</strong> TXT, JSON, CSV, enlaces a repositorios</p>
+                          <p><strong>Recurso Moodle:</strong> Archivo, URL a repositorios</p>
+                          <p><strong>Consejo:</strong> Utiliza herramientas de resaltado de sintaxis cuando sea posible.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-indigo-600 mr-2"></i>Contenido colaborativo</h4>
+                          <p><strong>Ideal para:</strong> Discusiones, brainstorming, feedback</p>
+                          <p><strong>Formatos:</strong> Hilos de discusión, edición colaborativa</p>
+                          <p><strong>Recurso Moodle:</strong> Foro, Wiki, Taller</p>
+                          <p><strong>Consejo:</strong> Establece reglas claras para la participación y moderación.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tasks text-indigo-600 mr-2"></i>Seguimiento y evaluación</h4>
+                          <p><strong>Ideal para:</strong> Entregables, hitos, evaluaciones</p>
+                          <p><strong>Formatos:</strong> Formularios, rúbricas, listas de verificación</p>
+                          <p><strong>Recurso Moodle:</strong> Tarea, Cuestionario, Encuesta</p>
+                          <p><strong>Consejo:</strong> Define criterios de evaluación claros y proporciona ejemplos.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Consejo para proyectos tecnológicos</h4>
+                        <p>Para proyectos de IA y desarrollo tecnológico, considera crear una "biblioteca de recursos" que incluya enlaces a documentación de APIs, tutoriales relevantes, conjuntos de datos utilizados y artículos de referencia. Esto no solo enriquece la documentación del proyecto, sino que también proporciona contexto y recursos adicionales para quienes quieran profundizar en aspectos específicos.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Herramientas de Moodle -->
+          <div id="herramientas" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tools" style="color: var(--primary-tech);"></i> Herramientas de Moodle para Documentación
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Recursos estáticos</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-file-alt text-blue-600 mr-2"></i>Página</h4>
+                          <p>Crea contenido web directamente en Moodle con el editor integrado. Ideal para información que requiere formato enriquecido con texto, imágenes y multimedia.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Descripciones de proyecto, instrucciones, explicaciones conceptuales.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-book text-blue-600 mr-2"></i>Libro</h4>
+                          <p>Crea documentación estructurada en múltiples páginas con capítulos y subcapítulos. Perfecto para documentación extensa y bien organizada.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Manuales técnicos, guías completas, documentación de APIs.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-folder text-blue-600 mr-2"></i>Carpeta</h4>
+                          <p>Organiza y comparte múltiples archivos relacionados en una estructura de directorios. Útil para conjuntos de documentos, código o recursos.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Colecciones de documentos técnicos, conjuntos de datos, recursos gráficos.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-file text-blue-600 mr-2"></i>Archivo</h4>
+                          <p>Sube y comparte documentos individuales en diversos formatos. Ideal para documentos específicos que los usuarios pueden descargar.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Informes, presentaciones, documentos técnicos, ejecutables.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-link text-blue-600 mr-2"></i>URL</h4>
+                          <p>Enlaza a recursos externos como repositorios de código, aplicaciones desplegadas o documentación en línea.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Enlaces a GitHub/GitLab, demos en línea, servicios web, APIs.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tag text-blue-600 mr-2"></i>Etiqueta</h4>
+                          <p>Añade texto, imágenes o multimedia directamente en la página del curso para organizar y contextualizar el contenido.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Títulos de sección, instrucciones breves, separadores visuales.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Herramientas colaborativas</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-comments text-purple-600 mr-2"></i>Foro</h4>
+                          <p>Espacio para discusiones asincrónicas, preguntas y respuestas, y compartir ideas. Permite adjuntar archivos y organizar conversaciones por temas.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Discusiones técnicas, resolución de problemas, feedback sobre el proyecto.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-edit text-purple-600 mr-2"></i>Wiki</h4>
+                          <p>Crea documentación colaborativa donde múltiples participantes pueden editar y expandir el contenido. Mantiene historial de cambios.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Documentación técnica evolutiva, glosarios, FAQs, conocimiento compartido.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-database text-purple-600 mr-2"></i>Base de datos</h4>
+                          <p>Crea colecciones estructuradas de entradas con campos personalizados. Permite búsquedas, filtros y visualizaciones personalizadas.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Catálogos de componentes, registro de errores, documentación de APIs.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-book-open text-purple-600 mr-2"></i>Glosario</h4>
+                          <p>Crea y mantiene un diccionario de términos específicos del proyecto con definiciones, categorías y enlaces automáticos.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Terminología técnica, acrónimos, conceptos clave de IA.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-purple-600 mr-2"></i>Taller</h4>
+                          <p>Facilita la evaluación por pares con un sistema estructurado para envío de trabajos, revisión y retroalimentación.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Revisión de código, evaluación de prototipos, feedback sobre documentación.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-calendar-alt text-purple-600 mr-2"></i>Calendario</h4>
+                          <p>Organiza y visualiza eventos, plazos y hitos del proyecto. Se integra con otras actividades de Moodle.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Cronograma del proyecto, fechas de entrega, reuniones de equipo.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Herramientas de evaluación y seguimiento</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tasks text-green-600 mr-2"></i>Tarea</h4>
+                          <p>Permite la entrega de trabajos con retroalimentación estructurada. Soporta rúbricas, guías de evaluación y comentarios.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Entregables del proyecto, documentación técnica, informes de avance.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-check-square text-green-600 mr-2"></i>Cuestionario</h4>
+                          <p>Crea evaluaciones con diversos tipos de preguntas. Útil para verificar conocimientos o recopilar información estructurada.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Verificación de requisitos, pruebas de usabilidad, validación de conocimientos.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-poll text-green-600 mr-2"></i>Encuesta</h4>
+                          <p>Recopila feedback y opiniones de manera estructurada. Incluye plantillas predefinidas para diversos tipos de evaluación.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Feedback de usuarios, evaluación de satisfacción, recopilación de requisitos.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-clipboard-check text-green-600 mr-2"></i>Lección</h4>
+                          <p>Crea contenido interactivo con rutas condicionales basadas en las respuestas del usuario. Combina contenido y evaluación.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Tutoriales interactivos, guías de instalación, documentación adaptativa.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chart-line text-green-600 mr-2"></i>Informes y registros</h4>
+                          <p>Accede a datos detallados sobre la actividad, participación y progreso en el curso. Útil para seguimiento del proyecto.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Monitoreo de participación, análisis de uso de la documentación, seguimiento de avances.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-certificate text-green-600 mr-2"></i>Insignias</h4>
+                          <p>Reconoce logros y habilidades mediante insignias digitales. Puede configurarse para otorgarse automáticamente al completar actividades.</p>
+                          <div class="mt-2">
+                            <strong>Uso recomendado:</strong> Reconocimiento de hitos alcanzados, certificación de competencias técnicas.
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-plug text-yellow-600 mr-2"></i>Plugins adicionales</h4>
+                        <p>Moodle cuenta con un extenso ecosistema de plugins que pueden enriquecer la documentación de proyectos tecnológicos:</p>
+                        <ul class="list-disc pl-6 mt-2">
+                          <li><strong>H5P:</strong> Crea contenido interactivo como líneas de tiempo, presentaciones interactivas y videos con preguntas incrustadas.</li>
+                          <li><strong>CodeRunner:</strong> Permite la ejecución y evaluación automática de código en múltiples lenguajes de programación.</li>
+                          <li><strong>Diagrama Gráfico:</strong> Crea y edita diagramas directamente en Moodle (diagramas de flujo, UML, etc.).</li>
+                          <li><strong>Repositorios externos:</strong> Integra servicios como Google Drive, OneDrive o Dropbox para gestionar archivos.</li>
+                          <li><strong>BigBlueButton:</strong> Integra videoconferencias para presentaciones y demostraciones en vivo.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Mejores Prácticas -->
+          <div id="mejores-practicas" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-check-circle" style="color: var(--primary-tech);"></i> Mejores Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Organización y estructura</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sitemap text-blue-600 mr-2"></i>Estructura jerárquica clara</h4>
+                          <p>Organiza el contenido en secciones y subsecciones lógicas, utilizando una jerarquía consistente que facilite la navegación.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Ejemplo:</strong> Utiliza el formato por temas de Moodle para separar claramente las fases del proyecto (Planificación, Desarrollo, Pruebas, etc.).
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-tags text-blue-600 mr-2"></i>Nomenclatura consistente</h4>
+                          <p>Utiliza un sistema de nombres coherente para archivos, secciones y actividades que refleje su contenido y propósito.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Ejemplo:</strong> "01_Planificacion", "02_Desarrollo", "03_Pruebas" para mantener orden cronológico y temático.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-eye text-blue-600 mr-2"></i>Visibilidad selectiva</h4>
+                          <p>Utiliza las opciones de restricción de acceso para mostrar contenido relevante en el momento adecuado, evitando la sobrecarga de información.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Ejemplo:</strong> Revela secciones de documentación a medida que avanzan las fases del proyecto, manteniendo visible solo lo relevante.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-compress-arrows-alt text-blue-600 mr-2"></i>Modularidad</h4>
+                          <p>Divide la documentación en módulos independientes pero interconectados, facilitando la actualización y reutilización de contenidos.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Ejemplo:</strong> Crea recursos separados para componentes técnicos que puedan ser referenciados desde múltiples secciones.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Contenido y presentación</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-file-alt text-purple-600 mr-2"></i>Documentación completa</h4>
+                          <p>Asegúrate de que la documentación cubra todos los aspectos relevantes del proyecto, desde la concepción hasta la implementación y evaluación.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Utiliza una lista de verificación para asegurar que todos los componentes críticos estén documentados.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-layer-group text-purple-600 mr-2"></i>Niveles de detalle</h4>
+                          <p>Proporciona múltiples niveles de detalle, desde resúmenes ejecutivos hasta documentación técnica profunda, para diferentes audiencias.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Comienza cada sección con un resumen de alto nivel antes de entrar en detalles técnicos.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-images text-purple-600 mr-2"></i>Contenido multimedia</h4>
+                          <p>Complementa el texto con imágenes, diagramas, videos y otros elementos visuales para mejorar la comprensión y el engagement.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Utiliza capturas de pantalla anotadas para explicar interfaces y diagramas para visualizar arquitecturas.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-universal-access text-purple-600 mr-2"></i>Accesibilidad</h4>
+                          <p>Asegúrate de que la documentación sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales o auditivas.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Proporciona textos alternativos para imágenes, transcripciones para videos y estructura semántica clara.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Gestión y mantenimiento</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-history text-green-600 mr-2"></i>Control de versiones</h4>
+                          <p>Mantén un registro claro de las versiones de la documentación, indicando cambios significativos y fechas de actualización.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Incluye una tabla de versiones al inicio de documentos importantes con fecha, autor y cambios realizados.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users-cog text-green-600 mr-2"></i>Roles y responsabilidades</h4>
+                          <p>Define claramente quién es responsable de crear, revisar y mantener diferentes partes de la documentación.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Utiliza los roles de Moodle para asignar permisos específicos según las responsabilidades.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-sync-alt text-green-600 mr-2"></i>Actualización continua</h4>
+                          <p>Establece procesos para mantener la documentación actualizada a medida que el proyecto evoluciona y cambia.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Programa revisiones periódicas de la documentación y asigna tiempo específico para actualizaciones.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-download text-green-600 mr-2"></i>Respaldo y exportación</h4>
+                          <p>Asegúrate de que la documentación pueda ser respaldada y exportada en formatos estándar para su preservación a largo plazo.</p>
+                          <div class="mt-2 p-2 bg-white rounded">
+                            <strong>Consejo:</strong> Utiliza la función de copia de seguridad de Moodle regularmente y exporta contenido crítico en formatos como PDF.
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>Errores comunes a evitar</h4>
+                        <ul class="list-disc pl-6">
+                          <li><strong>Sobrecarga de información:</strong> Incluir demasiado detalle sin una estructura clara, abrumando a los usuarios.</li>
+                          <li><strong>Documentación estática:</strong> Crear documentación como un producto final sin planificar actualizaciones.</li>
+                          <li><strong>Falta de contexto:</strong> Documentar componentes técnicos sin explicar su propósito o relación con el proyecto.</li>
+                          <li><strong>Inconsistencia:</strong> Utilizar diferentes estilos, formatos o terminología a lo largo de la documentación.</li>
+                          <li><strong>Enfoque exclusivamente técnico:</strong> Centrarse solo en aspectos técnicos sin considerar el valor para el usuario.</li>
+                          <li><strong>Ignorar el feedback:</strong> No incorporar la retroalimentación de usuarios en mejoras de la documentación.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-tech);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Taller: Configuración inicial de la documentación</h3>
+                    <div class="space-y-md">
+                      <p>Esta actividad guiada ayudará a los equipos a establecer la estructura básica para documentar su proyecto de IA en Moodle:</p>
+                      
+                      <div class="timeline mt-lg">
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-blue-500">
+                            <i class="fas fa-sitemap text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Paso 1: Planificación de la estructura (30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Identificar las secciones principales necesarias para el proyecto específico</li>
+                              <li>Definir la jerarquía y relaciones entre secciones</li>
+                              <li>Crear un mapa visual de la estructura de documentación</li>
+                              <li>Asignar responsabilidades para cada sección</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Herramienta recomendada:</strong> Utilizar una Wiki de Moodle para colaborar en el diseño de la estructura.
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-purple-500">
+                            <i class="fas fa-cogs text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Paso 2: Configuración en Moodle (45 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Crear las secciones principales en el curso de Moodle</li>
+                              <li>Configurar etiquetas y recursos para organizar visualmente el contenido</li>
+                              <li>Establecer los recursos y actividades necesarios para cada sección</li>
+                              <li>Configurar permisos y roles según las responsabilidades asignadas</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Entregable:</strong> Estructura básica del curso con secciones y recursos principales configurados.
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-green-500">
+                            <i class="fas fa-file-alt text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Paso 3: Creación de plantillas (30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Desarrollar plantillas para diferentes tipos de documentación (técnica, usuario, etc.)</li>
+                              <li>Establecer formatos consistentes para títulos, secciones y referencias</li>
+                              <li>Crear ejemplos de cada tipo de documento para referencia</li>
+                              <li>Documentar las convenciones y estándares a seguir</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Herramienta recomendada:</strong> Utilizar Páginas de Moodle para crear y compartir las plantillas.
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-yellow-500">
+                            <i class="fas fa-check-circle text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Paso 4: Prueba piloto (30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Cada miembro del equipo documenta un componente pequeño del proyecto</li>
+                              <li>Revisar colectivamente la documentación creada</li>
+                              <li>Identificar problemas o inconsistencias en la estructura o plantillas</li>
+                              <li>Realizar ajustes según sea necesario</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Actividad:</strong> Utilizar un Foro para compartir observaciones y sugerencias sobre la documentación piloto.
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-red-500">
+                            <i class="fas fa-calendar-check text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Paso 5: Planificación del proceso de documentación (15 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Establecer un cronograma para la documentación continua</li>
+                              <li>Definir hitos y entregables de documentación</li>
+                              <li>Acordar procesos de revisión y actualización</li>
+                              <li>Configurar recordatorios y notificaciones en Moodle</li>
+                            </ul>
+                            <div class="p-3 bg-blue-50 rounded-lg mt-3">
+                              <strong>Herramienta recomendada:</strong> Utilizar el Calendario de Moodle para programar actividades de documentación.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Ejemplos de documentación para proyectos de IA</h3>
+                    <div class="space-y-md">
+                      <p>A continuación se presentan ejemplos específicos de cómo documentar diferentes aspectos de un proyecto de IA en Moodle:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-database text-gray-600 mr-2"></i>Documentación de datos</h4>
+                          <div class="p-3 bg-white rounded-lg">
+                            <strong>Contenido recomendado:</strong>
+                            <ul class="list-disc pl-6 mt-1">
+                              <li>Fuentes de datos utilizadas</li>
+                              <li>Estructura y esquema de los datos</li>
+                              <li>Proceso de limpieza y preprocesamiento</li>
+                              <li>Consideraciones éticas y de privacidad</li>
+                              <li>Ejemplos representativos</li>
+                            </ul>
+                          </div>
+                          <div class="p-3 bg-blue-50 rounded-lg mt-2">
+                            <strong>Implementación en Moodle:</strong> Crear una Base de datos con entradas para cada conjunto de datos, incluyendo metadatos, muestras y scripts de procesamiento.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-brain text-gray-600 mr-2"></i>Documentación de modelos de IA</h4>
+                          <div class="p-3 bg-white rounded-lg">
+                            <strong>Contenido recomendado:</strong>
+                            <ul class="list-disc pl-6 mt-1">
+                              <li>Arquitectura y parámetros del modelo</li>
+                              <li>Proceso de entrenamiento y validación</li>
+                              <li>Métricas de rendimiento</li>
+                              <li>Limitaciones conocidas</li>
+                              <li>Instrucciones de uso e integración</li>
+                            </ul>
+                          </div>
+                          <div class="p-3 bg-blue-50 rounded-lg mt-2">
+                            <strong>Implementación en Moodle:</strong> Utilizar un Libro con capítulos para cada modelo, incluyendo diagramas, código y resultados de evaluación.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-code text-gray-600 mr-2"></i>Documentación de API y código</h4>
+                          <div class="p-3 bg-white rounded-lg">
+                            <strong>Contenido recomendado:</strong>
+                            <ul class="list-disc pl-6 mt-1">
+                              <li>Estructura del código y dependencias</li>
+                              <li>Documentación de funciones y clases</li>
+                              <li>Ejemplos de uso y casos de prueba</li>
+                              <li>Instrucciones de instalación</li>
+                              <li>Guía de solución de problemas</li>
+                            </ul>
+                          </div>
+                          <div class="p-3 bg-blue-50 rounded-lg mt-2">
+                            <strong>Implementación en Moodle:</strong> Combinar Páginas para la documentación con enlaces a repositorios de código y ejemplos ejecutables mediante H5P o CodeRunner.
+                          </div>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-check text-gray-600 mr-2"></i>Documentación de pruebas de usuario</h4>
+                          <div class="p-3 bg-white rounded-lg">
+                            <strong>Contenido recomendado:</strong>
+                            <ul class="list-disc pl-6 mt-1">
+                              <li>Metodología de pruebas</li>
+                              <li>Perfiles de usuarios participantes</li>
+                              <li>Escenarios y tareas evaluadas</li>
+                              <li>Resultados cuantitativos y cualitativos</li>
+                              <li>Mejoras implementadas basadas en feedback</li>
+                            </ul>
+                          </div>
+                          <div class="p-3 bg-blue-50 rounded-lg mt-2">
+                            <strong>Implementación en Moodle:</strong> Utilizar una combinación de Encuestas para recopilar datos, Foros para discusiones y Páginas para informes de resultados.
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Ejemplo de estructura completa</h4>
+                        <p>A continuación se presenta un ejemplo de estructura completa para documentar un proyecto de IA en Moodle:</p>
+                        <div class="p-3 bg-white rounded-lg mt-2">
+                          <ol class="list-decimal pl-6">
+                            <li>
+                              <strong>Información general del proyecto</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Descripción y objetivos (Página)</li>
+                                <li>Equipo y roles (Base de datos)</li>
+                                <li>Cronograma (Página con diagrama de Gantt)</li>
+                                <li>Glosario de términos (Glosario)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Análisis y diseño</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Análisis del problema (Página)</li>
+                                <li>Requisitos funcionales y no funcionales (Base de datos)</li>
+                                <li>Arquitectura del sistema (Página con diagramas)</li>
+                                <li>Diseño de la interfaz de usuario (Carpeta con mockups)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Datos y modelos</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Fuentes de datos (Base de datos)</li>
+                                <li>Preprocesamiento (Página con código)</li>
+                                <li>Modelos de IA utilizados (Libro)</li>
+                                <li>Evaluación y métricas (Página con gráficos)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Implementación</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Código fuente (URL a repositorio)</li>
+                                <li>Documentación de API (Página)</li>
+                                <li>Guía de instalación (Lección interactiva)</li>
+                                <li>Dependencias y requisitos (Página)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Pruebas y validación</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Plan de pruebas (Archivo)</li>
+                                <li>Resultados de pruebas técnicas (Base de datos)</li>
+                                <li>Pruebas de usuario (Encuesta y resultados)</li>
+                                <li>Problemas conocidos y soluciones (Wiki)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Resultados y conclusiones</strong>
+                              <ul class="list-disc pl-6">
+                                <li>Demostración del proyecto (URL o video)</li>
+                                <li>Análisis de resultados (Página con gráficos)</li>
+                                <li>Lecciones aprendidas (Foro de discusión)</li>
+                                <li>Trabajo futuro (Wiki colaborativa)</li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Conclusión -->
+          <div class="card">
+            <div class="card-header" style="background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(72, 12, 168, 0.1));">
+              <h2 class="text-2xl font-bold">
+                <i class="fas fa-star" style="color: var(--primary-tech);"></i> Conclusión
+              </h2>
+            </div>
+            <div class="card-body">
+              <p class="mb-md">La documentación efectiva en Moodle es un componente esencial para el éxito de proyectos tecnológicos, especialmente aquellos que involucran inteligencia artificial. Una documentación bien estructurada no solo facilita la evaluación del proyecto, sino que también mejora la colaboración, preserva el conocimiento y transforma el proyecto en un recurso educativo valioso.</p>
+              
+              <p class="mb-md">Al aprovechar las diversas herramientas que ofrece Moodle, los equipos pueden crear una documentación rica, interactiva y accesible que capture tanto los aspectos técnicos como el proceso de desarrollo. Esta documentación se convierte en un activo que trasciende la entrega final del proyecto, permitiendo que otros aprendan de la experiencia y potencialmente construyan sobre el trabajo realizado.</p>
+              
+              <p>Para los proyectos de IA, donde la transparencia, la explicabilidad y la ética son particularmente importantes, una documentación completa en Moodle proporciona el espacio ideal para abordar estos aspectos de manera estructurada y reflexiva. Al seguir las mejores prácticas y utilizar las herramientas adecuadas, los estudiantes no solo demostrarán sus habilidades técnicas, sino también su capacidad para comunicar efectivamente conceptos complejos y contribuir al conocimiento colectivo en el campo de la inteligencia artificial.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-gray-800 text-white py-8">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Conectados</h3>
+          <p>Desarrollando habilidades para el futuro digital.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="../index.html" class="hover:text-blue-400 transition">Inicio</a></li>
+            <li><a href="../tecnologicas.html" class="hover:text-blue-400 transition">Habilidades Tecnológicas</a></li>
+            <li><a href="../blandas.html" class="hover:text-blue-400 transition">Habilidades Blandas</a></li>
+            <li><a href="../guia-facilitadores-enfoque-integrado.html" class="hover:text-blue-400 transition">Guía para Facilitadores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Contacto</h3>
+          <p>info@conectados.org</p>
+          <p>+123 456 7890</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p>&copy; 2025 Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/navigation.js"></script>
+</body>
+</html>

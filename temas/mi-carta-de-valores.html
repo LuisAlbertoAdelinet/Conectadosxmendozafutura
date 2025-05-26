@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Taller I: "Mi Carta de Valores" - Conectados</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/modern-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../img/favicon.png" alt="Conectados Logo" class="logo-icon">
+          <span>Conectados</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link">Inicio</a>
+          <a href="../tecnologicas.html" class="nav-link nav-link-tech">
+            <i class="fas fa-laptop-code"></i> Habilidades Tecnológicas
+          </a>
+          <a href="../blandas.html" class="nav-link nav-link-soft nav-link-active">
+            <i class="fas fa-brain"></i> Habilidades Blandas
+          </a>
+          <a href="../guia-facilitadores-enfoque-integrado.html" class="btn btn-outline-soft">
+            <i class="fas fa-hands-helping"></i> Guía para Facilitadores
+          </a>
+        </div>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-hero" style="background: var(--gradient-soft); height: 200px;">
+    <div class="container">
+      <div class="hero-content animate-fade-in" style="color: white;">
+        <h1 class="hero-title" style="-webkit-text-fill-color: white;">
+          <i class="fas fa-award"></i> Mini Taller I: "Mi Carta de Valores"
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Sidebar - Navigation -->
+        <div class="md:col-span-1">
+          <div class="chapter-nav">
+            <h3 class="chapter-nav-title">
+              <i class="fas fa-book"></i> Navegación
+            </h3>
+            <ul class="chapter-nav-list">
+              <li class="chapter-nav-item">
+                <a href="../blandas.html" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-arrow-left"></i> Volver a Habilidades Blandas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#introduccion" class="chapter-nav-link chapter-nav-link-soft chapter-nav-link-active">
+                  <i class="fas fa-info-circle"></i> Introducción
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#fundamentos" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-book-open"></i> Fundamentos Teóricos
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#metodologia" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-chalkboard-teacher"></i> Metodología del Taller
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#actividades" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-tasks"></i> Actividades Prácticas
+                </a>
+              </li>
+              <li class="chapter-nav-item">
+                <a href="#recursos" class="chapter-nav-link chapter-nav-link-soft">
+                  <i class="fas fa-file-download"></i> Recursos y Materiales
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="md:col-span-3">
+          <!-- Introducción -->
+          <div id="introduccion" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-info-circle" style="color: var(--primary-soft);"></i> Introducción al Taller
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué es "Mi Carta de Valores"?</h3>
+                    <div class="space-y-md">
+                      <p>"Mi Carta de Valores" es un taller práctico diseñado para ayudar a los participantes a identificar, articular y priorizar sus valores personales fundamentales. Este ejercicio de autoconocimiento permite a las personas reconocer los principios que guían sus decisiones y comportamientos, estableciendo así una base sólida para el desarrollo de otras habilidades blandas.</p>
+                      <p>La carta de valores resultante se convierte en una herramienta personal de referencia que puede utilizarse en momentos de duda, conflicto o toma de decisiones importantes, proporcionando claridad y dirección basadas en lo que realmente importa para cada individuo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Objetivos del taller</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-search text-blue-600 mr-2"></i>Autoexploración</h4>
+                          <p>Facilitar un proceso de introspección para descubrir los valores personales que son verdaderamente importantes para cada participante.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-align-left text-blue-600 mr-2"></i>Articulación</h4>
+                          <p>Desarrollar la capacidad de expresar con claridad y precisión los valores personales y su significado individual.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-blue-600 mr-2"></i>Priorización</h4>
+                          <p>Aprender a distinguir entre valores circunstanciales y valores fundamentales, estableciendo una jerarquía personal.</p>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-compass text-blue-600 mr-2"></i>Orientación</h4>
+                          <p>Crear una herramienta de referencia personal para guiar decisiones y comportamientos futuros en coherencia con los valores propios.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Fundamentos Teóricos -->
+          <div id="fundamentos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-book-open" style="color: var(--primary-soft);"></i> Fundamentos Teóricos
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">¿Qué son los valores personales?</h3>
+                    <div class="space-y-md">
+                      <p>Los valores personales son principios, estándares o cualidades que una persona considera importantes y deseables. Funcionan como guías internas que orientan nuestras actitudes, decisiones y comportamientos. A diferencia de las metas (que son objetivos específicos que queremos alcanzar), los valores representan cómo queremos vivir y relacionarnos con el mundo en todo momento.</p>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Características de los valores personales</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                          <li><strong>Subjetivos:</strong> Varían de una persona a otra según sus experiencias, cultura y creencias.</li>
+                          <li><strong>Jerárquicos:</strong> Se organizan en un sistema de prioridades que puede cambiar con el tiempo y las circunstancias.</li>
+                          <li><strong>Dinámicos:</strong> Evolucionan a lo largo de la vida, aunque los valores fundamentales suelen ser más estables.</li>
+                          <li><strong>Motivadores:</strong> Impulsan nuestras acciones y nos dan un sentido de propósito.</li>
+                          <li><strong>Evaluativos:</strong> Nos ayudan a juzgar situaciones y tomar decisiones.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Importancia de los valores en el desarrollo personal y profesional</h3>
+                    <div class="space-y-md">
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-compass text-purple-600 mr-2"></i>Toma de decisiones</h4>
+                          <p>Los valores claros facilitan decisiones coherentes y alineadas con nuestro verdadero ser, reduciendo la disonancia cognitiva.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-shield-alt text-purple-600 mr-2"></i>Resiliencia</h4>
+                          <p>Actúan como anclas en tiempos difíciles, proporcionando estabilidad y sentido cuando enfrentamos adversidades.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-users text-purple-600 mr-2"></i>Relaciones</h4>
+                          <p>Conocer nuestros valores nos ayuda a establecer límites saludables y a conectar con personas afines.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-briefcase text-purple-600 mr-2"></i>Carrera profesional</h4>
+                          <p>Permiten elegir y desarrollar trayectorias profesionales más satisfactorias y significativas.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-heart text-purple-600 mr-2"></i>Bienestar</h4>
+                          <p>Vivir en coherencia con nuestros valores aumenta la satisfacción personal y reduce el estrés.</p>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-star text-purple-600 mr-2"></i>Autenticidad</h4>
+                          <p>Nos ayudan a expresar nuestra verdadera identidad y a vivir de manera más auténtica.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-green-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-quote-left text-green-600 mr-2"></i>Perspectiva</h4>
+                        <p>"Conocer nuestros valores es conocer nuestro norte interior. Cuando sabemos lo que realmente valoramos, podemos navegar por la vida con mayor claridad, propósito y satisfacción, incluso en medio de la incertidumbre."</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Categorías de valores</h3>
+                    <div class="space-y-md">
+                      <p>Los valores personales pueden clasificarse en diferentes categorías, lo que ayuda a comprender su diversidad y a identificar áreas que podrían estar subrepresentadas en nuestro sistema de valores:</p>
+                      
+                      <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 mt-lg">
+                          <thead>
+                            <tr>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Categoría</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Descripción</th>
+                              <th class="py-3 px-4 bg-gray-100 font-bold text-left text-gray-700 border-b">Ejemplos</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Valores éticos/morales</td>
+                              <td class="py-3 px-4 border-b">Principios que guían nuestro sentido del bien y el mal</td>
+                              <td class="py-3 px-4 border-b">Honestidad, integridad, justicia, respeto</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Valores sociales/relacionales</td>
+                              <td class="py-3 px-4 border-b">Orientan cómo nos relacionamos con los demás</td>
+                              <td class="py-3 px-4 border-b">Empatía, lealtad, generosidad, cooperación</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Valores de logro/competencia</td>
+                              <td class="py-3 px-4 border-b">Relacionados con el desarrollo personal y profesional</td>
+                              <td class="py-3 px-4 border-b">Excelencia, perseverancia, creatividad, sabiduría</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Valores de bienestar</td>
+                              <td class="py-3 px-4 border-b">Vinculados a nuestra salud y calidad de vida</td>
+                              <td class="py-3 px-4 border-b">Equilibrio, vitalidad, seguridad, tranquilidad</td>
+                            </tr>
+                            <tr>
+                              <td class="py-3 px-4 border-b font-medium">Valores trascendentales</td>
+                              <td class="py-3 px-4 border-b">Relacionados con el significado y propósito vital</td>
+                              <td class="py-3 px-4 border-b">Espiritualidad, legado, servicio, gratitud</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Metodología del Taller -->
+          <div id="metodologia" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-chalkboard-teacher" style="color: var(--primary-soft);"></i> Metodología del Taller
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Estructura general del taller</h3>
+                    <div class="space-y-md">
+                      <p>El taller "Mi Carta de Valores" está diseñado para desarrollarse en una sesión de aproximadamente 2-3 horas, siguiendo una estructura que combina momentos de reflexión individual, trabajo en pequeños grupos y puesta en común:</p>
+                      
+                      <div class="timeline mt-lg">
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-pink-500">
+                            <i class="fas fa-door-open text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Apertura y encuadre (15-20 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Bienvenida y presentación del facilitador</li>
+                              <li>Introducción al concepto de valores personales</li>
+                              <li>Explicación de los objetivos y dinámica del taller</li>
+                              <li>Actividad breve de conexión grupal</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-purple-500">
+                            <i class="fas fa-search text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Exploración de valores (30-40 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Ejercicios de autoexploración para identificar valores</li>
+                              <li>Revisión de lista de valores comunes</li>
+                              <li>Reflexión sobre experiencias personales significativas</li>
+                              <li>Selección preliminar de valores potenciales</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-blue-500">
+                            <i class="fas fa-balance-scale text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Priorización y profundización (30-40 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Técnicas para priorizar valores seleccionados</li>
+                              <li>Exploración del significado personal de cada valor</li>
+                              <li>Identificación de comportamientos asociados a cada valor</li>
+                              <li>Reflexión sobre posibles conflictos entre valores</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-green-500">
+                            <i class="fas fa-pencil-alt text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Creación de la carta de valores (40-50 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Redacción de la carta personal de valores</li>
+                              <li>Diseño visual o creativo de la carta</li>
+                              <li>Incorporación de ejemplos y compromisos concretos</li>
+                              <li>Trabajo individual con apoyo del facilitador</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-yellow-500">
+                            <i class="fas fa-users text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Compartir y retroalimentación (20-30 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Intercambio voluntario en pequeños grupos</li>
+                              <li>Retroalimentación constructiva entre pares</li>
+                              <li>Compartir aprendizajes y descubrimientos</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                          <div class="timeline-marker bg-red-500">
+                            <i class="fas fa-flag-checkered text-white"></i>
+                          </div>
+                          <div class="timeline-content p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold">Cierre y aplicación (15-20 minutos)</h4>
+                            <ul class="list-disc pl-6 mt-2">
+                              <li>Reflexión sobre la experiencia del taller</li>
+                              <li>Estrategias para aplicar la carta de valores en la vida diaria</li>
+                              <li>Compromisos personales y próximos pasos</li>
+                              <li>Evaluación del taller</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Rol del facilitador</h3>
+                    <div class="space-y-md">
+                      <p>El facilitador del taller "Mi Carta de Valores" desempeña un papel crucial para crear un entorno seguro y productivo que permita a los participantes explorar y articular sus valores personales:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-shield-alt text-indigo-600 mr-2"></i>Crear un espacio seguro</h4>
+                          <p>Establecer un ambiente de confianza y respeto donde los participantes se sientan cómodos para explorar aspectos personales sin juicios.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-map text-indigo-600 mr-2"></i>Guiar sin dirigir</h4>
+                          <p>Ofrecer estructura y orientación sin imponer valores o perspectivas personales, respetando la autonomía de cada participante.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-question-circle text-indigo-600 mr-2"></i>Formular preguntas poderosas</h4>
+                          <p>Plantear interrogantes que estimulen la reflexión profunda y ayuden a los participantes a conectar con sus valores fundamentales.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-clock text-indigo-600 mr-2"></i>Gestionar el tiempo</h4>
+                          <p>Asegurar un equilibrio adecuado entre las diferentes actividades, permitiendo suficiente espacio para la reflexión personal.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-hands-helping text-indigo-600 mr-2"></i>Brindar apoyo individual</h4>
+                          <p>Ofrecer atención personalizada a quienes puedan encontrar dificultades en el proceso de identificación o articulación de valores.</p>
+                        </div>
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-link text-indigo-600 mr-2"></i>Establecer conexiones</h4>
+                          <p>Ayudar a los participantes a vincular el trabajo con valores a otras habilidades blandas y a su aplicación en contextos reales.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>Consideración importante</h4>
+                        <p>El facilitador debe estar preparado para manejar situaciones donde los participantes puedan experimentar emociones intensas al conectar con sus valores profundos o al descubrir incongruencias entre sus valores declarados y sus comportamientos actuales.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Actividades Prácticas -->
+          <div id="actividades" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-tasks" style="color: var(--primary-soft);"></i> Actividades Prácticas
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividades de exploración de valores</h3>
+                    <div class="space-y-md">
+                      <p>Estas actividades están diseñadas para ayudar a los participantes a identificar sus valores personales a través de diferentes enfoques:</p>
+                      
+                      <div class="grid grid-cols-1 gap-4 mt-lg">
+                        <div class="p-4 bg-pink-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-star text-pink-600 mr-2"></i>Momentos cumbre</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Identificar valores a partir de experiencias significativas.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 15-20 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Pedir a los participantes que recuerden 3-5 momentos de su vida en los que se sintieron más plenos, orgullosos o satisfechos.</li>
+                              <li>Para cada momento, anotar qué lo hizo tan especial y qué valores estaban presentes o se estaban honrando en esa situación.</li>
+                              <li>Identificar patrones o valores recurrentes en estas experiencias.</li>
+                              <li>Reflexionar: ¿Qué nos dicen estos momentos sobre lo que realmente valoramos?</li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-fire text-purple-600 mr-2"></i>La casa en llamas</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Priorizar valores a través de un ejercicio de imaginación.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 10-15 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Proponer el siguiente escenario: "Tu casa está en llamas. Has asegurado la seguridad de todos los seres vivos. Tienes tiempo para rescatar solo 5 objetos. ¿Cuáles serían y por qué?"</li>
+                              <li>Después de que los participantes hagan su lista, pedirles que identifiquen qué valor representa cada objeto elegido.</li>
+                              <li>Reducir la lista a 3 objetos y luego a 1, observando qué valores prevalecen.</li>
+                              <li>Reflexionar: ¿Qué nos dice esta priorización sobre nuestros valores fundamentales?</li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-heart-broken text-blue-600 mr-2"></i>Momentos de transgresión de valores</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Identificar valores a partir de situaciones de malestar o conflicto.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 15-20 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Pedir a los participantes que recuerden 2-3 situaciones en las que sintieron un fuerte malestar, indignación o conflicto interno.</li>
+                              <li>Para cada situación, analizar qué valor personal estaba siendo transgredido o amenazado.</li>
+                              <li>Identificar patrones o valores recurrentes en estas experiencias.</li>
+                              <li>Reflexionar: ¿Qué nos enseñan estos momentos sobre los valores que consideramos inviolables?</li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-user-friends text-green-600 mr-2"></i>Personas admiradas</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Descubrir valores a través de las cualidades que admiramos en otros.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 10-15 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Pedir a los participantes que identifiquen 3-5 personas que admiran profundamente (pueden ser conocidos personales, figuras públicas o personajes históricos).</li>
+                              <li>Para cada persona, anotar las cualidades o características que más admiran.</li>
+                              <li>Transformar estas cualidades en valores (ej: "Es muy trabajadora" → "Dedicación").</li>
+                              <li>Reflexionar: ¿Qué nos dice nuestra admiración sobre los valores que consideramos importantes?</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Actividades de priorización y profundización</h3>
+                    <div class="space-y-md">
+                      <p>Una vez identificados varios valores potenciales, estas actividades ayudan a los participantes a priorizar y profundizar en su significado personal:</p>
+                      
+                      <div class="grid grid-cols-1 gap-4 mt-lg">
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-funnel-dollar text-yellow-600 mr-2"></i>El embudo de valores</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Reducir una lista amplia de valores a los más fundamentales.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 15-20 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Partir de una lista de 15-20 valores identificados en las actividades anteriores.</li>
+                              <li>Realizar tres rondas de selección, reduciendo la lista a 10, luego a 5 y finalmente a 3-5 valores fundamentales.</li>
+                              <li>En cada ronda, utilizar preguntas como: "Si solo pudiera conservar X valores, ¿cuáles serían los más importantes para mí?"</li>
+                              <li>Reflexionar sobre el proceso: ¿Fue fácil o difícil elegir? ¿Qué criterios utilizaste para decidir?</li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-red-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-bullseye text-red-600 mr-2"></i>Definición personal de valores</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Articular el significado personal de cada valor fundamental.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 20-25 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Para cada uno de los 3-5 valores fundamentales identificados, completar las siguientes frases:
+                                <ul class="list-disc pl-6 mt-1">
+                                  <li>Para mí, [valor] significa...</li>
+                                  <li>Este valor es importante para mí porque...</li>
+                                  <li>Sé que estoy viviendo según este valor cuando yo...</li>
+                                  <li>Un ejemplo de cuando honré este valor fue...</li>
+                                  <li>Una forma en que podría honrar más este valor es...</li>
+                                </ul>
+                              </li>
+                              <li>Revisar y refinar las definiciones hasta que reflejen con precisión el significado personal del valor.</li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-indigo-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-balance-scale text-indigo-600 mr-2"></i>Análisis de conflictos entre valores</h4>
+                          <div class="pl-6">
+                            <p class="mb-2"><strong>Objetivo:</strong> Explorar posibles tensiones entre valores y establecer criterios de priorización.</p>
+                            <p class="mb-2"><strong>Duración:</strong> 15-20 minutos</p>
+                            <p class="mb-2"><strong>Instrucciones:</strong></p>
+                            <ol class="list-decimal pl-6 space-y-1">
+                              <li>Identificar posibles situaciones donde dos o más valores fundamentales podrían entrar en conflicto.</li>
+                              <li>Para cada situación, reflexionar sobre:
+                                <ul class="list-disc pl-6 mt-1">
+                                  <li>¿Qué valor tendería a priorizar en esta situación?</li>
+                                  <li>¿Qué factores influirían en mi decisión?</li>
+                                  <li>¿Existe una forma de honrar ambos valores simultáneamente?</li>
+                                </ul>
+                              </li>
+                              <li>Establecer algunos principios personales para manejar conflictos entre valores.</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Creación de la carta de valores</h3>
+                    <div class="space-y-md">
+                      <p>La culminación del taller es la creación de una carta de valores personal que servirá como referencia y guía para el participante:</p>
+                      
+                      <div class="grid grid-cols-1 gap-4 mt-lg">
+                        <div class="p-4 bg-green-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-pencil-alt text-green-600 mr-2"></i>Estructura sugerida para la carta de valores</h4>
+                          <div class="pl-6">
+                            <ol class="list-decimal pl-6 space-y-2">
+                              <li>
+                                <strong>Introducción personal</strong>
+                                <p>Breve reflexión sobre la importancia de los valores en la vida del participante y el propósito de la carta.</p>
+                              </li>
+                              <li>
+                                <strong>Declaración de valores fundamentales</strong>
+                                <p>Lista de los 3-5 valores fundamentales identificados, cada uno con:</p>
+                                <ul class="list-disc pl-6">
+                                  <li>Definición personal del valor</li>
+                                  <li>Por qué es importante</li>
+                                  <li>Cómo se manifiesta en comportamientos concretos</li>
+                                  <li>Un ejemplo significativo de cuando se honró este valor</li>
+                                </ul>
+                              </li>
+                              <li>
+                                <strong>Compromisos y aplicaciones</strong>
+                                <p>Formas específicas en que el participante se compromete a honrar estos valores en diferentes ámbitos:</p>
+                                <ul class="list-disc pl-6">
+                                  <li>Relaciones personales</li>
+                                  <li>Entorno profesional</li>
+                                  <li>Comunidad y sociedad</li>
+                                  <li>Desarrollo personal</li>
+                                </ul>
+                              </li>
+                              <li>
+                                <strong>Estrategias para momentos difíciles</strong>
+                                <p>Cómo el participante planea mantener la fidelidad a sus valores en situaciones de presión, conflicto o incertidumbre.</p>
+                              </li>
+                              <li>
+                                <strong>Conclusión y firma</strong>
+                                <p>Reflexión final y compromiso personal firmado y fechado.</p>
+                              </li>
+                            </ol>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-paint-brush text-blue-600 mr-2"></i>Elementos creativos opcionales</h4>
+                          <div class="pl-6">
+                            <p>Para personalizar y enriquecer la carta de valores, los participantes pueden incorporar elementos como:</p>
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li>Imágenes o símbolos que representen cada valor</li>
+                              <li>Citas inspiradoras relacionadas con los valores</li>
+                              <li>Un mapa visual de valores y sus interconexiones</li>
+                              <li>Un diseño o formato especial que refleje la personalidad del participante</li>
+                              <li>Un lema o mantra personal que sintetice los valores fundamentales</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-check-double text-purple-600 mr-2"></i>Criterios de calidad para la carta de valores</h4>
+                          <div class="pl-6">
+                            <p>Una carta de valores efectiva debería:</p>
+                            <ul class="list-disc pl-6 space-y-1">
+                              <li><strong>Ser auténtica:</strong> Reflejar verdaderamente los valores del participante, no ideales abstractos o expectativas externas.</li>
+                              <li><strong>Ser específica:</strong> Incluir definiciones y ejemplos concretos, no solo términos genéricos.</li>
+                              <li><strong>Ser accionable:</strong> Vincular valores con comportamientos y decisiones específicas.</li>
+                              <li><strong>Ser inspiradora:</strong> Motivar al participante a vivir según estos valores.</li>
+                              <li><strong>Ser práctica:</strong> Servir como herramienta de referencia útil en situaciones reales.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Recursos y Materiales -->
+          <div id="recursos" class="mb-xl">
+            <div class="card mb-lg">
+              <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+                <h2 class="text-2xl font-bold">
+                  <i class="fas fa-file-download" style="color: var(--primary-soft);"></i> Recursos y Materiales
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="card mb-lg hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Materiales para el taller</h3>
+                    <div class="space-y-md">
+                      <p>Para implementar el taller "Mi Carta de Valores" se recomiendan los siguientes materiales:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-lg">
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-print text-gray-600 mr-2"></i>Materiales impresos</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Guía del participante con instrucciones y espacios para completar</li>
+                            <li>Lista de valores comunes (100-200 valores) como referencia</li>
+                            <li>Plantillas para las diferentes actividades</li>
+                            <li>Modelo de carta de valores como ejemplo</li>
+                            <li>Hojas de reflexión para cada ejercicio</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-pencil-ruler text-gray-600 mr-2"></i>Materiales de escritura y creativos</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Papel de diferentes colores y texturas</li>
+                            <li>Bolígrafos, lápices y marcadores de colores</li>
+                            <li>Tarjetas o post-its para actividades de clasificación</li>
+                            <li>Materiales decorativos (opcional): stickers, recortes, etc.</li>
+                            <li>Papel especial para la versión final de la carta</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-laptop text-gray-600 mr-2"></i>Recursos digitales</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Presentación digital con conceptos clave y ejemplos</li>
+                            <li>Plantillas digitales para quienes prefieran trabajar en formato electrónico</li>
+                            <li>Aplicaciones recomendadas para mapas mentales o visualización de valores</li>
+                            <li>Recursos multimedia: videos cortos, imágenes inspiradoras</li>
+                            <li>Formulario de evaluación digital del taller</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-chalkboard text-gray-600 mr-2"></i>Materiales para el facilitador</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Guía detallada con tiempos y notas para cada actividad</li>
+                            <li>Preguntas de reflexión para estimular la conversación</li>
+                            <li>Estrategias para manejar situaciones difíciles</li>
+                            <li>Ejemplos de cartas de valores para inspiración</li>
+                            <li>Cronómetro o temporizador para gestionar los tiempos</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card hover-lift">
+                  <div class="card-body">
+                    <h3 class="text-xl font-bold mb-md">Recursos adicionales para profundizar</h3>
+                    <div class="space-y-md">
+                      <p>Para facilitadores y participantes interesados en profundizar en el tema de los valores personales:</p>
+                      
+                      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-lg">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-book text-blue-600 mr-2"></i>Libros recomendados</h4>
+                          <ul class="list-disc pl-6">
+                            <li>"El hombre en busca de sentido" - Viktor Frankl</li>
+                            <li>"Valores para la vida" - Bernabé Tierno</li>
+                            <li>"Tus zonas erróneas" - Wayne Dyer</li>
+                            <li>"El elemento" - Ken Robinson</li>
+                            <li>"Inteligencia emocional" - Daniel Goleman</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-globe text-blue-600 mr-2"></i>Recursos en línea</h4>
+                          <ul class="list-disc pl-6">
+                            <li>VIA Character Strengths Survey (evaluación gratuita de fortalezas)</li>
+                            <li>Personal Values Assessment (Barrett Values Centre)</li>
+                            <li>Valores en Acción (plataforma educativa)</li>
+                            <li>Mindtools: Personal Values Assessment</li>
+                            <li>TED Talks sobre valores y propósito</li>
+                          </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                          <h4 class="font-bold mb-sm"><i class="fas fa-graduation-cap text-blue-600 mr-2"></i>Formación complementaria</h4>
+                          <ul class="list-disc pl-6">
+                            <li>Cursos de coaching basado en valores</li>
+                            <li>Talleres de desarrollo personal</li>
+                            <li>Programas de liderazgo ético</li>
+                            <li>Formación en Terapia de Aceptación y Compromiso (ACT)</li>
+                            <li>Certificación en facilitación de procesos de valores</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="p-4 bg-yellow-50 rounded-lg mt-lg">
+                        <h4 class="font-bold mb-sm"><i class="fas fa-lightbulb text-yellow-600 mr-2"></i>Consejo para facilitadores</h4>
+                        <p>Crear una biblioteca de recursos sobre valores que pueda compartirse con los participantes después del taller, incluyendo artículos, videos, ejercicios adicionales y ejemplos inspiradores de cartas de valores. Esto ayudará a que el aprendizaje continúe más allá de la sesión presencial.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Conclusión -->
+          <div class="card">
+            <div class="card-header" style="background: linear-gradient(135deg, rgba(247, 37, 133, 0.1), rgba(114, 9, 183, 0.1));">
+              <h2 class="text-2xl font-bold">
+                <i class="fas fa-star" style="color: var(--primary-soft);"></i> Conclusión
+              </h2>
+            </div>
+            <div class="card-body">
+              <p class="mb-md">El taller "Mi Carta de Valores" ofrece a los participantes una oportunidad estructurada para explorar, articular y comprometerse con sus valores personales fundamentales. Este proceso no solo fortalece el autoconocimiento, sino que también establece una base sólida para el desarrollo de otras habilidades blandas y para la toma de decisiones coherentes en todos los ámbitos de la vida.</p>
+              
+              <p class="mb-md">La carta de valores resultante se convierte en una herramienta personal valiosa que puede consultarse, revisarse y actualizarse a lo largo del tiempo, sirviendo como brújula interna en momentos de claridad y de confusión. Al ayudar a los participantes a conectar con sus valores más profundos, este taller contribuye significativamente a su desarrollo integral como personas y profesionales.</p>
+              
+              <p>Como facilitador, tu papel es crear el espacio y proporcionar las herramientas para que cada participante pueda emprender este viaje de autodescubrimiento. El verdadero éxito del taller no se mide por la belleza o extensión de las cartas de valores creadas, sino por la autenticidad del proceso y la utilidad práctica que estas tendrán en la vida de cada participante.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-gray-800 text-white py-8">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Conectados</h3>
+          <p>Desarrollando habilidades para el futuro digital.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="../index.html" class="hover:text-pink-400 transition">Inicio</a></li>
+            <li><a href="../tecnologicas.html" class="hover:text-pink-400 transition">Habilidades Tecnológicas</a></li>
+            <li><a href="../blandas.html" class="hover:text-pink-400 transition">Habilidades Blandas</a></li>
+            <li><a href="../guia-facilitadores-enfoque-integrado.html" class="hover:text-pink-400 transition">Guía para Facilitadores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Contacto</h3>
+          <p>info@conectados.org</p>
+          <p>+123 456 7890</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p>&copy; 2025 Conectados. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/navigation.js"></script>
+</body>
+</html>
